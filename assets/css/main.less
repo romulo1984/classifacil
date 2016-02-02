@@ -1,0 +1,208 @@
+@import "variaveis";
+@import "mixins";
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500italic,500,700,700italic);
+
+//Reset
+body, body * {
+    font-family: @font;
+}
+a {
+    .text-cinza-escuro;
+    &:hover {
+        text-decoration: none;
+    }
+    &:focus {
+        outline: none;
+        outline: none;
+        outline-offset: 0;
+    }
+}
+
+* :not(input, textarea, select) {
+    outline:none !important;
+}
+
+/*
+
+ESTILOS PERSONALIZADOS
+
+*/
+
+//Topo
+.barra-topo {
+    padding-top: @gutter/4;
+    padding-bottom: @gutter/4;
+    .bg-cinza-claro;
+
+    a {
+        color:#000;
+        &:hover {
+            .text-cinza-escuro;
+        }
+    }
+}
+.no-margin {
+    margin:0;
+    h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+    }
+}
+
+.topo-logo {
+    padding-top:@gutter/3;
+    padding-bottom:@gutter/2;
+}
+
+
+//Menu Principal
+.menu-principal {
+    .bg-azul;
+    border-bottom: 4px solid @azul-escuro;
+    .text-branco;
+    margin:1em 0;
+
+    .navbar-collapse {
+        padding-left:0 !important;
+        padding-right:0 !important;
+    }
+
+    ul {
+        padding:0;
+        margin:0;
+        list-style: none;
+
+        li {
+            font-size:16px;
+            text-align: center;
+
+            //&.small-li {
+            //    font-size:12px;
+            //}
+
+            a {
+                .text-branco;
+                text-decoration: none;
+                display:block;
+                padding:1em 1em;
+                &:hover {
+                    .bg-azul-escuro;
+                }
+
+                &.ativo {
+                    .bg-azul-escuro;
+                }
+            }
+        }
+    }
+
+    @media (min-width:768px) {
+
+        &.navbar {
+            border-radius: 0;
+        }
+
+        ul {
+            font-size:0;
+            text-align: justify;
+            overflow: hidden;
+            text-transform: uppercase;
+            font-weight:500;
+            &:after {
+                content:'';
+                display: inline-block;
+                width:100%;
+            }
+
+            li {
+                display: inline-block;
+                width:14.28%;
+            }
+
+            @media (max-width:991px) {
+                li {
+                    font-size:11px;
+                }
+            }
+        }
+    }
+}
+
+
+//Footer
+footer {
+    .bg-azul;
+    .text-branco;
+    padding:@gutter/2 0;
+}
+
+//Barra de busca
+.slider-home {
+    h1, h2, h3, h4, h5, h6 {
+        margin:0;
+    }
+}
+
+//Destaques
+@height-card-destaque: 175px;
+.imagem-anuncio-destaque {
+    background-repeat:no-repeat;
+    background-position: center center;
+    -webkit-background-size:cover;
+    background-size:cover;
+    height:@height-card-destaque;
+    display:block;
+    cursor:zoom-in;
+}
+.info-card-destaque {
+    background-color: lighten(#000, 95%);
+    margin-left:0;
+    padding:@gutter/2;
+    height:@height-card-destaque;
+}
+.preco {
+    position: absolute;
+    margin: @gutter/3 0 0 -@gutter/3;
+    bottom:@gutter/3;
+
+    .inner-preco {
+        padding: @gutter/4 @gutter/3;
+        font-size:18px;
+        display:block;
+        float:left;
+        .text-branco;
+        .text-500;
+        .small {
+            font-size: 14px;
+        }
+    }
+
+}
+.indique-compare-box {
+    margin-top: @gutter/2;
+    height:50px;
+    min-height:50px;
+}
+#slider-destaques-imoveis {
+    .slick-prev:before, .slick-next:before {
+        color:@verde-imoveis;
+    }
+}
+
+#slider-destaques-veiculos {
+    .slick-prev:before, .slick-next:before {
+        color:@roxo-veiculos;
+    }
+}
+
+#slider-destaques-diversos {
+    .slick-prev:before, .slick-next:before {
+        color:@laranja-diversos;
+    }
+}
+#slider-destaques-imoveis,
+#slider-destaques-veiculos,
+#slider-destaques-diversos {
+    @media (max-width:991px){
+        margin-bottom:50px;
+    }
+}

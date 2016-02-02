@@ -1,0 +1,21 @@
+{
+  "name": "Classifácil",
+  "homepage": "http://www.classifacil.com.br",
+  "authors": [
+    "Rômulo Guimarães <romulo1984@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "slick-carousel": "1.5.*",
+    "bootstrap": "~3.3.6",
+    "font-awesome": "fontawesome#~4.5.0",
+    "bootstrap-select": "~1.9.4",
+    "awesome-bootstrap-checkbox": "~0.3.5",
+    "lightgallery": "~1.2.14"
+  }
+}
