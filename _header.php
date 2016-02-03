@@ -62,7 +62,7 @@
         <div class="col-sm-6">
             <h2>
                 <a href="/">
-                    <img src="assets/img/logo.png" alt="Classifácil" class="img-responsive center-block">
+                    <img src="assets/img/logo.png" alt="Classifácil" class="img-responsive logo-classifacil">
                 </a>
             </h2>
         </div>

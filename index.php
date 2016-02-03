@@ -96,24 +96,28 @@
                                         </h3>
                                         <div class="truncate">Todo mobiliado, sol da manhã e baixo condomínio</div>
                                         <div class="divisor"></div>
-                                        <div class="media">
-                                            <div class="media-body">
+                                        <div class="info-bloco">
+                                            <div class="info-bloco-part">
                                                 Quartos<br>
                                                 <strong>3</strong>
                                             </div>
-                                            <div class="media-body">
+                                            <div class="info-bloco-part">
                                                 Suítes<br>
                                                 <strong>1</strong>
                                             </div>
-                                            <div class="media-right">
-                                                V.Garagem<br>
+                                            <div class="info-bloco-part">
+                                                Vagas Garagem<br>
                                                 <strong>1</strong>
                                             </div>
+                                            <div class="clearfix"></div>
                                         </div>
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
                                             <div class="pull-left">
-                                                <a href="#" class="btn btn-xs btn-verde-imoveis">indique</a>
+                                                <a href="#" class="btn btn-xs btn-verde-imoveis" data-toggle="modal" data-target="#modal-indique">
+                                                    <span class="fa fa-fw fa-user"></span>
+                                                    indique
+                                                </a>
                                             </div>
                                             <div class="pull-right">
                                                 <div class="checkbox checkbox-verde-imoveis no-margin">
@@ -150,24 +154,28 @@
                                         </h3>
                                         <div class="truncate">Com piscina, área de lazer e campinho de futebol</div>
                                         <div class="divisor"></div>
-                                        <div class="media">
-                                            <div class="media-body">
+                                        <div class="info-bloco">
+                                            <div class="info-bloco-part">
                                                 Quartos<br>
                                                 <strong>6</strong>
                                             </div>
-                                            <div class="media-body">
+                                            <div class="info-bloco-part">
                                                 Suítes<br>
                                                 <strong>3</strong>
                                             </div>
-                                            <div class="media-right">
-                                                V.Garagem<br>
+                                            <div class="info-bloco-part">
+                                                Vagas Garagem<br>
                                                 <strong>10</strong>
                                             </div>
+                                            <div class="clearfix"></div>
                                         </div>
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
                                             <div class="pull-left">
-                                                <a href="#" class="btn btn-xs btn-verde-imoveis">indique</a>
+                                                <a href="#" class="btn btn-xs btn-verde-imoveis" data-toggle="modal" data-target="#modal-indique">
+                                                    <span class="fa fa-fw fa-user"></span>
+                                                    indique
+                                                </a>
                                             </div>
                                             <div class="pull-right">
                                                 <div class="checkbox checkbox-verde-imoveis no-margin">
@@ -204,24 +212,28 @@
                                         </h3>
                                         <div class="truncate">Nas montanhas geladas da Pedra da Cebola</div>
                                         <div class="divisor"></div>
-                                        <div class="media">
-                                            <div class="media-body">
+                                        <div class="info-bloco">
+                                            <div class="info-bloco-part">
                                                 Quartos<br>
                                                 <strong>1</strong>
                                             </div>
-                                            <div class="media-body">
+                                            <div class="info-bloco-part">
                                                 Suítes<br>
                                                 <strong>1</strong>
                                             </div>
-                                            <div class="media-right">
-                                                V.Garagem<br>
+                                            <div class="info-bloco-part">
+                                                Vagas Garagem<br>
                                                 <strong>0</strong>
                                             </div>
+                                            <div class="clearfix"></div>
                                         </div>
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
                                             <div class="pull-left">
-                                                <a href="#" class="btn btn-xs btn-verde-imoveis">indique</a>
+                                                <a href="#" class="btn btn-xs btn-verde-imoveis" data-toggle="modal" data-target="#modal-indique">
+                                                    <span class="fa fa-fw fa-user"></span>
+                                                    indique
+                                                </a>
                                             </div>
                                             <div class="pull-right">
                                                 <div class="checkbox checkbox-verde-imoveis no-margin">
@@ -258,24 +270,28 @@
                                         </h3>
                                         <div class="truncate">Próximo a praça do Carone</div>
                                         <div class="divisor"></div>
-                                        <div class="media">
-                                            <div class="media-body">
+                                        <div class="info-bloco">
+                                            <div class="info-bloco-part">
                                                 Quartos<br>
                                                 <strong>2</strong>
                                             </div>
-                                            <div class="media-body">
+                                            <div class="info-bloco-part">
                                                 Suítes<br>
                                                 <strong>1</strong>
                                             </div>
-                                            <div class="media-right">
-                                                V.Garagem<br>
+                                            <div class="info-bloco-part">
+                                                Vagas Garagem<br>
                                                 <strong>1</strong>
                                             </div>
+                                            <div class="clearfix"></div>
                                         </div>
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
                                             <div class="pull-left">
-                                                <a href="#" class="btn btn-xs btn-verde-imoveis">indique</a>
+                                                <a href="#" class="btn btn-xs btn-verde-imoveis" data-toggle="modal" data-target="#modal-indique">
+                                                    <span class="fa fa-fw fa-user"></span>
+                                                    indique
+                                                </a>
                                             </div>
                                             <div class="pull-right">
                                                 <div class="checkbox checkbox-verde-imoveis no-margin">
@@ -342,24 +358,28 @@
                                         </h3>
                                         <div class="truncate">Com airbag duplo, câmbio automático, freio a disco, etc</div>
                                         <div class="divisor"></div>
-                                        <div class="media">
-                                            <div class="media-body">
+                                        <div class="info-bloco-multi">
+                                            <div class="info-bloco-part">
                                                 km<br>
                                                 <strong>16 mil</strong>
                                             </div>
-                                            <div class="media-body">
+                                            <div class="info-bloco-part">
                                                 cor<br>
                                                 <strong>prata</strong>
                                             </div>
-                                            <div class="media-right">
+                                            <div class="info-bloco-part">
                                                 ano/modelo<br>
                                                 <strong>2013/2014</strong>
                                             </div>
+                                            <div class="clearfix"></div>
                                         </div>
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
                                             <div class="pull-left">
-                                                <a href="#" class="btn btn-xs btn-roxo-veiculos">indique</a>
+                                                <a href="#" class="btn btn-xs btn-roxo-veiculos" data-toggle="modal" data-target="#modal-indique">
+                                                    <span class="fa fa-fw fa-user"></span>
+                                                    indique
+                                                </a>
                                             </div>
                                             <div class="pull-right">
                                                 <div class="checkbox checkbox-roxo-veiculos no-margin">
@@ -396,24 +416,28 @@
                                         </h3>
                                         <div class="truncate">Com airbag duplo, câmbio automático, freio a disco, etc</div>
                                         <div class="divisor"></div>
-                                        <div class="media">
-                                            <div class="media-body">
+                                        <div class="info-bloco-multi">
+                                            <div class="info-bloco-part">
                                                 km<br>
                                                 <strong>16 mil</strong>
                                             </div>
-                                            <div class="media-body">
+                                            <div class="info-bloco-part">
                                                 cor<br>
                                                 <strong>prata</strong>
                                             </div>
-                                            <div class="media-right">
+                                            <div class="info-bloco-part">
                                                 ano/modelo<br>
                                                 <strong>2013/2014</strong>
                                             </div>
+                                            <div class="clearfix"></div>
                                         </div>
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
                                             <div class="pull-left">
-                                                <a href="#" class="btn btn-xs btn-roxo-veiculos">indique</a>
+                                                <a href="#" class="btn btn-xs btn-roxo-veiculos" data-toggle="modal" data-target="#modal-indique">
+                                                    <span class="fa fa-fw fa-user"></span>
+                                                    indique
+                                                </a>
                                             </div>
                                             <div class="pull-right">
                                                 <div class="checkbox checkbox-roxo-veiculos no-margin">
@@ -450,24 +474,28 @@
                                         </h3>
                                         <div class="truncate">Com airbag duplo, câmbio automático, freio a disco, etc</div>
                                         <div class="divisor"></div>
-                                        <div class="media">
-                                            <div class="media-body">
+                                        <div class="info-bloco-multi">
+                                            <div class="info-bloco-part">
                                                 km<br>
                                                 <strong>16 mil</strong>
                                             </div>
-                                            <div class="media-body">
+                                            <div class="info-bloco-part">
                                                 cor<br>
                                                 <strong>prata</strong>
                                             </div>
-                                            <div class="media-right">
+                                            <div class="info-bloco-part">
                                                 ano/modelo<br>
                                                 <strong>2013/2014</strong>
                                             </div>
+                                            <div class="clearfix"></div>
                                         </div>
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
                                             <div class="pull-left">
-                                                <a href="#" class="btn btn-xs btn-roxo-veiculos">indique</a>
+                                                <a href="#" class="btn btn-xs btn-roxo-veiculos" data-toggle="modal" data-target="#modal-indique">
+                                                    <span class="fa fa-fw fa-user"></span>
+                                                    indique
+                                                </a>
                                             </div>
                                             <div class="pull-right">
                                                 <div class="checkbox checkbox-roxo-veiculos no-margin">
@@ -504,24 +532,28 @@
                                         </h3>
                                         <div class="truncate">Quatro portas, vidro e trava elétrica</div>
                                         <div class="divisor"></div>
-                                        <div class="media">
-                                            <div class="media-body">
+                                        <div class="info-bloco-multi">
+                                            <div class="info-bloco-part">
                                                 km<br>
-                                                <strong>312 mil</strong>
+                                                <strong>16 mil</strong>
                                             </div>
-                                            <div class="media-body">
+                                            <div class="info-bloco-part">
                                                 cor<br>
-                                                <strong>azul</strong>
+                                                <strong>prata</strong>
                                             </div>
-                                            <div class="media-right">
+                                            <div class="info-bloco-part">
                                                 ano/modelo<br>
-                                                <strong>2009</strong>
+                                                <strong>2013/2014</strong>
                                             </div>
+                                            <div class="clearfix"></div>
                                         </div>
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
                                             <div class="pull-left">
-                                                <a href="#" class="btn btn-xs btn-roxo-veiculos">indique</a>
+                                                <a href="#" class="btn btn-xs btn-roxo-veiculos" data-toggle="modal" data-target="#modal-indique">
+                                                    <span class="fa fa-fw fa-user"></span>
+                                                    indique
+                                                </a>
                                             </div>
                                             <div class="pull-right">
                                                 <div class="checkbox checkbox-roxo-veiculos no-margin">
@@ -583,20 +615,24 @@
                                         </h3>
                                         <div class="truncate">Geladeira semi-nova, com apenas 5 meses de uso</div>
                                         <div class="divisor"></div>
-                                        <div class="media">
-                                            <div class="media-body">
+                                        <div class="info-bloco">
+                                            <div class="info-bloco-part">
                                                 novo?<br>
                                                 <strong>não</strong>
                                             </div>
-                                            <div class="media-body">
+                                            <div class="info-bloco-part">
                                                 voltagem<br>
                                                 <strong>110v</strong>
                                             </div>
+                                            <div class="clearfix"></div>
                                         </div>
                                         <div class="divisor"></div>
                                         <div class="media">
                                             <div class="media-left">
-                                                <a href="#" class="btn btn-xs btn-laranja-diversos">indique</a>
+                                                <a href="#" class="btn btn-xs btn-laranja-diversos" data-toggle="modal" data-target="#modal-indique">
+                                                    <span class="fa fa-fw fa-user"></span>
+                                                    indique
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -626,20 +662,24 @@
                                         </h3>
                                         <div class="truncate">Mesa em ótimo estado, de mógno, com detalhes em madeira prensada</div>
                                         <div class="divisor"></div>
-                                        <div class="media">
-                                            <div class="media-body">
+                                        <div class="info-bloco">
+                                            <div class="info-bloco-part">
                                                 novo?<br>
                                                 <strong>sim</strong>
                                             </div>
-                                            <div class="media-body">
+                                            <div class="info-bloco-part">
                                                 cor<br>
                                                 <strong>marrom e branco</strong>
                                             </div>
+                                            <div class="clearfix"></div>
                                         </div>
                                         <div class="divisor"></div>
                                         <div class="media">
                                             <div class="media-left">
-                                                <a href="#" class="btn btn-xs btn-laranja-diversos">indique</a>
+                                                <a href="#" class="btn btn-xs btn-laranja-diversos" data-toggle="modal" data-target="#modal-indique">
+                                                    <span class="fa fa-fw fa-user"></span>
+                                                    indique
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -669,20 +709,24 @@
                                         </h3>
                                         <div class="truncate">Bike toda montada, no estilo calói cecci 1984</div>
                                         <div class="divisor"></div>
-                                        <div class="media">
-                                            <div class="media-body">
+                                        <div class="info-bloco">
+                                            <div class="info-bloco-part">
                                                 novo?<br>
                                                 <strong>sim</strong>
                                             </div>
-                                            <div class="media-body">
+                                            <div class="info-bloco-part">
                                                 cor<br>
                                                 <strong>rosa e verde</strong>
                                             </div>
+                                            <div class="clearfix"></div>
                                         </div>
                                         <div class="divisor"></div>
                                         <div class="media">
                                             <div class="media-left">
-                                                <a href="#" class="btn btn-xs btn-laranja-diversos">indique</a>
+                                                <a href="#" class="btn btn-xs btn-laranja-diversos" data-toggle="modal" data-target="#modal-indique">
+                                                    <span class="fa fa-fw fa-user"></span>
+                                                    indique
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -712,16 +756,20 @@
                                         </h3>
                                         <div class="truncate">Filhote de Poodle com apenas 3 meses de nascido</div>
                                         <div class="divisor"></div>
-                                        <div class="media">
-                                            <div class="media-body">
+                                        <div class="info-bloco">
+                                            <div class="info-bloco-part">
                                                 cor<br>
                                                 <strong>creme</strong>
                                             </div>
+                                            <div class="clearfix"></div>
                                         </div>
                                         <div class="divisor"></div>
                                         <div class="media">
                                             <div class="media-left">
-                                                <a href="#" class="btn btn-xs btn-laranja-diversos">indique</a>
+                                                <a class="btn btn-xs btn-laranja-diversos" data-toggle="modal" data-target="#modal-indique">
+                                                    <span class="fa fa-fw fa-user"></span>
+                                                    indique
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -745,5 +793,6 @@
 </div>
 
 <?php include('_footer.php'); ?>
+<?php include('partials/_modal-indique.php'); ?>
 
 <script> $("#anuncio-0001").lightGallery();</script>

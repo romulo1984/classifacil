@@ -366,6 +366,13 @@ a:focus {
 ESTILOS PERSONALIZADOS
 
 */
+@media (max-width: 767px) {
+  .logo-classifacil {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .barra-topo {
   padding-top: 7.5px;
   padding-bottom: 7.5px;
@@ -540,4 +547,34 @@ footer a:hover {
   #slider-destaques-diversos {
     margin-bottom: 50px;
   }
+}
+.info-bloco {
+  position: relative;
+  width: 100%;
+  padding: 7.5px 0;
+}
+.info-bloco .info-bloco-part {
+  position: relative;
+  display: block;
+  float: left;
+  width: 33.333%;
+  text-align: center;
+}
+.info-bloco-multi {
+  position: relative;
+  width: 100%;
+  padding: 7.5px 0;
+}
+.info-bloco-multi .info-bloco-part {
+  position: relative;
+  display: block;
+  float: left;
+  width: 33.333%;
+  text-align: center;
+}
+.info-bloco-multi .info-bloco-part:first-child {
+  text-align: left !important;
+}
+.info-bloco-multi .info-bloco-part:nth-child(3) {
+  text-align: right !important;
 }
