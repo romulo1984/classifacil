@@ -151,6 +151,7 @@ footer {
 
 //Destaques
 @height-card-destaque: 175px;
+@height-card-destaque-horizontal: 208px;
 .imagem-anuncio-destaque {
     background-repeat:no-repeat;
     background-position: center center;
@@ -166,6 +167,20 @@ footer {
     padding:@gutter/2;
     height:@height-card-destaque;
 }
+
+.destaque-horizontal {
+    .imagem-anuncio-destaque {
+        height:@height-card-destaque-horizontal;
+    }
+    .info-card-destaque {
+        margin-left:-@gutter;
+        height:@height-card-destaque-horizontal;
+        @media (max-width:991px){
+            margin-left:0;
+        }
+    }
+}
+
 .preco {
     position: absolute;
     margin: @gutter/3 0 0 -@gutter/3;
@@ -238,4 +253,60 @@ footer {
             text-align: right !important;
         }
     }
+}
+
+
+//Páginas Internas
+.titulo-categoria {
+    h1 {
+        margin-top:0;
+        font-size:3.2em;
+    }
+}
+
+.context-imoveis {
+    strong {
+        .text-verde-imoveis;
+    }
+
+    .active {
+        .bg-cinza-claro;
+        .text-verde-imoveis;
+        font-weight:700;
+        border:none;
+    }
+
+    //Paginação
+    .cd-pagination .current {
+        background-color: @verde-imoveis;
+        border-color: @verde-imoveis;
+    }
+
+    a {
+        &.desativado {
+            span {
+                &.fa {
+                    .text-cinza-medio;
+                }
+            }
+        }
+    }
+
+    span {
+        &.fa {
+            .text-verde-imoveis;
+        }
+    }
+
+}
+
+.sidebar-filtro {
+    h4 {
+        margin:0 0 @gutter/2;
+    }
+}
+
+.paginacao-w-disposicao {
+    padding:5px 0;
+    margin-top:@gutter*1.5;
 }

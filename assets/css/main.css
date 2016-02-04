@@ -502,6 +502,18 @@ footer a:hover {
   padding: 15px;
   height: 175px;
 }
+.destaque-horizontal .imagem-anuncio-destaque {
+  height: 208px;
+}
+.destaque-horizontal .info-card-destaque {
+  margin-left: -30px;
+  height: 208px;
+}
+@media (max-width: 991px) {
+  .destaque-horizontal .info-card-destaque {
+    margin-left: 0;
+  }
+}
 .preco {
   position: absolute;
   margin: 10px 0 0 -10px;
@@ -577,4 +589,34 @@ footer a:hover {
 }
 .info-bloco-multi .info-bloco-part:nth-child(3) {
   text-align: right !important;
+}
+.titulo-categoria h1 {
+  margin-top: 0;
+  font-size: 3.2em;
+}
+.context-imoveis strong {
+  color: #75bf4f;
+}
+.context-imoveis .active {
+  background-color: #E2E2E2 !important;
+  color: #75bf4f;
+  font-weight: 700;
+  border: none;
+}
+.context-imoveis .cd-pagination .current {
+  background-color: #75bf4f;
+  border-color: #75bf4f;
+}
+.context-imoveis a.desativado span.fa {
+  color: #a8abad;
+}
+.context-imoveis span.fa {
+  color: #75bf4f;
+}
+.sidebar-filtro h4 {
+  margin: 0 0 15px;
+}
+.paginacao-w-disposicao {
+  padding: 5px 0;
+  margin-top: 45px;
 }

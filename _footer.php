@@ -46,5 +46,17 @@
 <script src="bower_components/bootstrap-select/dist/js/i18n/defaults-pt_BR.min.js"></script>
 <script src="bower_components/lightgallery/dist/js/lightgallery-all.min.js"></script>
 <script src="assets/js/main.js"></script>
+<?php
+
+if(isset($js)){
+    foreach($js as $value){
+        echo '<script src="';
+        echo $value;
+        echo '"></script>';
+        echo PHP_EOL;
+    }
+}
+
+?>
 </body>
 </html>

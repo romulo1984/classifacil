@@ -17,6 +17,18 @@
     <link href="bower_components/awesome-bootstrap-checkbox/demo/build.css" rel="stylesheet">
     <link href="bower_components/lightgallery/dist/css/lightgallery.min.css" rel="stylesheet">
     <link href="assets/css/main.css" rel="stylesheet">
+    <?php
+
+    if(isset($css)){
+        foreach($css as $value){
+            echo '<link href="';
+            echo $value;
+            echo '" rel="stylesheet">';
+            echo PHP_EOL;
+        }
+    }
+
+    ?>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -89,25 +101,25 @@
         <div id="navbar" class="collapse navbar-collapse">
             <ul>
                 <li>
-                    <a href="#">
+                    <a href="imoveis.php" class="<?php echo ($menu['imoveis']) ? 'ativo' : ''; ?>">
                         <span class="fa fa-fw fa-home"></span><br class="hidden-xs">
                         Imóveis
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="ativo">
+                    <a href="veiculos.php" class="<?php echo ($menu['veiculos']) ? 'ativo' : ''; ?>">
                         <span class="fa fa-fw fa-car"></span><br class="hidden-xs">
                         Veículos
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="diversos.php" class="<?php echo ($menu['diversos']) ? 'ativo' : ''; ?>">
                         <span class="fa fa-fw fa-asterisk"></span><br class="hidden-xs">
                         Diversos
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="anuncie.php" class="<?php echo ($menu['anuncie']) ? 'ativo' : ''; ?>">
                         <span class="fa fa-fw fa-newspaper-o"></span><br class="hidden-xs">
                         Anuncie
                     </a>
