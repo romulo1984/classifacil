@@ -9,10 +9,10 @@ $menu['imoveis'] =  true;
 include('_header.php');
 ?>
 
-<div class="container">
+<div class="container context-imoveis">
     <div class="row padding-2x">
         <div class="col-sm-3 titulo-categoria">
-            <h1 class="text-verde-imoveis">imóveis</h1>
+            <h1>imóveis</h1>
         </div>
         <div class="col-sm-9">
 
@@ -22,11 +22,12 @@ include('_header.php');
     </div>
 </div>
 
-<div class="container">
+<div class="container context-imoveis">
 
     <div class="row">
+        <!-- SIDEBAR ESQUERDA -->
         <div class="col-md-3">
-            <div class="sidebar-filtro context-imoveis">
+            <div class="sidebar-filtro">
 
                 <h4>Aprimore a sua <strong>busca</strong></h4>
 
@@ -190,6 +191,7 @@ include('_header.php');
             </div>
         </div>
 
+        <!-- CONTEUDO CENTRAL -->
         <div class="col-md-9">
             <div class="conteudo-categoria">
 
@@ -200,7 +202,7 @@ include('_header.php');
                             <div class="row">
                                 <div class="col-md-5">
                                     <div class="preco">
-                                        <div class="inner-preco bg-verde-imoveis">
+                                        <div class="inner-preco">
                                             <span class="small">R$</span> 320.000
                                         </div>
                                     </div>
@@ -239,15 +241,15 @@ include('_header.php');
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
                                             <div class="pull-left">
-                                                <a href="#" class="btn btn-xs btn-verde-imoveis" data-toggle="modal" data-target="#modal-indique">
+                                                <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
                                                     <span class="fa fa-fw fa-user"></span>
                                                     indique
                                                 </a>
                                             </div>
                                             <div class="pull-right">
-                                                <div class="checkbox checkbox-verde-imoveis no-margin">
-                                                    <input id="imoveis1" class="styled" type="checkbox">
-                                                    <label for="imoveis1">comparar</label>
+                                                <div class="checkbox no-margin">
+                                                    <input id="imoveis1a" class="styled" type="checkbox">
+                                                    <label for="imoveis1a">comparar</label>
                                                 </div>
                                             </div>
                                             <div class="cleafix"></div>
@@ -262,7 +264,7 @@ include('_header.php');
                             <div class="row">
                                 <div class="col-md-5">
                                     <div class="preco">
-                                        <div class="inner-preco bg-verde-imoveis">
+                                        <div class="inner-preco">
                                             <span class="small">R$</span> 620.100
                                         </div>
                                     </div>
@@ -296,15 +298,15 @@ include('_header.php');
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
                                             <div class="pull-left">
-                                                <a href="#" class="btn btn-xs btn-verde-imoveis" data-toggle="modal" data-target="#modal-indique">
+                                                <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
                                                     <span class="fa fa-fw fa-user"></span>
                                                     indique
                                                 </a>
                                             </div>
                                             <div class="pull-right">
-                                                <div class="checkbox checkbox-verde-imoveis no-margin">
-                                                    <input id="imoveis3" class="styled" type="checkbox">
-                                                    <label for="imoveis3">comparar</label>
+                                                <div class="checkbox no-margin">
+                                                    <input id="imoveis3a" class="styled" type="checkbox">
+                                                    <label for="imoveis3a">comparar</label>
                                                 </div>
                                             </div>
                                             <div class="cleafix"></div>
@@ -317,70 +319,733 @@ include('_header.php');
                 </div>
 
                 <!-- Paginação e Disposição dos anúncios -->
-                <div class="paginacao-w-disposicao">
-                    <div class="row context-imoveis">
-                        <div class="col-md-8 col-sm-6 col-xs-4">
-                            <nav role="navigation" class="pull-left">
-                                <ul class="cd-pagination no-space custom-buttons">
-                                    <li class="button">
-                                        <a href="#0">Prev</a>
-                                    </li>
-                                    <li>
-                                        <a href="#0">1</a>
-                                    </li>
-                                    <li>
-                                        <a href="#0">2</a>
-                                    </li>
-                                    <li>
-                                        <a class="current" href="#0">3</a>
-                                    </li>
-                                    <li>
-                                        <a href="#0">4</a>
-                                    </li>
-                                    <li>
-                                        <span>...</span>
-                                    </li>
-                                    <li>
-                                        <a href="#0">20</a>
-                                    </li>
-                                    <li class="button">
-                                        <a href="#0">Next</a>
-                                    </li>
-                                </ul>
-                            </nav> <!-- cd-pagination-wrapper -->
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-8">
-                            <div class="pull-right">
-                                <div class="input-group">
-                                    <div class="input-group-addon">
-                                        Exibir:
+                <div class="paginacao-w-disposicao context-imoveis">
+                    <?php include('partials/_pagination.php'); ?>
+                </div>
+
+                <!-- Anúncios -->
+                <div class="row">
+
+                    <div class="col-sm-6">
+                        <div class="item-bloco" data-effect="mfp-zoom-in">
+                            <div class="row">
+                                <div class="col-lg-5 col-sm-12">
+                                    <div class="preco">
+                                        <div class="inner-preco">
+                                            <span class="small">R$</span> 320.000
+                                        </div>
                                     </div>
-                                    <select class="form-control input-lg">
-                                        <option>6</option>
-                                        <option selected>12</option>
-                                        <option>24</option>
-                                        <option>48</option>
-                                        <option>60</option>
-                                    </select>
-                                    <a href="#" class="desativado input-group-addon">
-                                        <span class="fa fa-fw fa-bars"></span>
+                                    <a
+                                        class="imagem-anuncio-destaque"
+                                        data-iframe="true"
+                                        data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d935.6111039512758!2d-40.29878357076004!3d-20.281863941195898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb8181d578622f9%3A0xe26701711552ada4!2sR.+Comiss%C3%A1rio+Ot%C3%A1vio+Queir%C3%B3s%2C+267+-+Jardim+da+Penha%2C+Vit%C3%B3ria+-+ES%2C+29060-270!5e0!3m2!1spt-BR!2sbr!4v1454543113587"
+                                        style="background-image: url('assets/img/exemplos/imoveis/imovel1.jpg');"
+                                    >
                                     </a>
-                                    <a href="#" class="input-group-addon">
-                                        <span class="fa fa-fw fa-th-large"></span>
-                                    </a>
+                                </div>
+                                <div class="col-lg-7 col-sm-12">
+                                    <div class="info-card-destaque">
+                                        <h3 class="truncate">
+                                            <a href="#">
+                                                Apartamento 3qts
+                                            </a>
+                                        </h3>
+                                        <div class="truncate">Todo mobiliado, sol da manhã e baixo condomínio</div>
+                                        <div class="divisor"></div>
+                                        <div class="info-bloco">
+                                            <div class="info-bloco-part">
+                                                Quartos<br>
+                                                <strong>3</strong>
+                                            </div>
+                                            <div class="info-bloco-part">
+                                                Suítes<br>
+                                                <strong>1</strong>
+                                            </div>
+                                            <div class="info-bloco-part">
+                                                Vagas Garagem<br>
+                                                <strong>1</strong>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="divisor"></div>
+                                        <div class="indique-compare-box">
+                                            <div class="pull-left">
+                                                <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <span class="fa fa-fw fa-user"></span>
+                                                    indique
+                                                </a>
+                                            </div>
+                                            <div class="pull-right">
+                                                <div class="checkbox no-margin">
+                                                    <input id="imoveis1" class="styled" type="checkbox">
+                                                    <label for="imoveis1">comparar</label>
+                                                </div>
+                                            </div>
+                                            <div class="cleafix"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-sm-6">
+                        <div class="item-bloco">
+                            <div class="row">
+                                <div class="col-lg-5 col-sm-12">
+                                    <div class="preco">
+                                        <div class="inner-preco">
+                                            <span class="small">R$</span> 820.650
+                                        </div>
+                                    </div>
+                                    <a href="assets/img/exemplos/imoveis/imovel2.jpg" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel2.jpg');">
+                                    </a>
+                                </div>
+                                <div class="col-lg-7 col-sm-12">
+                                    <div class="info-card-destaque">
+                                        <h3 class="truncate">
+                                            <a href="#">
+                                                Casa na praia
+                                            </a>
+                                        </h3>
+                                        <div class="truncate">Com piscina, área de lazer e campinho de futebol</div>
+                                        <div class="divisor"></div>
+                                        <div class="info-bloco">
+                                            <div class="info-bloco-part">
+                                                Quartos<br>
+                                                <strong>6</strong>
+                                            </div>
+                                            <div class="info-bloco-part">
+                                                Suítes<br>
+                                                <strong>3</strong>
+                                            </div>
+                                            <div class="info-bloco-part">
+                                                Vagas Garagem<br>
+                                                <strong>10</strong>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="divisor"></div>
+                                        <div class="indique-compare-box">
+                                            <div class="pull-left">
+                                                <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <span class="fa fa-fw fa-user"></span>
+                                                    indique
+                                                </a>
+                                            </div>
+                                            <div class="pull-right">
+                                                <div class="checkbox no-margin">
+                                                    <input id="imoveis2" class="styled" type="checkbox">
+                                                    <label for="imoveis2">comparar</label>
+                                                </div>
+                                            </div>
+                                            <div class="cleafix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="item-bloco">
+                            <div class="row">
+                                <div class="col-lg-5 col-sm-12">
+                                    <div class="preco">
+                                        <div class="inner-preco">
+                                            <span class="small">R$</span> 620.100
+                                        </div>
+                                    </div>
+                                    <a href="assets/img/exemplos/imoveis/imovel3.jpg" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel3.jpg');">
+                                    </a>
+                                </div>
+                                <div class="col-lg-7 col-sm-12">
+                                    <div class="info-card-destaque">
+                                        <h3 class="truncate">
+                                            <a href="#">
+                                                Chalé da Montanha
+                                            </a>
+                                        </h3>
+                                        <div class="truncate">Nas montanhas geladas da Pedra da Cebola</div>
+                                        <div class="divisor"></div>
+                                        <div class="info-bloco">
+                                            <div class="info-bloco-part">
+                                                Quartos<br>
+                                                <strong>1</strong>
+                                            </div>
+                                            <div class="info-bloco-part">
+                                                Suítes<br>
+                                                <strong>1</strong>
+                                            </div>
+                                            <div class="info-bloco-part">
+                                                Vagas Garagem<br>
+                                                <strong>0</strong>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="divisor"></div>
+                                        <div class="indique-compare-box">
+                                            <div class="pull-left">
+                                                <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <span class="fa fa-fw fa-user"></span>
+                                                    indique
+                                                </a>
+                                            </div>
+                                            <div class="pull-right">
+                                                <div class="checkbox no-margin">
+                                                    <input id="imoveis3" class="styled" type="checkbox">
+                                                    <label for="imoveis3">comparar</label>
+                                                </div>
+                                            </div>
+                                            <div class="cleafix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="item-bloco">
+                            <div class="row">
+                                <div class="col-lg-5 col-sm-12">
+                                    <div class="preco">
+                                        <div class="inner-preco">
+                                            <span class="small">R$</span> 1.200
+                                        </div>
+                                    </div>
+                                    <a href="assets/img/exemplos/imoveis/imovel4.jpg" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel4.jpg');">
+                                    </a>
+                                </div>
+                                <div class="col-lg-7 col-sm-12">
+                                    <div class="info-card-destaque">
+                                        <h3 class="truncate">
+                                            <a href="#">
+                                                Apt 3qts aluguel
+                                            </a>
+                                        </h3>
+                                        <div class="truncate">Próximo a praça do Carone</div>
+                                        <div class="divisor"></div>
+                                        <div class="info-bloco">
+                                            <div class="info-bloco-part">
+                                                Quartos<br>
+                                                <strong>2</strong>
+                                            </div>
+                                            <div class="info-bloco-part">
+                                                Suítes<br>
+                                                <strong>1</strong>
+                                            </div>
+                                            <div class="info-bloco-part">
+                                                Vagas Garagem<br>
+                                                <strong>1</strong>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="divisor"></div>
+                                        <div class="indique-compare-box">
+                                            <div class="pull-left">
+                                                <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <span class="fa fa-fw fa-user"></span>
+                                                    indique
+                                                </a>
+                                            </div>
+                                            <div class="pull-right">
+                                                <div class="checkbox no-margin">
+                                                    <input id="imoveis4" class="styled" type="checkbox">
+                                                    <label for="imoveis4">comparar</label>
+                                                </div>
+                                            </div>
+                                            <div class="cleafix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="item-bloco" data-effect="mfp-zoom-in">
+                            <div class="row">
+                                <div class="col-lg-5 col-sm-12">
+                                    <div class="preco">
+                                        <div class="inner-preco">
+                                            <span class="small">R$</span> 320.000
+                                        </div>
+                                    </div>
+                                    <a
+                                        class="imagem-anuncio-destaque"
+                                        data-iframe="true"
+                                        data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d935.6111039512758!2d-40.29878357076004!3d-20.281863941195898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb8181d578622f9%3A0xe26701711552ada4!2sR.+Comiss%C3%A1rio+Ot%C3%A1vio+Queir%C3%B3s%2C+267+-+Jardim+da+Penha%2C+Vit%C3%B3ria+-+ES%2C+29060-270!5e0!3m2!1spt-BR!2sbr!4v1454543113587"
+                                        style="background-image: url('assets/img/exemplos/imoveis/imovel1.jpg');"
+                                    >
+                                    </a>
+                                </div>
+                                <div class="col-lg-7 col-sm-12">
+                                    <div class="info-card-destaque">
+                                        <h3 class="truncate">
+                                            <a href="#">
+                                                Apartamento 3qts
+                                            </a>
+                                        </h3>
+                                        <div class="truncate">Todo mobiliado, sol da manhã e baixo condomínio</div>
+                                        <div class="divisor"></div>
+                                        <div class="info-bloco">
+                                            <div class="info-bloco-part">
+                                                Quartos<br>
+                                                <strong>3</strong>
+                                            </div>
+                                            <div class="info-bloco-part">
+                                                Suítes<br>
+                                                <strong>1</strong>
+                                            </div>
+                                            <div class="info-bloco-part">
+                                                Vagas Garagem<br>
+                                                <strong>1</strong>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="divisor"></div>
+                                        <div class="indique-compare-box">
+                                            <div class="pull-left">
+                                                <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <span class="fa fa-fw fa-user"></span>
+                                                    indique
+                                                </a>
+                                            </div>
+                                            <div class="pull-right">
+                                                <div class="checkbox no-margin">
+                                                    <input id="imoveis5" class="styled" type="checkbox">
+                                                    <label for="imoveis5">comparar</label>
+                                                </div>
+                                            </div>
+                                            <div class="cleafix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="item-bloco">
+                            <div class="row">
+                                <div class="col-lg-5 col-sm-12">
+                                    <div class="preco">
+                                        <div class="inner-preco">
+                                            <span class="small">R$</span> 820.650
+                                        </div>
+                                    </div>
+                                    <a href="assets/img/exemplos/imoveis/imovel2.jpg" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel2.jpg');">
+                                    </a>
+                                </div>
+                                <div class="col-lg-7 col-sm-12">
+                                    <div class="info-card-destaque">
+                                        <h3 class="truncate">
+                                            <a href="#">
+                                                Casa na praia
+                                            </a>
+                                        </h3>
+                                        <div class="truncate">Com piscina, área de lazer e campinho de futebol</div>
+                                        <div class="divisor"></div>
+                                        <div class="info-bloco">
+                                            <div class="info-bloco-part">
+                                                Quartos<br>
+                                                <strong>6</strong>
+                                            </div>
+                                            <div class="info-bloco-part">
+                                                Suítes<br>
+                                                <strong>3</strong>
+                                            </div>
+                                            <div class="info-bloco-part">
+                                                Vagas Garagem<br>
+                                                <strong>10</strong>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="divisor"></div>
+                                        <div class="indique-compare-box">
+                                            <div class="pull-left">
+                                                <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <span class="fa fa-fw fa-user"></span>
+                                                    indique
+                                                </a>
+                                            </div>
+                                            <div class="pull-right">
+                                                <div class="checkbox no-margin">
+                                                    <input id="imoveis6" class="styled" type="checkbox">
+                                                    <label for="imoveis6">comparar</label>
+                                                </div>
+                                            </div>
+                                            <div class="cleafix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="item-bloco">
+                            <div class="row">
+                                <div class="col-lg-5 col-sm-12">
+                                    <div class="preco">
+                                        <div class="inner-preco">
+                                            <span class="small">R$</span> 620.100
+                                        </div>
+                                    </div>
+                                    <a href="assets/img/exemplos/imoveis/imovel3.jpg" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel3.jpg');">
+                                    </a>
+                                </div>
+                                <div class="col-lg-7 col-sm-12">
+                                    <div class="info-card-destaque">
+                                        <h3 class="truncate">
+                                            <a href="#">
+                                                Chalé da Montanha
+                                            </a>
+                                        </h3>
+                                        <div class="truncate">Nas montanhas geladas da Pedra da Cebola</div>
+                                        <div class="divisor"></div>
+                                        <div class="info-bloco">
+                                            <div class="info-bloco-part">
+                                                Quartos<br>
+                                                <strong>1</strong>
+                                            </div>
+                                            <div class="info-bloco-part">
+                                                Suítes<br>
+                                                <strong>1</strong>
+                                            </div>
+                                            <div class="info-bloco-part">
+                                                Vagas Garagem<br>
+                                                <strong>0</strong>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="divisor"></div>
+                                        <div class="indique-compare-box">
+                                            <div class="pull-left">
+                                                <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <span class="fa fa-fw fa-user"></span>
+                                                    indique
+                                                </a>
+                                            </div>
+                                            <div class="pull-right">
+                                                <div class="checkbox no-margin">
+                                                    <input id="imoveis7" class="styled" type="checkbox">
+                                                    <label for="imoveis7">comparar</label>
+                                                </div>
+                                            </div>
+                                            <div class="cleafix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="item-bloco">
+                            <div class="row">
+                                <div class="col-lg-5 col-sm-12">
+                                    <div class="preco">
+                                        <div class="inner-preco">
+                                            <span class="small">R$</span> 1.200
+                                        </div>
+                                    </div>
+                                    <a href="assets/img/exemplos/imoveis/imovel4.jpg" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel4.jpg');">
+                                    </a>
+                                </div>
+                                <div class="col-lg-7 col-sm-12">
+                                    <div class="info-card-destaque">
+                                        <h3 class="truncate">
+                                            <a href="#">
+                                                Apt 3qts aluguel
+                                            </a>
+                                        </h3>
+                                        <div class="truncate">Próximo a praça do Carone</div>
+                                        <div class="divisor"></div>
+                                        <div class="info-bloco">
+                                            <div class="info-bloco-part">
+                                                Quartos<br>
+                                                <strong>2</strong>
+                                            </div>
+                                            <div class="info-bloco-part">
+                                                Suítes<br>
+                                                <strong>1</strong>
+                                            </div>
+                                            <div class="info-bloco-part">
+                                                Vagas Garagem<br>
+                                                <strong>1</strong>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="divisor"></div>
+                                        <div class="indique-compare-box">
+                                            <div class="pull-left">
+                                                <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <span class="fa fa-fw fa-user"></span>
+                                                    indique
+                                                </a>
+                                            </div>
+                                            <div class="pull-right">
+                                                <div class="checkbox no-margin">
+                                                    <input id="imoveis8" class="styled" type="checkbox">
+                                                    <label for="imoveis8">comparar</label>
+                                                </div>
+                                            </div>
+                                            <div class="cleafix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="item-bloco" data-effect="mfp-zoom-in">
+                            <div class="row">
+                                <div class="col-lg-5 col-sm-12">
+                                    <div class="preco">
+                                        <div class="inner-preco">
+                                            <span class="small">R$</span> 320.000
+                                        </div>
+                                    </div>
+                                    <a
+                                        class="imagem-anuncio-destaque"
+                                        data-iframe="true"
+                                        data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d935.6111039512758!2d-40.29878357076004!3d-20.281863941195898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb8181d578622f9%3A0xe26701711552ada4!2sR.+Comiss%C3%A1rio+Ot%C3%A1vio+Queir%C3%B3s%2C+267+-+Jardim+da+Penha%2C+Vit%C3%B3ria+-+ES%2C+29060-270!5e0!3m2!1spt-BR!2sbr!4v1454543113587"
+                                        style="background-image: url('assets/img/exemplos/imoveis/imovel1.jpg');"
+                                    >
+                                    </a>
+                                </div>
+                                <div class="col-lg-7 col-sm-12">
+                                    <div class="info-card-destaque">
+                                        <h3 class="truncate">
+                                            <a href="#">
+                                                Apartamento 3qts
+                                            </a>
+                                        </h3>
+                                        <div class="truncate">Todo mobiliado, sol da manhã e baixo condomínio</div>
+                                        <div class="divisor"></div>
+                                        <div class="info-bloco">
+                                            <div class="info-bloco-part">
+                                                Quartos<br>
+                                                <strong>3</strong>
+                                            </div>
+                                            <div class="info-bloco-part">
+                                                Suítes<br>
+                                                <strong>1</strong>
+                                            </div>
+                                            <div class="info-bloco-part">
+                                                Vagas Garagem<br>
+                                                <strong>1</strong>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="divisor"></div>
+                                        <div class="indique-compare-box">
+                                            <div class="pull-left">
+                                                <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <span class="fa fa-fw fa-user"></span>
+                                                    indique
+                                                </a>
+                                            </div>
+                                            <div class="pull-right">
+                                                <div class="checkbox no-margin">
+                                                    <input id="imoveis9" class="styled" type="checkbox">
+                                                    <label for="imoveis9">comparar</label>
+                                                </div>
+                                            </div>
+                                            <div class="cleafix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="item-bloco">
+                            <div class="row">
+                                <div class="col-lg-5 col-sm-12">
+                                    <div class="preco">
+                                        <div class="inner-preco">
+                                            <span class="small">R$</span> 820.650
+                                        </div>
+                                    </div>
+                                    <a href="assets/img/exemplos/imoveis/imovel2.jpg" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel2.jpg');">
+                                    </a>
+                                </div>
+                                <div class="col-lg-7 col-sm-12">
+                                    <div class="info-card-destaque">
+                                        <h3 class="truncate">
+                                            <a href="#">
+                                                Casa na praia
+                                            </a>
+                                        </h3>
+                                        <div class="truncate">Com piscina, área de lazer e campinho de futebol</div>
+                                        <div class="divisor"></div>
+                                        <div class="info-bloco">
+                                            <div class="info-bloco-part">
+                                                Quartos<br>
+                                                <strong>6</strong>
+                                            </div>
+                                            <div class="info-bloco-part">
+                                                Suítes<br>
+                                                <strong>3</strong>
+                                            </div>
+                                            <div class="info-bloco-part">
+                                                Vagas Garagem<br>
+                                                <strong>10</strong>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="divisor"></div>
+                                        <div class="indique-compare-box">
+                                            <div class="pull-left">
+                                                <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <span class="fa fa-fw fa-user"></span>
+                                                    indique
+                                                </a>
+                                            </div>
+                                            <div class="pull-right">
+                                                <div class="checkbox no-margin">
+                                                    <input id="imoveis10" class="styled" type="checkbox">
+                                                    <label for="imoveis10">comparar</label>
+                                                </div>
+                                            </div>
+                                            <div class="cleafix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-12">
+                        <img src="http://placehold.it/850x120" class="img-responsive">
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="item-bloco">
+                            <div class="row">
+                                <div class="col-lg-5 col-sm-12">
+                                    <div class="preco">
+                                        <div class="inner-preco">
+                                            <span class="small">R$</span> 620.100
+                                        </div>
+                                    </div>
+                                    <a href="assets/img/exemplos/imoveis/imovel3.jpg" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel3.jpg');">
+                                    </a>
+                                </div>
+                                <div class="col-lg-7 col-sm-12">
+                                    <div class="info-card-destaque">
+                                        <h3 class="truncate">
+                                            <a href="#">
+                                                Chalé da Montanha
+                                            </a>
+                                        </h3>
+                                        <div class="truncate">Nas montanhas geladas da Pedra da Cebola</div>
+                                        <div class="divisor"></div>
+                                        <div class="info-bloco">
+                                            <div class="info-bloco-part">
+                                                Quartos<br>
+                                                <strong>1</strong>
+                                            </div>
+                                            <div class="info-bloco-part">
+                                                Suítes<br>
+                                                <strong>1</strong>
+                                            </div>
+                                            <div class="info-bloco-part">
+                                                Vagas Garagem<br>
+                                                <strong>0</strong>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="divisor"></div>
+                                        <div class="indique-compare-box">
+                                            <div class="pull-left">
+                                                <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <span class="fa fa-fw fa-user"></span>
+                                                    indique
+                                                </a>
+                                            </div>
+                                            <div class="pull-right">
+                                                <div class="checkbox no-margin">
+                                                    <input id="imoveis11" class="styled" type="checkbox">
+                                                    <label for="imoveis11">comparar</label>
+                                                </div>
+                                            </div>
+                                            <div class="cleafix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="item-bloco">
+                            <div class="row">
+                                <div class="col-lg-5 col-sm-12">
+                                    <div class="preco">
+                                        <div class="inner-preco">
+                                            <span class="small">R$</span> 1.200
+                                        </div>
+                                    </div>
+                                    <a href="assets/img/exemplos/imoveis/imovel4.jpg" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel4.jpg');">
+                                    </a>
+                                </div>
+                                <div class="col-lg-7 col-sm-12">
+                                    <div class="info-card-destaque">
+                                        <h3 class="truncate">
+                                            <a href="#">
+                                                Apt 3qts aluguel
+                                            </a>
+                                        </h3>
+                                        <div class="truncate">Próximo a praça do Carone</div>
+                                        <div class="divisor"></div>
+                                        <div class="info-bloco">
+                                            <div class="info-bloco-part">
+                                                Quartos<br>
+                                                <strong>2</strong>
+                                            </div>
+                                            <div class="info-bloco-part">
+                                                Suítes<br>
+                                                <strong>1</strong>
+                                            </div>
+                                            <div class="info-bloco-part">
+                                                Vagas Garagem<br>
+                                                <strong>1</strong>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="divisor"></div>
+                                        <div class="indique-compare-box">
+                                            <div class="pull-left">
+                                                <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <span class="fa fa-fw fa-user"></span>
+                                                    indique
+                                                </a>
+                                            </div>
+                                            <div class="pull-right">
+                                                <div class="checkbox no-margin">
+                                                    <input id="imoveis12" class="styled" type="checkbox">
+                                                    <label for="imoveis12">comparar</label>
+                                                </div>
+                                            </div>
+                                            <div class="cleafix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
-                <div class="divisor-1x"></div>
-
-                <!-- Anúncios -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <h4>aqui vem os anúncios</h4>
-                    </div>
+                <!-- Paginação e Disposição dos anúncios -->
+                <div class="paginacao-w-disposicao context-imoveis">
+                    <?php include('partials/_pagination.php'); ?>
                 </div>
 
             </div>

@@ -38,3 +38,19 @@ function toggleChevron(e) {
 }
 $('.accordion').on('hidden.bs.collapse', toggleChevron);
 $('.accordion').on('shown.bs.collapse', toggleChevron);
+
+
+$('.sidebar-filtro').affix({
+    offset: {
+        top: 425
+    }
+});
+//Largura sutomática do Affix
+function widthAffix(){
+    var $affixElement = $('.sidebar-filtro');
+    $affixElement.width($affixElement.parent().width());
+}
+widthAffix();
+$(window).resize(function(){
+    widthAffix();
+});

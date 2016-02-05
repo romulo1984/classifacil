@@ -280,6 +280,18 @@
         }
     }
 }
+.checkbox-context(@color) {
+    input[type="checkbox"]:checked + label,
+    input[type="radio"]:checked + label {
+        &::before {
+            background-color: @color;
+            border-color: @color;
+        }
+        &::after {
+            color: #fff;
+        }
+    }
+}
 
 //Reutilizáveis
 

@@ -1,7 +1,7 @@
 /**
  * Created by romulo on 03/02/2016.
  */
-$('#slider-destaques-imoveis').slick({
+$('#slider-destaques-diversos').slick({
     draggable: false,
     prevArrow: prevArrow,
     nextArrow: nextArrow,
