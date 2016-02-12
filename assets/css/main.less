@@ -150,7 +150,7 @@ footer {
 }
 
 //Destaques
-@height-card-destaque: 175px;
+@height-card-destaque: 160px;
 @height-card-destaque-horizontal: 208px;
 .item-destaque {
     .imagem-anuncio-destaque {
@@ -183,7 +183,7 @@ footer {
     }
 }
 
-@height-card-bloco: 220px;
+@height-card-bloco: 168px;
 .item-bloco {
     margin-bottom:@gutter/2;
     margin-top:@gutter/2;
@@ -198,15 +198,11 @@ footer {
     }
     .info-card-destaque {
         background-color: lighten(#000, 95%);
-        margin-left:-@gutter;
         padding:@gutter/2;
         height:@height-card-bloco;
-        @media (max-width:1199px) {
-            height:185px;
-            margin-left:0;
-            h3 {
-                margin-top:0;
-            }
+        margin-left:0;
+        h3 {
+            margin-top:0;
         }
     }
 }
@@ -265,31 +261,8 @@ footer {
 }
 
 .info-bloco {
-    position:relative;
-    width:100%;
     padding:@gutter/4 0;
-
-    .info-bloco-part {
-        position:relative;
-        display:block;
-        float:left;
-        width:33.333%;
-        text-align: center;
-    }
 }
-
-.info-bloco-multi {
-    .info-bloco;
-    .info-bloco-part {
-        &:first-child {
-            text-align: left !important;
-        }
-        &:nth-child(3) {
-            text-align: right !important;
-        }
-    }
-}
-
 
 //Páginas Internas
 .titulo-categoria {
@@ -379,20 +352,22 @@ footer {
 }
 
 @media (min-width: 979px) {
-    #sidebar.affix-top {
+    .sidebar-filtro.affix-top {
         position: static;
-        margin-top:30px;
         width:228px;
     }
 
-    #sidebar.affix {
+    .sidebar-filtro.affix {
         position: fixed;
-        top:70px;
         width:228px;
+    }
+
+    .sidebar-filtro.affix-bottom {
+        position: absolute;
     }
 }
 
-#sidebar li.active {
+.sidebar-filtro li.active {
     border:0 #eee solid;
     border-right-width:5px;
 }
@@ -401,4 +376,21 @@ footer {
 .paginacao-w-disposicao {
     padding:5px 0;
     margin-top:@gutter*1.5;
+}
+
+
+.panel-body {
+    max-height:350px;
+    overflow: auto;
+}
+
+.tags-selecionados-busca {
+    padding:@gutter/3;
+    border:1px solid @cinza-claro;
+    margin-bottom:@gutter/2;
+    .border-radius();
+    .label {
+        margin-right:1.5px;
+        margin-bottom:@gutter/2;
+    }
 }

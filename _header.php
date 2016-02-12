@@ -43,7 +43,7 @@
         <div class="row">
             <div class="col-sm-6 hidden-xs">
                 <h5>
-                    <a href="#" id="addfavoritos" rel="sidebar" title="Adicione aos Favoritos">FAÇA DO CLASSIFICADOS DE A TRIBUNA A SUA PÁGINA INICIAL</a>
+                    <a href="#" id="addfavoritos" rel="sidebar" title="Adicione aos Favoritos">ADICIONAR O CLASSIFÁCIL AOS FAVORITOS</a>
                 </h5>
             </div>
             <div class="col-sm-6 col-xs-12">
@@ -61,6 +61,9 @@
                 <div class="pull-right" style="padding-top:8px;padding-right:14px;">
                     <a href="http://www.tribunaonline.com.br" target="_blank">
                         <strong>TRIBUNA ONLINE</strong>
+                    </a>&nbsp;&nbsp;&nbsp;
+                    <a href="http://atribunaes.com.br" target="_blank">
+                        <strong>ASSINE A TRIBUNA</strong>
                     </a>
                 </div>
             </div>
@@ -73,7 +76,7 @@
     <div class="row">
         <div class="col-sm-6">
             <h2>
-                <a href="/">
+                <a href="index.php">
                     <img src="assets/img/logo.png" alt="Classifácil" class="img-responsive logo-classifacil">
                 </a>
             </h2>

@@ -42,9 +42,13 @@ $('.accordion').on('shown.bs.collapse', toggleChevron);
 
 $('.sidebar-filtro').affix({
     offset: {
-        top: 425
+        top: 425,
+        bottom: function () {
+            return (this.bottom = $('footer').outerHeight(true));
+        }
     }
 });
+
 //Largura sutomática do Affix
 function widthAffix(){
     var $affixElement = $('.sidebar-filtro');

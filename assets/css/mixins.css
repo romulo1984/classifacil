@@ -265,6 +265,27 @@ fieldset[disabled] .btn-laranja-diversos.focus {
   color: #f58733;
   background-color: #ffffff;
 }
+.label-verde-imoveis {
+  background-color: #75bf4f;
+}
+.label-verde-imoveis[href]:hover,
+.label-verde-imoveis[href]:focus {
+  background-color: #5da13a;
+}
+.label-roxo-veiculos {
+  background-color: #3d4094;
+}
+.label-roxo-veiculos[href]:hover,
+.label-roxo-veiculos[href]:focus {
+  background-color: #2e3070;
+}
+.label-laranja-diversos {
+  background-color: #f58733;
+}
+.label-laranja-diversos[href]:hover,
+.label-laranja-diversos[href]:focus {
+  background-color: #ea6c0b;
+}
 .text-300 {
   font-weight: 300;
 }

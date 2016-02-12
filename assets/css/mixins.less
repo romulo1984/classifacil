@@ -293,6 +293,18 @@
     }
 }
 
+.label-variant(@color) {
+    background-color: @color;
+
+    &[href] {
+        &:hover,
+        &:focus {
+            background-color: darken(@color, 10%);
+        }
+    }
+}
+
+
 //Reutilizáveis
 
 .checkbox-variant(checkbox-verde-imoveis, @verde-imoveis);
@@ -307,6 +319,16 @@
 }
 .btn-laranja-diversos {
     .button-variant(@branco; @laranja-diversos; @laranja-diversos);
+}
+
+.label-verde-imoveis {
+    .label-variant(@verde-imoveis);
+}
+.label-roxo-veiculos {
+    .label-variant(@roxo-veiculos);
+}
+.label-laranja-diversos {
+    .label-variant(@laranja-diversos);
 }
 
 .text-300 {

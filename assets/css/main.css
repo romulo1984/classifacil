@@ -266,6 +266,27 @@ fieldset[disabled] .btn-laranja-diversos.focus {
   color: #f58733;
   background-color: #ffffff;
 }
+.label-verde-imoveis {
+  background-color: #75bf4f;
+}
+.label-verde-imoveis[href]:hover,
+.label-verde-imoveis[href]:focus {
+  background-color: #5da13a;
+}
+.label-roxo-veiculos {
+  background-color: #3d4094;
+}
+.label-roxo-veiculos[href]:hover,
+.label-roxo-veiculos[href]:focus {
+  background-color: #2e3070;
+}
+.label-laranja-diversos {
+  background-color: #f58733;
+}
+.label-laranja-diversos[href]:hover,
+.label-laranja-diversos[href]:focus {
+  background-color: #ea6c0b;
+}
 .text-300 {
   font-weight: 300;
 }
@@ -492,7 +513,7 @@ footer a:hover {
   background-position: center center;
   -webkit-background-size: cover;
   background-size: cover;
-  height: 175px;
+  height: 160px;
   display: block;
   cursor: zoom-in;
 }
@@ -500,7 +521,7 @@ footer a:hover {
   background-color: #f2f2f2;
   margin-left: 0;
   padding: 15px;
-  height: 175px;
+  height: 160px;
 }
 .item-destaque.destaque-horizontal .imagem-anuncio-destaque {
   height: 208px;
@@ -523,24 +544,18 @@ footer a:hover {
   background-position: center center;
   -webkit-background-size: cover;
   background-size: cover;
-  height: 220px;
+  height: 168px;
   display: block;
   cursor: zoom-in;
 }
 .item-bloco .info-card-destaque {
   background-color: #f2f2f2;
-  margin-left: -30px;
   padding: 15px;
-  height: 220px;
+  height: 168px;
+  margin-left: 0;
 }
-@media (max-width: 1199px) {
-  .item-bloco .info-card-destaque {
-    height: 185px;
-    margin-left: 0;
-  }
-  .item-bloco .info-card-destaque h3 {
-    margin-top: 0;
-  }
+.item-bloco .info-card-destaque h3 {
+  margin-top: 0;
 }
 .preco {
   position: absolute;
@@ -589,34 +604,7 @@ footer a:hover {
   }
 }
 .info-bloco {
-  position: relative;
-  width: 100%;
   padding: 7.5px 0;
-}
-.info-bloco .info-bloco-part {
-  position: relative;
-  display: block;
-  float: left;
-  width: 33.333%;
-  text-align: center;
-}
-.info-bloco-multi {
-  position: relative;
-  width: 100%;
-  padding: 7.5px 0;
-}
-.info-bloco-multi .info-bloco-part {
-  position: relative;
-  display: block;
-  float: left;
-  width: 33.333%;
-  text-align: center;
-}
-.info-bloco-multi .info-bloco-part:first-child {
-  text-align: left !important;
-}
-.info-bloco-multi .info-bloco-part:nth-child(3) {
-  text-align: right !important;
 }
 .titulo-categoria h1 {
   margin-top: 0;
@@ -940,22 +928,42 @@ fieldset[disabled] .context-diversos .indique-compare-box .btn.focus {
   position: static;
 }
 @media (min-width: 979px) {
-  #sidebar.affix-top {
+  .sidebar-filtro.affix-top {
     position: static;
-    margin-top: 30px;
     width: 228px;
   }
-  #sidebar.affix {
+  .sidebar-filtro.affix {
     position: fixed;
-    top: 70px;
     width: 228px;
+  }
+  .sidebar-filtro.affix-bottom {
+    position: absolute;
   }
 }
-#sidebar li.active {
+.sidebar-filtro li.active {
   border: 0 #eee solid;
   border-right-width: 5px;
 }
 .paginacao-w-disposicao {
   padding: 5px 0;
   margin-top: 45px;
+}
+.panel-body {
+  max-height: 350px;
+  overflow: auto;
+}
+.tags-selecionados-busca {
+  padding: 10px;
+  border: 1px solid #E2E2E2;
+  margin-bottom: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.tags-selecionados-busca .label {
+  margin-right: 1.5px;
+  margin-bottom: 15px;
 }

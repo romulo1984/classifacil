@@ -73,7 +73,7 @@ include('_header.php');
     <div class="row">
         <div class="col-md-12 padding-bottom-2x">
             <h1>
-                <span class="text-300">Ofertas em destaque de </span><span class="text-verde-imoveis"><span class="fa fa-fw fa-home"></span> imóveis</span>
+                <span class="text-300">Ofertas em destaque </span><span class="text-verde-imoveis"><span class="fa fa-fw fa-home"></span> imóveis</span>
             </h1>
         </div>
 
@@ -108,20 +108,10 @@ include('_header.php');
                                         </h3>
                                         <div class="truncate">Todo mobiliado, sol da manhã e baixo condomínio</div>
                                         <div class="divisor"></div>
-                                        <div class="info-bloco">
-                                            <div class="info-bloco-part">
-                                                Quartos<br>
-                                                <strong>3</strong>
-                                            </div>
-                                            <div class="info-bloco-part">
-                                                Suítes<br>
-                                                <strong>1</strong>
-                                            </div>
-                                            <div class="info-bloco-part">
-                                                Vagas Garagem<br>
-                                                <strong>1</strong>
-                                            </div>
-                                            <div class="clearfix"></div>
+                                        <div class="info-bloco truncate">
+                                            <strong>2</strong> Quartos,
+                                            <strong>1</strong> Suíte,
+                                            <strong>1</strong> Vaga de Garagem
                                         </div>
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
@@ -134,7 +124,7 @@ include('_header.php');
                                             <div class="pull-right">
                                                 <div class="checkbox checkbox-verde-imoveis no-margin">
                                                     <input id="imoveis1" class="styled" type="checkbox">
-                                                    <label for="imoveis1">comparar</label>
+                                                    <label for="imoveis1">compare</label>
                                                 </div>
                                             </div>
                                             <div class="cleafix"></div>
@@ -166,20 +156,10 @@ include('_header.php');
                                         </h3>
                                         <div class="truncate">Com piscina, área de lazer e campinho de futebol</div>
                                         <div class="divisor"></div>
-                                        <div class="info-bloco">
-                                            <div class="info-bloco-part">
-                                                Quartos<br>
-                                                <strong>6</strong>
-                                            </div>
-                                            <div class="info-bloco-part">
-                                                Suítes<br>
-                                                <strong>3</strong>
-                                            </div>
-                                            <div class="info-bloco-part">
-                                                Vagas Garagem<br>
-                                                <strong>10</strong>
-                                            </div>
-                                            <div class="clearfix"></div>
+                                        <div class="info-bloco truncate">
+                                            <strong>6</strong> Quartos,
+                                            <strong>3</strong> Suítes,
+                                            <strong>10</strong> Vaga de Garagem
                                         </div>
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
@@ -192,7 +172,7 @@ include('_header.php');
                                             <div class="pull-right">
                                                 <div class="checkbox checkbox-verde-imoveis no-margin">
                                                     <input id="imoveis2" class="styled" type="checkbox">
-                                                    <label for="imoveis2">comparar</label>
+                                                    <label for="imoveis2">compare</label>
                                                 </div>
                                             </div>
                                             <div class="cleafix"></div>
@@ -224,20 +204,10 @@ include('_header.php');
                                         </h3>
                                         <div class="truncate">Nas montanhas geladas da Pedra da Cebola</div>
                                         <div class="divisor"></div>
-                                        <div class="info-bloco">
-                                            <div class="info-bloco-part">
-                                                Quartos<br>
-                                                <strong>1</strong>
-                                            </div>
-                                            <div class="info-bloco-part">
-                                                Suítes<br>
-                                                <strong>1</strong>
-                                            </div>
-                                            <div class="info-bloco-part">
-                                                Vagas Garagem<br>
-                                                <strong>0</strong>
-                                            </div>
-                                            <div class="clearfix"></div>
+                                        <div class="info-bloco truncate">
+                                            <strong>1</strong> Quarto,
+                                            <strong>1</strong> Suíte,
+                                            <strong>1</strong> Vaga de Garagem
                                         </div>
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
@@ -250,7 +220,7 @@ include('_header.php');
                                             <div class="pull-right">
                                                 <div class="checkbox checkbox-verde-imoveis no-margin">
                                                     <input id="imoveis3" class="styled" type="checkbox">
-                                                    <label for="imoveis3">comparar</label>
+                                                    <label for="imoveis3">compare</label>
                                                 </div>
                                             </div>
                                             <div class="cleafix"></div>
@@ -282,20 +252,10 @@ include('_header.php');
                                         </h3>
                                         <div class="truncate">Próximo a praça do Carone</div>
                                         <div class="divisor"></div>
-                                        <div class="info-bloco">
-                                            <div class="info-bloco-part">
-                                                Quartos<br>
-                                                <strong>2</strong>
-                                            </div>
-                                            <div class="info-bloco-part">
-                                                Suítes<br>
-                                                <strong>1</strong>
-                                            </div>
-                                            <div class="info-bloco-part">
-                                                Vagas Garagem<br>
-                                                <strong>1</strong>
-                                            </div>
-                                            <div class="clearfix"></div>
+                                        <div class="info-bloco truncate">
+                                            <strong>2</strong> Quartos,
+                                            <strong>1</strong> Suíte,
+                                            <strong>1</strong> Vaga de Garagem
                                         </div>
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
@@ -308,7 +268,7 @@ include('_header.php');
                                             <div class="pull-right">
                                                 <div class="checkbox checkbox-verde-imoveis no-margin">
                                                     <input id="imoveis4" class="styled" type="checkbox">
-                                                    <label for="imoveis4">comparar</label>
+                                                    <label for="imoveis4">compare</label>
                                                 </div>
                                             </div>
                                             <div class="cleafix"></div>
@@ -335,7 +295,7 @@ include('_header.php');
     <div class="row">
         <div class="col-md-12 padding-bottom-2x">
             <h1>
-                <span class="text-300">Ofertas em destaque de </span><span class="text-roxo-veiculos"><span class="fa fa-fw fa-car"></span> veículos</span>
+                <span class="text-300">Ofertas em destaque </span><span class="text-roxo-veiculos"><span class="fa fa-fw fa-car"></span> veículos</span>
             </h1>
         </div>
 
@@ -370,20 +330,10 @@ include('_header.php');
                                         </h3>
                                         <div class="truncate">Com airbag duplo, câmbio automático, freio a disco, etc</div>
                                         <div class="divisor"></div>
-                                        <div class="info-bloco-multi">
-                                            <div class="info-bloco-part">
-                                                km<br>
-                                                <strong>16 mil</strong>
-                                            </div>
-                                            <div class="info-bloco-part">
-                                                cor<br>
-                                                <strong>prata</strong>
-                                            </div>
-                                            <div class="info-bloco-part">
-                                                ano/modelo<br>
-                                                <strong>2013/2014</strong>
-                                            </div>
-                                            <div class="clearfix"></div>
+                                        <div class="info-bloco truncate">
+                                            <strong>16 mil</strong> km,
+                                            cor: <strong>prata</strong>,
+                                            ano/modelo: <strong>2013/2014</strong>
                                         </div>
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
@@ -396,7 +346,7 @@ include('_header.php');
                                             <div class="pull-right">
                                                 <div class="checkbox checkbox-roxo-veiculos no-margin">
                                                     <input id="veiculo1" class="styled" type="checkbox">
-                                                    <label for="veiculo1">comparar</label>
+                                                    <label for="veiculo1">compare</label>
                                                 </div>
                                             </div>
                                             <div class="cleafix"></div>
@@ -428,20 +378,10 @@ include('_header.php');
                                         </h3>
                                         <div class="truncate">Com airbag duplo, câmbio automático, freio a disco, etc</div>
                                         <div class="divisor"></div>
-                                        <div class="info-bloco-multi">
-                                            <div class="info-bloco-part">
-                                                km<br>
-                                                <strong>16 mil</strong>
-                                            </div>
-                                            <div class="info-bloco-part">
-                                                cor<br>
-                                                <strong>prata</strong>
-                                            </div>
-                                            <div class="info-bloco-part">
-                                                ano/modelo<br>
-                                                <strong>2013/2014</strong>
-                                            </div>
-                                            <div class="clearfix"></div>
+                                        <div class="info-bloco truncate">
+                                            <strong>16 mil</strong> km,
+                                            cor: <strong>prata</strong>,
+                                            ano/modelo: <strong>2013/2014</strong>
                                         </div>
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
@@ -454,7 +394,7 @@ include('_header.php');
                                             <div class="pull-right">
                                                 <div class="checkbox checkbox-roxo-veiculos no-margin">
                                                     <input id="veiculo2" class="styled" type="checkbox">
-                                                    <label for="veiculo2">comparar</label>
+                                                    <label for="veiculo2">compare</label>
                                                 </div>
                                             </div>
                                             <div class="cleafix"></div>
@@ -486,20 +426,10 @@ include('_header.php');
                                         </h3>
                                         <div class="truncate">Com airbag duplo, câmbio automático, freio a disco, etc</div>
                                         <div class="divisor"></div>
-                                        <div class="info-bloco-multi">
-                                            <div class="info-bloco-part">
-                                                km<br>
-                                                <strong>16 mil</strong>
-                                            </div>
-                                            <div class="info-bloco-part">
-                                                cor<br>
-                                                <strong>prata</strong>
-                                            </div>
-                                            <div class="info-bloco-part">
-                                                ano/modelo<br>
-                                                <strong>2013/2014</strong>
-                                            </div>
-                                            <div class="clearfix"></div>
+                                        <div class="info-bloco truncate">
+                                            <strong>16 mil</strong> km,
+                                            cor: <strong>prata</strong>,
+                                            ano/modelo: <strong>2013/2014</strong>
                                         </div>
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
@@ -512,7 +442,7 @@ include('_header.php');
                                             <div class="pull-right">
                                                 <div class="checkbox checkbox-roxo-veiculos no-margin">
                                                     <input id="veiculo3" class="styled" type="checkbox">
-                                                    <label for="veiculo3">comparar</label>
+                                                    <label for="veiculo3">compare</label>
                                                 </div>
                                             </div>
                                             <div class="cleafix"></div>
@@ -544,20 +474,10 @@ include('_header.php');
                                         </h3>
                                         <div class="truncate">Quatro portas, vidro e trava elétrica</div>
                                         <div class="divisor"></div>
-                                        <div class="info-bloco-multi">
-                                            <div class="info-bloco-part">
-                                                km<br>
-                                                <strong>16 mil</strong>
-                                            </div>
-                                            <div class="info-bloco-part">
-                                                cor<br>
-                                                <strong>prata</strong>
-                                            </div>
-                                            <div class="info-bloco-part">
-                                                ano/modelo<br>
-                                                <strong>2013/2014</strong>
-                                            </div>
-                                            <div class="clearfix"></div>
+                                        <div class="info-bloco truncate">
+                                            <strong>16 mil</strong> km,
+                                            cor: <strong>prata</strong>,
+                                            ano/modelo: <strong>2013/2014</strong>
                                         </div>
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
@@ -570,7 +490,7 @@ include('_header.php');
                                             <div class="pull-right">
                                                 <div class="checkbox checkbox-roxo-veiculos no-margin">
                                                     <input id="veiculo4" class="styled" type="checkbox">
-                                                    <label for="veiculo4">comparar</label>
+                                                    <label for="veiculo4">compare</label>
                                                 </div>
                                             </div>
                                             <div class="cleafix"></div>
@@ -597,7 +517,7 @@ include('_header.php');
     <div class="row">
         <div class="col-md-12 padding-bottom-2x">
             <h1>
-                <span class="text-300">Ofertas em destaque de </span><span class="text-laranja-diversos"><span class="fa fa-fw fa-asterisk"></span> diversos</span>
+                <span class="text-300">Ofertas em destaque </span><span class="text-laranja-diversos"><span class="fa fa-fw fa-asterisk"></span> diversos</span>
             </h1>
         </div>
 
@@ -627,21 +547,14 @@ include('_header.php');
                                         </h3>
                                         <div class="truncate">Geladeira semi-nova, com apenas 5 meses de uso</div>
                                         <div class="divisor"></div>
-                                        <div class="info-bloco">
-                                            <div class="info-bloco-part">
-                                                novo?<br>
-                                                <strong>não</strong>
-                                            </div>
-                                            <div class="info-bloco-part">
-                                                voltagem<br>
-                                                <strong>110v</strong>
-                                            </div>
-                                            <div class="clearfix"></div>
+                                        <div class="info-bloco truncate">
+                                            novo? <strong>não</strong>,
+                                            voltagem: <strong>110v</strong>
                                         </div>
                                         <div class="divisor"></div>
                                         <div class="media">
                                             <div class="media-left">
-                                                <a href="#" class="btn btn-xs btn-laranja-diversos" data-toggle="modal" data-target="#modal-indique">
+                                                <a href="#" class="btn btn-laranja-diversos" data-toggle="modal" data-target="#modal-indique">
                                                     <span class="fa fa-fw fa-user"></span>
                                                     indique
                                                 </a>
@@ -674,21 +587,14 @@ include('_header.php');
                                         </h3>
                                         <div class="truncate">Mesa em ótimo estado, de mógno, com detalhes em madeira prensada</div>
                                         <div class="divisor"></div>
-                                        <div class="info-bloco">
-                                            <div class="info-bloco-part">
-                                                novo?<br>
-                                                <strong>sim</strong>
-                                            </div>
-                                            <div class="info-bloco-part">
-                                                cor<br>
-                                                <strong>marrom e branco</strong>
-                                            </div>
-                                            <div class="clearfix"></div>
+                                        <div class="info-bloco truncate">
+                                            novo? <strong>sim</strong>,
+                                            cor: <strong>marrom e branco</strong>
                                         </div>
                                         <div class="divisor"></div>
                                         <div class="media">
                                             <div class="media-left">
-                                                <a href="#" class="btn btn-xs btn-laranja-diversos" data-toggle="modal" data-target="#modal-indique">
+                                                <a href="#" class="btn btn-laranja-diversos" data-toggle="modal" data-target="#modal-indique">
                                                     <span class="fa fa-fw fa-user"></span>
                                                     indique
                                                 </a>
@@ -721,21 +627,14 @@ include('_header.php');
                                         </h3>
                                         <div class="truncate">Bike toda montada, no estilo calói cecci 1984</div>
                                         <div class="divisor"></div>
-                                        <div class="info-bloco">
-                                            <div class="info-bloco-part">
-                                                novo?<br>
-                                                <strong>sim</strong>
-                                            </div>
-                                            <div class="info-bloco-part">
-                                                cor<br>
-                                                <strong>rosa e verde</strong>
-                                            </div>
-                                            <div class="clearfix"></div>
+                                        <div class="info-bloco truncate">
+                                            novo? <strong>não</strong>,
+                                            cor: <strong>rosa e verde</strong>
                                         </div>
                                         <div class="divisor"></div>
                                         <div class="media">
                                             <div class="media-left">
-                                                <a href="#" class="btn btn-xs btn-laranja-diversos" data-toggle="modal" data-target="#modal-indique">
+                                                <a href="#" class="btn btn-laranja-diversos" data-toggle="modal" data-target="#modal-indique">
                                                     <span class="fa fa-fw fa-user"></span>
                                                     indique
                                                 </a>
@@ -768,17 +667,13 @@ include('_header.php');
                                         </h3>
                                         <div class="truncate">Filhote de Poodle com apenas 3 meses de nascido</div>
                                         <div class="divisor"></div>
-                                        <div class="info-bloco">
-                                            <div class="info-bloco-part">
-                                                cor<br>
-                                                <strong>creme</strong>
-                                            </div>
-                                            <div class="clearfix"></div>
+                                        <div class="info-bloco truncate">
+                                            cor: <strong>creme</strong>
                                         </div>
                                         <div class="divisor"></div>
                                         <div class="media">
                                             <div class="media-left">
-                                                <a class="btn btn-xs btn-laranja-diversos" data-toggle="modal" data-target="#modal-indique">
+                                                <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                     <span class="fa fa-fw fa-user"></span>
                                                     indique
                                                 </a>

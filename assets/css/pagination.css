@@ -26,7 +26,7 @@ nav[role="navigation"] {
     -ms-user-select: none;
     user-select: none;
     /* use padding and font-size to change buttons size */
-    padding: .6em .8em;
+    padding: .22em .4em;
     font-size: 1.6rem;
 }
 .cd-pagination a {
@@ -65,15 +65,19 @@ nav[role="navigation"] {
     color: #ffffff;
     pointer-events: none;
 }
-@media only screen and (min-width: 768px) {
-    .cd-pagination li {
-        display: inline-block;
-    }
-}
+/*@media only screen and (min-width: 768px) {*/
+    /*.cd-pagination li {*/
+        /*display: inline-block;*/
+    /*}*/
+/*}*/
 @media only screen and (min-width: 1170px) {
     .cd-pagination {
         /*margin: 4em auto 8em;*/
         margin:0;
+    }
+
+    .cd-pagination li {
+        display: inline-block;
     }
 }
 
