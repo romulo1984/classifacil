@@ -13,13 +13,15 @@ a {
     }
     &:focus {
         outline: none;
-        outline: none;
         outline-offset: 0;
     }
 }
 
-* :not(input, textarea, select) {
-    outline:none !important;
+* {
+    &:focus {
+        outline:none !important;
+        outline-offset: 0 !important;
+    }
 }
 
 /*
@@ -235,23 +237,7 @@ footer {
     height:50px;
     min-height:50px;
 }
-#slider-destaques-imoveis {
-    .slick-prev:before, .slick-next:before {
-        color:@verde-imoveis;
-    }
-}
 
-#slider-destaques-veiculos {
-    .slick-prev:before, .slick-next:before {
-        color:@roxo-veiculos;
-    }
-}
-
-#slider-destaques-diversos {
-    .slick-prev:before, .slick-next:before {
-        color:@laranja-diversos;
-    }
-}
 #slider-destaques-imoveis,
 #slider-destaques-veiculos,
 #slider-destaques-diversos {
@@ -319,6 +305,9 @@ footer {
         .checkbox {
             .checkbox-context(@color);
         }
+        .slick-prev:before, .slick-next:before {
+            color:@color;
+        }
     }
 }
 
@@ -329,6 +318,11 @@ footer {
 .sidebar-filtro {
     h4:first {
         margin:0 0 @gutter/2;
+    }
+
+    .panel-body {
+        max-height:350px;
+        overflow: auto;
     }
 
     @media (min-width: 979px) {
@@ -378,12 +372,6 @@ footer {
     margin-top:@gutter*1.5;
 }
 
-
-.panel-body {
-    max-height:350px;
-    overflow: auto;
-}
-
 .tags-selecionados-busca {
     padding:@gutter/3;
     border:1px solid @cinza-claro;
@@ -392,5 +380,26 @@ footer {
     .label {
         margin-right:1.5px;
         margin-bottom:@gutter/2;
+    }
+}
+
+.item-miniatura-galeria {
+    background-position: center center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    width:100%;
+    height:100px;
+    cursor: pointer;
+
+    &:hover {
+        .opacity();
+    }
+}
+
+.slider-img-nav {
+    .slick-current {
+        .item-miniatura-galeria {
+            border:4px solid @cinza-escuro;
+        }
     }
 }

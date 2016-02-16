@@ -309,6 +309,16 @@ fieldset[disabled] .btn-laranja-diversos.focus {
 .padding-bottom-2x {
   padding-bottom: 30px;
 }
+.padding-3x {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.padding-top-3x {
+  padding-top: 60px;
+}
+.padding-bottom-3x {
+  padding-bottom: 60px;
+}
 .input-group-select {
   padding: 0 12px !important;
   border-left: 0;
@@ -379,8 +389,9 @@ a:focus {
   outline: none;
   outline-offset: 0;
 }
-* :not(input, textarea, select) {
+*:focus {
   outline: none !important;
+  outline-offset: 0 !important;
 }
 /*
 
@@ -584,18 +595,6 @@ footer a:hover {
   height: 50px;
   min-height: 50px;
 }
-#slider-destaques-imoveis .slick-prev:before,
-#slider-destaques-imoveis .slick-next:before {
-  color: #75bf4f;
-}
-#slider-destaques-veiculos .slick-prev:before,
-#slider-destaques-veiculos .slick-next:before {
-  color: #3d4094;
-}
-#slider-destaques-diversos .slick-prev:before,
-#slider-destaques-diversos .slick-next:before {
-  color: #f58733;
-}
 @media (max-width: 991px) {
   #slider-destaques-imoveis,
   #slider-destaques-veiculos,
@@ -710,6 +709,10 @@ fieldset[disabled] .context-imoveis .indique-compare-box .btn.focus {
 .context-imoveis .checkbox input[type="radio"]:checked + label::after {
   color: #fff;
 }
+.context-imoveis .slick-prev:before,
+.context-imoveis .slick-next:before {
+  color: #75bf4f;
+}
 .context-veiculos .titulo-categoria h1 {
   color: #3d4094;
 }
@@ -809,6 +812,10 @@ fieldset[disabled] .context-veiculos .indique-compare-box .btn.focus {
 .context-veiculos .checkbox input[type="checkbox"]:checked + label::after,
 .context-veiculos .checkbox input[type="radio"]:checked + label::after {
   color: #fff;
+}
+.context-veiculos .slick-prev:before,
+.context-veiculos .slick-next:before {
+  color: #3d4094;
 }
 .context-diversos .titulo-categoria h1 {
   color: #f58733;
@@ -910,8 +917,16 @@ fieldset[disabled] .context-diversos .indique-compare-box .btn.focus {
 .context-diversos .checkbox input[type="radio"]:checked + label::after {
   color: #fff;
 }
+.context-diversos .slick-prev:before,
+.context-diversos .slick-next:before {
+  color: #f58733;
+}
 .sidebar-filtro h4:first {
   margin: 0 0 15px;
+}
+.sidebar-filtro .panel-body {
+  max-height: 350px;
+  overflow: auto;
 }
 @media (min-width: 979px) {
   .sidebar-filtro.affix-top {
@@ -948,10 +963,6 @@ fieldset[disabled] .context-diversos .indique-compare-box .btn.focus {
   padding: 5px 0;
   margin-top: 45px;
 }
-.panel-body {
-  max-height: 350px;
-  overflow: auto;
-}
 .tags-selecionados-busca {
   padding: 10px;
   border: 1px solid #E2E2E2;
@@ -966,4 +977,20 @@ fieldset[disabled] .context-diversos .indique-compare-box .btn.focus {
 .tags-selecionados-busca .label {
   margin-right: 1.5px;
   margin-bottom: 15px;
+}
+.item-miniatura-galeria {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100px;
+  cursor: pointer;
+}
+.item-miniatura-galeria:hover {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+.slider-img-nav .slick-current .item-miniatura-galeria {
+  border: 4px solid #737375;
 }

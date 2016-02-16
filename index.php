@@ -70,7 +70,7 @@ include('_header.php');
     </div>
 
     <!-- Destaques de Imóveis -->
-    <div class="row">
+    <div class="row context-imoveis">
         <div class="col-md-12 padding-bottom-2x">
             <h1>
                 <span class="text-300">Ofertas em destaque </span><span class="text-verde-imoveis"><span class="fa fa-fw fa-home"></span> imóveis</span>
@@ -102,7 +102,7 @@ include('_header.php');
                                 <div class="col-md-12">
                                     <div class="info-card-destaque">
                                         <h3 class="truncate">
-                                            <a href="#">
+                                            <a href="page-imovel.php">
                                                 Apartamento 3qts
                                             </a>
                                         </h3>
@@ -292,7 +292,7 @@ include('_header.php');
 
 
     <!-- Destaques de Veículos -->
-    <div class="row">
+    <div class="row context-veiculos">
         <div class="col-md-12 padding-bottom-2x">
             <h1>
                 <span class="text-300">Ofertas em destaque </span><span class="text-roxo-veiculos"><span class="fa fa-fw fa-car"></span> veículos</span>
@@ -514,7 +514,7 @@ include('_header.php');
 
 
     <!-- Destaques de Diversos -->
-    <div class="row">
+    <div class="row context-diversos">
         <div class="col-md-12 padding-bottom-2x">
             <h1>
                 <span class="text-300">Ofertas em destaque </span><span class="text-laranja-diversos"><span class="fa fa-fw fa-asterisk"></span> diversos</span>
