@@ -17,13 +17,13 @@ $('#slider-destaques-veiculos').slick({
 
 
 //Lightbox das imagens dos anúncios
-$(".item-destaque").lightGallery({
-    selector: '.imagem-anuncio-destaque',
-    iframeMaxWidth: '80%',
-    download: false
-});
-$(".item-bloco").lightGallery({
-    selector: '.imagem-anuncio-destaque',
-    iframeMaxWidth: '80%',
-    download: false
-});
+//$(".item-destaque").lightGallery({
+//    selector: '.imagem-anuncio-destaque',
+//    iframeMaxWidth: '80%',
+//    download: false
+//});
+//$(".item-bloco").lightGallery({
+//    selector: '.imagem-anuncio-destaque',
+//    iframeMaxWidth: '80%',
+//    download: false
+//});

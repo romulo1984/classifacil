@@ -273,9 +273,8 @@ include('_header.php');
                                         </div>
                                     </div>
                                     <a
+                                        href="page-imovel.php"
                                         class="imagem-anuncio-destaque"
-                                        data-iframe="true"
-                                        data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d935.6111039512758!2d-40.29878357076004!3d-20.281863941195898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb8181d578622f9%3A0xe26701711552ada4!2sR.+Comiss%C3%A1rio+Ot%C3%A1vio+Queir%C3%B3s%2C+267+-+Jardim+da+Penha%2C+Vit%C3%B3ria+-+ES%2C+29060-270!5e0!3m2!1spt-BR!2sbr!4v1454543113587"
                                         style="background-image: url('assets/img/exemplos/imoveis/imovel1.jpg');"
                                     >
                                     </a>
@@ -283,7 +282,7 @@ include('_header.php');
                                 <div class="col-md-7">
                                     <div class="info-card-destaque">
                                         <h3 class="truncate">
-                                            <a href="#">
+                                            <a href="page-imovel.php">
                                                 Apartamento 3qts
                                             </a>
                                         </h3>
@@ -324,13 +323,13 @@ include('_header.php');
                                             <span class="small">R$</span> 620.100
                                         </div>
                                     </div>
-                                    <a href="assets/img/exemplos/imoveis/imovel3.jpg" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel3.jpg');">
+                                    <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel3.jpg');">
                                     </a>
                                 </div>
                                 <div class="col-md-7">
                                     <div class="info-card-destaque">
                                         <h3 class="truncate">
-                                            <a href="#">
+                                            <a href="page-imovel.php">
                                                 Chalé da Montanha
                                             </a>
                                         </h3>
@@ -372,9 +371,8 @@ include('_header.php');
                                         </div>
                                     </div>
                                     <a
+                                        href="page-imovel.php"
                                         class="imagem-anuncio-destaque"
-                                        data-iframe="true"
-                                        data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d935.6111039512758!2d-40.29878357076004!3d-20.281863941195898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb8181d578622f9%3A0xe26701711552ada4!2sR.+Comiss%C3%A1rio+Ot%C3%A1vio+Queir%C3%B3s%2C+267+-+Jardim+da+Penha%2C+Vit%C3%B3ria+-+ES%2C+29060-270!5e0!3m2!1spt-BR!2sbr!4v1454543113587"
                                         style="background-image: url('assets/img/exemplos/imoveis/imovel2.jpg');"
                                     >
                                     </a>
@@ -382,7 +380,7 @@ include('_header.php');
                                 <div class="col-md-7">
                                     <div class="info-card-destaque">
                                         <h3 class="truncate">
-                                            <a href="#">
+                                            <a href="page-imovel.php">
                                                 Apartamento 3qts
                                             </a>
                                         </h3>
@@ -423,13 +421,13 @@ include('_header.php');
                                             <span class="small">R$</span> 620.100
                                         </div>
                                     </div>
-                                    <a href="assets/img/exemplos/imoveis/imovel4.jpg" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel4.jpg');">
+                                    <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel4.jpg');">
                                     </a>
                                 </div>
                                 <div class="col-md-7">
                                     <div class="info-card-destaque">
                                         <h3 class="truncate">
-                                            <a href="#">
+                                            <a href="page-imovel.php">
                                                 Chalé da Montanha
                                             </a>
                                         </h3>
@@ -481,9 +479,8 @@ include('_header.php');
                                         </div>
                                     </div>
                                     <a
+                                        href="page-imovel.php"
                                         class="imagem-anuncio-destaque"
-                                        data-iframe="true"
-                                        data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d935.6111039512758!2d-40.29878357076004!3d-20.281863941195898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb8181d578622f9%3A0xe26701711552ada4!2sR.+Comiss%C3%A1rio+Ot%C3%A1vio+Queir%C3%B3s%2C+267+-+Jardim+da+Penha%2C+Vit%C3%B3ria+-+ES%2C+29060-270!5e0!3m2!1spt-BR!2sbr!4v1454543113587"
                                         style="background-image: url('assets/img/exemplos/imoveis/imovel1.jpg');"
                                     >
                                     </a>
@@ -491,7 +488,7 @@ include('_header.php');
                                 <div class="col-sm-12">
                                     <div class="info-card-destaque">
                                         <h3 class="truncate">
-                                            <a href="#">
+                                            <a href="page-imovel.php">
                                                 Apartamento 3qts
                                             </a>
                                         </h3>
@@ -533,13 +530,13 @@ include('_header.php');
                                             <span class="small">R$</span> 820.650
                                         </div>
                                     </div>
-                                    <a href="assets/img/exemplos/imoveis/imovel2.jpg" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel2.jpg');">
+                                    <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel2.jpg');">
                                     </a>
                                 </div>
                                 <div class="col-sm-12">
                                     <div class="info-card-destaque">
                                         <h3 class="truncate">
-                                            <a href="#">
+                                            <a href="page-imovel.php">
                                                 Casa na praia
                                             </a>
                                         </h3>
@@ -581,13 +578,13 @@ include('_header.php');
                                             <span class="small">R$</span> 620.100
                                         </div>
                                     </div>
-                                    <a href="assets/img/exemplos/imoveis/imovel3.jpg" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel3.jpg');">
+                                    <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel3.jpg');">
                                     </a>
                                 </div>
                                 <div class="col-sm-12">
                                     <div class="info-card-destaque">
                                         <h3 class="truncate">
-                                            <a href="#">
+                                            <a href="page-imovel.php">
                                                 Chalé da Montanha
                                             </a>
                                         </h3>
@@ -629,13 +626,13 @@ include('_header.php');
                                             <span class="small">R$</span> 1.200
                                         </div>
                                     </div>
-                                    <a href="assets/img/exemplos/imoveis/imovel4.jpg" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel4.jpg');">
+                                    <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel4.jpg');">
                                     </a>
                                 </div>
                                 <div class="col-sm-12">
                                     <div class="info-card-destaque">
                                         <h3 class="truncate">
-                                            <a href="#">
+                                            <a href="page-imovel.php">
                                                 Apt 3qts aluguel
                                             </a>
                                         </h3>
@@ -678,9 +675,8 @@ include('_header.php');
                                         </div>
                                     </div>
                                     <a
+                                        href="page-imovel.php"
                                         class="imagem-anuncio-destaque"
-                                        data-iframe="true"
-                                        data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d935.6111039512758!2d-40.29878357076004!3d-20.281863941195898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb8181d578622f9%3A0xe26701711552ada4!2sR.+Comiss%C3%A1rio+Ot%C3%A1vio+Queir%C3%B3s%2C+267+-+Jardim+da+Penha%2C+Vit%C3%B3ria+-+ES%2C+29060-270!5e0!3m2!1spt-BR!2sbr!4v1454543113587"
                                         style="background-image: url('assets/img/exemplos/imoveis/imovel1.jpg');"
                                     >
                                     </a>
@@ -688,7 +684,7 @@ include('_header.php');
                                 <div class="col-sm-12">
                                     <div class="info-card-destaque">
                                         <h3 class="truncate">
-                                            <a href="#">
+                                            <a href="page-imovel.php">
                                                 Apartamento 3qts
                                             </a>
                                         </h3>
@@ -730,13 +726,13 @@ include('_header.php');
                                             <span class="small">R$</span> 820.650
                                         </div>
                                     </div>
-                                    <a href="assets/img/exemplos/imoveis/imovel2.jpg" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel2.jpg');">
+                                    <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel2.jpg');">
                                     </a>
                                 </div>
                                 <div class="col-sm-12">
                                     <div class="info-card-destaque">
                                         <h3 class="truncate">
-                                            <a href="#">
+                                            <a href="page-imovel.php">
                                                 Casa na praia
                                             </a>
                                         </h3>
@@ -778,13 +774,13 @@ include('_header.php');
                                             <span class="small">R$</span> 620.100
                                         </div>
                                     </div>
-                                    <a href="assets/img/exemplos/imoveis/imovel3.jpg" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel3.jpg');">
+                                    <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel3.jpg');">
                                     </a>
                                 </div>
                                 <div class="col-sm-12">
                                     <div class="info-card-destaque">
                                         <h3 class="truncate">
-                                            <a href="#">
+                                            <a href="page-imovel.php">
                                                 Chalé da Montanha
                                             </a>
                                         </h3>
@@ -826,13 +822,13 @@ include('_header.php');
                                             <span class="small">R$</span> 1.200
                                         </div>
                                     </div>
-                                    <a href="assets/img/exemplos/imoveis/imovel4.jpg" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel4.jpg');">
+                                    <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel4.jpg');">
                                     </a>
                                 </div>
                                 <div class="col-sm-12">
                                     <div class="info-card-destaque">
                                         <h3 class="truncate">
-                                            <a href="#">
+                                            <a href="page-imovel.php">
                                                 Apt 3qts aluguel
                                             </a>
                                         </h3>
@@ -875,9 +871,8 @@ include('_header.php');
                                         </div>
                                     </div>
                                     <a
+                                        href="page-imovel.php"
                                         class="imagem-anuncio-destaque"
-                                        data-iframe="true"
-                                        data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d935.6111039512758!2d-40.29878357076004!3d-20.281863941195898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb8181d578622f9%3A0xe26701711552ada4!2sR.+Comiss%C3%A1rio+Ot%C3%A1vio+Queir%C3%B3s%2C+267+-+Jardim+da+Penha%2C+Vit%C3%B3ria+-+ES%2C+29060-270!5e0!3m2!1spt-BR!2sbr!4v1454543113587"
                                         style="background-image: url('assets/img/exemplos/imoveis/imovel1.jpg');"
                                     >
                                     </a>
@@ -885,7 +880,7 @@ include('_header.php');
                                 <div class="col-sm-12">
                                     <div class="info-card-destaque">
                                         <h3 class="truncate">
-                                            <a href="#">
+                                            <a href="page-imovel.php">
                                                 Apartamento 3qts
                                             </a>
                                         </h3>
@@ -931,13 +926,13 @@ include('_header.php');
                                             <span class="small">R$</span> 820.650
                                         </div>
                                     </div>
-                                    <a href="assets/img/exemplos/imoveis/imovel2.jpg" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel2.jpg');">
+                                    <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel2.jpg');">
                                     </a>
                                 </div>
                                 <div class="col-sm-12">
                                     <div class="info-card-destaque">
                                         <h3 class="truncate">
-                                            <a href="#">
+                                            <a href="page-imovel.php">
                                                 Casa na praia
                                             </a>
                                         </h3>
@@ -979,13 +974,13 @@ include('_header.php');
                                             <span class="small">R$</span> 620.100
                                         </div>
                                     </div>
-                                    <a href="assets/img/exemplos/imoveis/imovel3.jpg" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel3.jpg');">
+                                    <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel3.jpg');">
                                     </a>
                                 </div>
                                 <div class="col-sm-12">
                                     <div class="info-card-destaque">
                                         <h3 class="truncate">
-                                            <a href="#">
+                                            <a href="page-imovel.php">
                                                 Chalé da Montanha
                                             </a>
                                         </h3>
@@ -1027,13 +1022,13 @@ include('_header.php');
                                             <span class="small">R$</span> 1.200
                                         </div>
                                     </div>
-                                    <a href="assets/img/exemplos/imoveis/imovel4.jpg" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel4.jpg');">
+                                    <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel4.jpg');">
                                     </a>
                                 </div>
                                 <div class="col-sm-12">
                                     <div class="info-card-destaque">
                                         <h3 class="truncate">
-                                            <a href="#">
+                                            <a href="page-imovel.php">
                                                 Apt 3qts aluguel
                                             </a>
                                         </h3>
