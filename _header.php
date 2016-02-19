@@ -38,15 +38,15 @@
 </head>
 
 <body>
-<nav class="barra-topo">
+<nav class="barra-topo hidden-xs">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 hidden-xs">
+            <div class="col-md-6 hidden-xs hidden-sm">
                 <h5>
                     <a href="#" id="addfavoritos" rel="sidebar" title="Adicione aos Favoritos">ADICIONAR O CLASSIFÁCIL AOS FAVORITOS</a>
                 </h5>
             </div>
-            <div class="col-sm-6 col-xs-12">
+            <div class="col-md-6 col-xs-12">
                 <div class="pull-right" style="padding-top:3px;">
                     <a href="https://www.facebook.com/jornalatribuna" target="_blank">
                         <span class="fa fa-2x fa-facebook-square"></span>

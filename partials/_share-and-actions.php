@@ -1,7 +1,13 @@
 <div class="panel panel-default">
     <div class="panel-body">
         <div class="pull-right">
-            <div class="btn-group">
+            <div class="btn-group"
+                 tabindex="0"
+                 role="button"
+                 data-toggle="popover"
+                 data-trigger="hover"
+                 data-placement="top"
+                 data-content="Compartilhe este anúncio">
                 <a class="btn btn-primary" href="#"><span class="fa fa-fw fa-lg fa-facebook"></span></a>
                 <a class="btn btn-info" href="#"><span class="fa fa-fw fa-lg fa-twitter"></span></a>
                 <a class="btn btn-danger" href="#"><span class="fa fa-fw fa-lg fa-google-plus"></span></a>

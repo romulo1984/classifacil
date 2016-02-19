@@ -115,7 +115,7 @@ include('_header.php');
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
                                             <div class="pull-left">
-                                                <a href="#" class="btn btn-xs btn-verde-imoveis" data-toggle="modal" data-target="#modal-indique">
+                                                <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                     <span class="fa fa-fw fa-user"></span>
                                                     indique
                                                 </a>
@@ -163,7 +163,7 @@ include('_header.php');
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
                                             <div class="pull-left">
-                                                <a href="#" class="btn btn-xs btn-verde-imoveis" data-toggle="modal" data-target="#modal-indique">
+                                                <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                     <span class="fa fa-fw fa-user"></span>
                                                     indique
                                                 </a>
@@ -211,7 +211,7 @@ include('_header.php');
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
                                             <div class="pull-left">
-                                                <a href="#" class="btn btn-xs btn-verde-imoveis" data-toggle="modal" data-target="#modal-indique">
+                                                <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                     <span class="fa fa-fw fa-user"></span>
                                                     indique
                                                 </a>
@@ -259,7 +259,7 @@ include('_header.php');
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
                                             <div class="pull-left">
-                                                <a href="#" class="btn btn-xs btn-verde-imoveis" data-toggle="modal" data-target="#modal-indique">
+                                                <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                     <span class="fa fa-fw fa-user"></span>
                                                     indique
                                                 </a>
@@ -337,7 +337,7 @@ include('_header.php');
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
                                             <div class="pull-left">
-                                                <a href="#" class="btn btn-xs btn-roxo-veiculos" data-toggle="modal" data-target="#modal-indique">
+                                                <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                     <span class="fa fa-fw fa-user"></span>
                                                     indique
                                                 </a>
@@ -385,7 +385,7 @@ include('_header.php');
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
                                             <div class="pull-left">
-                                                <a href="#" class="btn btn-xs btn-roxo-veiculos" data-toggle="modal" data-target="#modal-indique">
+                                                <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                     <span class="fa fa-fw fa-user"></span>
                                                     indique
                                                 </a>
@@ -433,7 +433,7 @@ include('_header.php');
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
                                             <div class="pull-left">
-                                                <a href="#" class="btn btn-xs btn-roxo-veiculos" data-toggle="modal" data-target="#modal-indique">
+                                                <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                     <span class="fa fa-fw fa-user"></span>
                                                     indique
                                                 </a>
@@ -481,7 +481,7 @@ include('_header.php');
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
                                             <div class="pull-left">
-                                                <a href="#" class="btn btn-xs btn-roxo-veiculos" data-toggle="modal" data-target="#modal-indique">
+                                                <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                     <span class="fa fa-fw fa-user"></span>
                                                     indique
                                                 </a>
@@ -553,7 +553,7 @@ include('_header.php');
                                         <div class="divisor"></div>
                                         <div class="media">
                                             <div class="media-left">
-                                                <a href="#" class="btn btn-laranja-diversos" data-toggle="modal" data-target="#modal-indique">
+                                                <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                     <span class="fa fa-fw fa-user"></span>
                                                     indique
                                                 </a>
@@ -593,7 +593,7 @@ include('_header.php');
                                         <div class="divisor"></div>
                                         <div class="media">
                                             <div class="media-left">
-                                                <a href="#" class="btn btn-laranja-diversos" data-toggle="modal" data-target="#modal-indique">
+                                                <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                     <span class="fa fa-fw fa-user"></span>
                                                     indique
                                                 </a>
@@ -633,7 +633,7 @@ include('_header.php');
                                         <div class="divisor"></div>
                                         <div class="media">
                                             <div class="media-left">
-                                                <a href="#" class="btn btn-laranja-diversos" data-toggle="modal" data-target="#modal-indique">
+                                                <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                     <span class="fa fa-fw fa-user"></span>
                                                     indique
                                                 </a>

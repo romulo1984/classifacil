@@ -561,13 +561,39 @@ footer a:hover {
   display: block;
 }
 .item-bloco .info-card-destaque {
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   padding: 15px;
   height: 168px;
   margin-left: 0;
 }
 .item-bloco .info-card-destaque h3 {
   margin-top: 0;
+}
+.item-lista {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.item-lista .imagem-anuncio-destaque {
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 175px;
+  display: block;
+}
+.item-lista .info-card-destaque {
+  background-color: #ffffff;
+  padding: 15px;
+  height: 175px;
+  margin-left: -30px;
+}
+.item-lista .info-card-destaque h3 {
+  margin-top: 0;
+}
+@media (max-width: 767px) {
+  .item-lista .info-card-destaque {
+    margin-left: 0;
+  }
 }
 .preco {
   position: absolute;
@@ -635,72 +661,6 @@ footer a:hover {
 .context-imoveis .inner-preco {
   background-color: #75bf4f;
 }
-.context-imoveis .indique-compare-box .btn {
-  color: #ffffff;
-  background-color: #75bf4f;
-  border-color: #75bf4f;
-}
-.context-imoveis .indique-compare-box .btn:focus,
-.context-imoveis .indique-compare-box .btn.focus {
-  color: #ffffff;
-  background-color: #5da13a;
-  border-color: #3d6926;
-}
-.context-imoveis .indique-compare-box .btn:hover {
-  color: #ffffff;
-  background-color: #5da13a;
-  border-color: #599938;
-}
-.context-imoveis .indique-compare-box .btn:active,
-.context-imoveis .indique-compare-box .btn.active,
-.open > .dropdown-toggle.context-imoveis .indique-compare-box .btn {
-  color: #ffffff;
-  background-color: #5da13a;
-  border-color: #599938;
-}
-.context-imoveis .indique-compare-box .btn:active:hover,
-.context-imoveis .indique-compare-box .btn.active:hover,
-.open > .dropdown-toggle.context-imoveis .indique-compare-box .btn:hover,
-.context-imoveis .indique-compare-box .btn:active:focus,
-.context-imoveis .indique-compare-box .btn.active:focus,
-.open > .dropdown-toggle.context-imoveis .indique-compare-box .btn:focus,
-.context-imoveis .indique-compare-box .btn:active.focus,
-.context-imoveis .indique-compare-box .btn.active.focus,
-.open > .dropdown-toggle.context-imoveis .indique-compare-box .btn.focus {
-  color: #ffffff;
-  background-color: #4e8631;
-  border-color: #3d6926;
-}
-.context-imoveis .indique-compare-box .btn:active,
-.context-imoveis .indique-compare-box .btn.active,
-.open > .dropdown-toggle.context-imoveis .indique-compare-box .btn {
-  background-image: none;
-}
-.context-imoveis .indique-compare-box .btn.disabled:hover,
-.context-imoveis .indique-compare-box .btn[disabled]:hover,
-fieldset[disabled] .context-imoveis .indique-compare-box .btn:hover,
-.context-imoveis .indique-compare-box .btn.disabled:focus,
-.context-imoveis .indique-compare-box .btn[disabled]:focus,
-fieldset[disabled] .context-imoveis .indique-compare-box .btn:focus,
-.context-imoveis .indique-compare-box .btn.disabled.focus,
-.context-imoveis .indique-compare-box .btn[disabled].focus,
-fieldset[disabled] .context-imoveis .indique-compare-box .btn.focus {
-  background-color: #75bf4f;
-  border-color: #75bf4f;
-}
-.context-imoveis .indique-compare-box .btn .badge {
-  color: #75bf4f;
-  background-color: #ffffff;
-}
-.context-imoveis .indique-compare-box .btn .fa {
-  color: #ffffff;
-}
-.context-imoveis .indique-compare-box .btn .fa a {
-  color: #ffffff;
-}
-.context-imoveis .indique-compare-box .btn .fa a:hover {
-  color: rgba(255, 255, 255, 0.5);
-}
 .context-imoveis .checkbox input[type="checkbox"]:checked + label::before,
 .context-imoveis .checkbox input[type="radio"]:checked + label::before {
   background-color: #75bf4f;
@@ -742,72 +702,6 @@ fieldset[disabled] .context-imoveis .indique-compare-box .btn.focus {
 }
 .context-veiculos .inner-preco {
   background-color: #3d4094;
-}
-.context-veiculos .indique-compare-box .btn {
-  color: #ffffff;
-  background-color: #3d4094;
-  border-color: #3d4094;
-}
-.context-veiculos .indique-compare-box .btn:focus,
-.context-veiculos .indique-compare-box .btn.focus {
-  color: #ffffff;
-  background-color: #2e3070;
-  border-color: #18193a;
-}
-.context-veiculos .indique-compare-box .btn:hover {
-  color: #ffffff;
-  background-color: #2e3070;
-  border-color: #2b2d69;
-}
-.context-veiculos .indique-compare-box .btn:active,
-.context-veiculos .indique-compare-box .btn.active,
-.open > .dropdown-toggle.context-veiculos .indique-compare-box .btn {
-  color: #ffffff;
-  background-color: #2e3070;
-  border-color: #2b2d69;
-}
-.context-veiculos .indique-compare-box .btn:active:hover,
-.context-veiculos .indique-compare-box .btn.active:hover,
-.open > .dropdown-toggle.context-veiculos .indique-compare-box .btn:hover,
-.context-veiculos .indique-compare-box .btn:active:focus,
-.context-veiculos .indique-compare-box .btn.active:focus,
-.open > .dropdown-toggle.context-veiculos .indique-compare-box .btn:focus,
-.context-veiculos .indique-compare-box .btn:active.focus,
-.context-veiculos .indique-compare-box .btn.active.focus,
-.open > .dropdown-toggle.context-veiculos .indique-compare-box .btn.focus {
-  color: #ffffff;
-  background-color: #242557;
-  border-color: #18193a;
-}
-.context-veiculos .indique-compare-box .btn:active,
-.context-veiculos .indique-compare-box .btn.active,
-.open > .dropdown-toggle.context-veiculos .indique-compare-box .btn {
-  background-image: none;
-}
-.context-veiculos .indique-compare-box .btn.disabled:hover,
-.context-veiculos .indique-compare-box .btn[disabled]:hover,
-fieldset[disabled] .context-veiculos .indique-compare-box .btn:hover,
-.context-veiculos .indique-compare-box .btn.disabled:focus,
-.context-veiculos .indique-compare-box .btn[disabled]:focus,
-fieldset[disabled] .context-veiculos .indique-compare-box .btn:focus,
-.context-veiculos .indique-compare-box .btn.disabled.focus,
-.context-veiculos .indique-compare-box .btn[disabled].focus,
-fieldset[disabled] .context-veiculos .indique-compare-box .btn.focus {
-  background-color: #3d4094;
-  border-color: #3d4094;
-}
-.context-veiculos .indique-compare-box .btn .badge {
-  color: #3d4094;
-  background-color: #ffffff;
-}
-.context-veiculos .indique-compare-box .btn .fa {
-  color: #ffffff;
-}
-.context-veiculos .indique-compare-box .btn .fa a {
-  color: #ffffff;
-}
-.context-veiculos .indique-compare-box .btn .fa a:hover {
-  color: rgba(255, 255, 255, 0.5);
 }
 .context-veiculos .checkbox input[type="checkbox"]:checked + label::before,
 .context-veiculos .checkbox input[type="radio"]:checked + label::before {
@@ -851,72 +745,6 @@ fieldset[disabled] .context-veiculos .indique-compare-box .btn.focus {
 .context-diversos .inner-preco {
   background-color: #f58733;
 }
-.context-diversos .indique-compare-box .btn {
-  color: #ffffff;
-  background-color: #f58733;
-  border-color: #f58733;
-}
-.context-diversos .indique-compare-box .btn:focus,
-.context-diversos .indique-compare-box .btn.focus {
-  color: #ffffff;
-  background-color: #ea6c0b;
-  border-color: #a14a08;
-}
-.context-diversos .indique-compare-box .btn:hover {
-  color: #ffffff;
-  background-color: #ea6c0b;
-  border-color: #e0670b;
-}
-.context-diversos .indique-compare-box .btn:active,
-.context-diversos .indique-compare-box .btn.active,
-.open > .dropdown-toggle.context-diversos .indique-compare-box .btn {
-  color: #ffffff;
-  background-color: #ea6c0b;
-  border-color: #e0670b;
-}
-.context-diversos .indique-compare-box .btn:active:hover,
-.context-diversos .indique-compare-box .btn.active:hover,
-.open > .dropdown-toggle.context-diversos .indique-compare-box .btn:hover,
-.context-diversos .indique-compare-box .btn:active:focus,
-.context-diversos .indique-compare-box .btn.active:focus,
-.open > .dropdown-toggle.context-diversos .indique-compare-box .btn:focus,
-.context-diversos .indique-compare-box .btn:active.focus,
-.context-diversos .indique-compare-box .btn.active.focus,
-.open > .dropdown-toggle.context-diversos .indique-compare-box .btn.focus {
-  color: #ffffff;
-  background-color: #c85c0a;
-  border-color: #a14a08;
-}
-.context-diversos .indique-compare-box .btn:active,
-.context-diversos .indique-compare-box .btn.active,
-.open > .dropdown-toggle.context-diversos .indique-compare-box .btn {
-  background-image: none;
-}
-.context-diversos .indique-compare-box .btn.disabled:hover,
-.context-diversos .indique-compare-box .btn[disabled]:hover,
-fieldset[disabled] .context-diversos .indique-compare-box .btn:hover,
-.context-diversos .indique-compare-box .btn.disabled:focus,
-.context-diversos .indique-compare-box .btn[disabled]:focus,
-fieldset[disabled] .context-diversos .indique-compare-box .btn:focus,
-.context-diversos .indique-compare-box .btn.disabled.focus,
-.context-diversos .indique-compare-box .btn[disabled].focus,
-fieldset[disabled] .context-diversos .indique-compare-box .btn.focus {
-  background-color: #f58733;
-  border-color: #f58733;
-}
-.context-diversos .indique-compare-box .btn .badge {
-  color: #f58733;
-  background-color: #ffffff;
-}
-.context-diversos .indique-compare-box .btn .fa {
-  color: #ffffff;
-}
-.context-diversos .indique-compare-box .btn .fa a {
-  color: #ffffff;
-}
-.context-diversos .indique-compare-box .btn .fa a:hover {
-  color: rgba(255, 255, 255, 0.5);
-}
 .context-diversos .checkbox input[type="checkbox"]:checked + label::before,
 .context-diversos .checkbox input[type="radio"]:checked + label::before {
   background-color: #f58733;
@@ -941,30 +769,22 @@ fieldset[disabled] .context-diversos .indique-compare-box .btn.focus {
   max-height: 350px;
   overflow: auto;
 }
-@media (min-width: 979px) {
-  .sidebar-filtro.affix-top {
-    position: static;
-    margin-top: 0;
-  }
-  .sidebar-filtro.affix {
-    position: fixed;
-    top: 0;
-  }
-}
 .affix-top,
 .affix {
   position: static;
 }
 @media (min-width: 979px) {
-  .sidebar-filtro.affix-top {
+  .sidebar-affix.affix-top {
     position: static;
     width: 228px;
+    margin-top: 0;
   }
-  .sidebar-filtro.affix {
+  .sidebar-affix.affix {
     position: fixed;
     width: 228px;
+    top: 0;
   }
-  .sidebar-filtro.affix-bottom {
+  .sidebar-affix.affix-bottom {
     position: absolute;
   }
 }

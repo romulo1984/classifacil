@@ -49,10 +49,10 @@
                     <option>48</option>
                     <option>60</option>
                 </select>
-                <a href="#" class="desativado input-group-addon">
+                <a href="javascript:changeExibitionCards('lista');" class="btn-modo-lista input-group-addon hidden-xs">
                     <span class="fa fa-fw fa-bars"></span>
                 </a>
-                <a href="#" class="ativado input-group-addon">
+                <a href="javascript:changeExibitionCards('bloco');" class="btn-modo-bloco input-group-addon hidden-xs">
                     <span class="fa fa-fw fa-th-large"></span>
                 </a>
             </div>

@@ -200,7 +200,7 @@ footer {
         display:block;
     }
     .info-card-destaque {
-        background-color: lighten(#000, 95%);
+        background-color: @branco;
         padding:@gutter/2;
         height:@height-card-bloco;
         margin-left:0;
@@ -212,7 +212,28 @@ footer {
 
 @height-card-lista: 175px;
 .item-lista {
-
+    margin-bottom:@gutter/2;
+    margin-top:@gutter/2;
+    .imagem-anuncio-destaque {
+        background-repeat:no-repeat;
+        background-position: center center;
+        -webkit-background-size:cover;
+        background-size:cover;
+        height:@height-card-lista;
+        display:block;
+    }
+    .info-card-destaque {
+        background-color: @branco;
+        padding:@gutter/2;
+        height:@height-card-lista;
+        margin-left:-@gutter;
+        h3 {
+            margin-top:0;
+        }
+        @media (max-width:767px){
+            margin-left:0;
+        }
+    }
 }
 
 .preco {
@@ -298,12 +319,12 @@ footer {
             background-color:@color;
         }
 
-        .indique-compare-box .btn {
-            .button-variant(@branco; @color; @color);
-            .fa {
-                .text-branco;
-            }
-        }
+        //.indique-compare-box .btn {
+        //    .button-variant(@branco; @color; @color);
+        //    .fa {
+        //        .text-branco;
+        //    }
+        //}
         .checkbox {
             .checkbox-context(@color);
         }
@@ -329,21 +350,6 @@ footer {
         max-height:350px;
         overflow: auto;
     }
-
-    @media (min-width: 979px) {
-        &.affix-top {
-            position: static;
-            margin-top:0;
-            //width:100%;
-        }
-
-        &.affix {
-            position: fixed;
-            top:0;
-            //width:100%;
-        }
-    }
-
 }
 
 .affix-top,.affix{
@@ -351,18 +357,22 @@ footer {
 }
 
 @media (min-width: 979px) {
-    .sidebar-filtro.affix-top {
-        position: static;
-        width:228px;
-    }
+    .sidebar-affix {
+        &.affix-top {
+            position: static;
+            width:228px;
+            margin-top:0;
+        }
 
-    .sidebar-filtro.affix {
-        position: fixed;
-        width:228px;
-    }
+        &.affix {
+            position: fixed;
+            width:228px;
+            top:0;
+        }
 
-    .sidebar-filtro.affix-bottom {
-        position: absolute;
+        &.affix-bottom {
+            position: absolute;
+        }
     }
 }
 

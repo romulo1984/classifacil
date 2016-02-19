@@ -27,7 +27,7 @@ include('_header.php');
         <div class="row">
             <!-- SIDEBAR ESQUERDA -->
             <div class="col-md-3">
-                <div class="sidebar-filtro">
+                <div class="sidebar-filtro sidebar-affix">
 
                     <h4>Aprimore a sua <strong>busca</strong></h4>
 
@@ -287,7 +287,7 @@ include('_header.php');
                                             <div class="divisor"></div>
                                             <div class="indique-compare-box">
                                                 <div class="pull-left">
-                                                    <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                         <span class="fa fa-fw fa-user"></span>
                                                         indique
                                                     </a>
@@ -334,7 +334,7 @@ include('_header.php');
                                             <div class="divisor"></div>
                                             <div class="indique-compare-box">
                                                 <div class="pull-left">
-                                                    <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                         <span class="fa fa-fw fa-user"></span>
                                                         indique
                                                     </a>
@@ -384,7 +384,7 @@ include('_header.php');
                                             <div class="divisor"></div>
                                             <div class="indique-compare-box">
                                                 <div class="pull-left">
-                                                    <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                         <span class="fa fa-fw fa-user"></span>
                                                         indique
                                                     </a>
@@ -431,7 +431,7 @@ include('_header.php');
                                             <div class="divisor"></div>
                                             <div class="indique-compare-box">
                                                 <div class="pull-left">
-                                                    <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                         <span class="fa fa-fw fa-user"></span>
                                                         indique
                                                     </a>
@@ -459,10 +459,10 @@ include('_header.php');
                     <!-- Anúncios -->
                     <div class="row">
 
-                        <div class="col-md-4 col-sm-6">
+                        <div class="item-change-block-list col-md-4 col-sm-6">
                             <div class="item-bloco" data-effect="mfp-zoom-in">
                                 <div class="row">
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 col-imagem">
                                         <div class="preco">
                                             <div class="inner-preco">
                                                 <span class="small">R$</span> 320.000
@@ -474,7 +474,7 @@ include('_header.php');
                                             style="background-image: url('assets/img/exemplos/veiculos/carro1.jpg');">
                                         </a>
                                     </div>
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 col-info">
                                         <div class="info-card-destaque">
                                             <h3 class="truncate">
                                                 <a href="page-imovel.php">
@@ -491,7 +491,7 @@ include('_header.php');
                                             <div class="divisor"></div>
                                             <div class="indique-compare-box">
                                                 <div class="pull-left">
-                                                    <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                         <span class="fa fa-fw fa-user"></span>
                                                         indique
                                                     </a>
@@ -510,10 +510,10 @@ include('_header.php');
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-sm-6">
+                        <div class="item-change-block-list col-md-4 col-sm-6">
                             <div class="item-bloco">
                                 <div class="row">
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 col-imagem">
                                         <div class="preco">
                                             <div class="inner-preco">
                                                 <span class="small">R$</span> 820.650
@@ -522,7 +522,7 @@ include('_header.php');
                                         <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/veiculos/carro2.jpg');">
                                         </a>
                                     </div>
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 col-info">
                                         <div class="info-card-destaque">
                                             <h3 class="truncate">
                                                 <a href="page-imovel.php">
@@ -539,7 +539,7 @@ include('_header.php');
                                             <div class="divisor"></div>
                                             <div class="indique-compare-box">
                                                 <div class="pull-left">
-                                                    <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                         <span class="fa fa-fw fa-user"></span>
                                                         indique
                                                     </a>
@@ -558,10 +558,10 @@ include('_header.php');
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-sm-6">
+                        <div class="item-change-block-list col-md-4 col-sm-6">
                             <div class="item-bloco">
                                 <div class="row">
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 col-imagem">
                                         <div class="preco">
                                             <div class="inner-preco">
                                                 <span class="small">R$</span> 620.100
@@ -570,7 +570,7 @@ include('_header.php');
                                         <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/veiculos/carro3.jpg');">
                                         </a>
                                     </div>
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 col-info">
                                         <div class="info-card-destaque">
                                             <h3 class="truncate">
                                                 <a href="page-imovel.php">
@@ -587,7 +587,7 @@ include('_header.php');
                                             <div class="divisor"></div>
                                             <div class="indique-compare-box">
                                                 <div class="pull-left">
-                                                    <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                         <span class="fa fa-fw fa-user"></span>
                                                         indique
                                                     </a>
@@ -606,10 +606,10 @@ include('_header.php');
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-sm-6">
+                        <div class="item-change-block-list col-md-4 col-sm-6">
                             <div class="item-bloco">
                                 <div class="row">
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 col-imagem">
                                         <div class="preco">
                                             <div class="inner-preco">
                                                 <span class="small">R$</span> 1.200
@@ -618,7 +618,7 @@ include('_header.php');
                                         <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/veiculos/carro4.jpg');">
                                         </a>
                                     </div>
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 col-info">
                                         <div class="info-card-destaque">
                                             <h3 class="truncate">
                                                 <a href="page-imovel.php">
@@ -635,7 +635,7 @@ include('_header.php');
                                             <div class="divisor"></div>
                                             <div class="indique-compare-box">
                                                 <div class="pull-left">
-                                                    <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                         <span class="fa fa-fw fa-user"></span>
                                                         indique
                                                     </a>
@@ -654,10 +654,10 @@ include('_header.php');
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-sm-6">
+                        <div class="item-change-block-list col-md-4 col-sm-6">
                             <div class="item-bloco" data-effect="mfp-zoom-in">
                                 <div class="row">
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 col-imagem">
                                         <div class="preco">
                                             <div class="inner-preco">
                                                 <span class="small">R$</span> 320.000
@@ -670,7 +670,7 @@ include('_header.php');
                                         >
                                         </a>
                                     </div>
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 col-info">
                                         <div class="info-card-destaque">
                                             <h3 class="truncate">
                                                 <a href="page-imovel.php">
@@ -687,7 +687,7 @@ include('_header.php');
                                             <div class="divisor"></div>
                                             <div class="indique-compare-box">
                                                 <div class="pull-left">
-                                                    <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                         <span class="fa fa-fw fa-user"></span>
                                                         indique
                                                     </a>
@@ -706,10 +706,10 @@ include('_header.php');
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-sm-6">
+                        <div class="item-change-block-list col-md-4 col-sm-6">
                             <div class="item-bloco">
                                 <div class="row">
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 col-imagem">
                                         <div class="preco">
                                             <div class="inner-preco">
                                                 <span class="small">R$</span> 820.650
@@ -718,7 +718,7 @@ include('_header.php');
                                         <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/veiculos/carro2.jpg');">
                                         </a>
                                     </div>
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 col-info">
                                         <div class="info-card-destaque">
                                             <h3 class="truncate">
                                                 <a href="page-imovel.php">
@@ -735,7 +735,7 @@ include('_header.php');
                                             <div class="divisor"></div>
                                             <div class="indique-compare-box">
                                                 <div class="pull-left">
-                                                    <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                         <span class="fa fa-fw fa-user"></span>
                                                         indique
                                                     </a>
@@ -754,10 +754,10 @@ include('_header.php');
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-sm-6">
+                        <div class="item-change-block-list col-md-4 col-sm-6">
                             <div class="item-bloco">
                                 <div class="row">
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 col-imagem">
                                         <div class="preco">
                                             <div class="inner-preco">
                                                 <span class="small">R$</span> 620.100
@@ -766,7 +766,7 @@ include('_header.php');
                                         <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/veiculos/carro3.jpg');">
                                         </a>
                                     </div>
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 col-info">
                                         <div class="info-card-destaque">
                                             <h3 class="truncate">
                                                 <a href="page-imovel.php">
@@ -783,7 +783,7 @@ include('_header.php');
                                             <div class="divisor"></div>
                                             <div class="indique-compare-box">
                                                 <div class="pull-left">
-                                                    <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                         <span class="fa fa-fw fa-user"></span>
                                                         indique
                                                     </a>
@@ -802,10 +802,10 @@ include('_header.php');
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-sm-6">
+                        <div class="item-change-block-list col-md-4 col-sm-6">
                             <div class="item-bloco">
                                 <div class="row">
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 col-imagem">
                                         <div class="preco">
                                             <div class="inner-preco">
                                                 <span class="small">R$</span> 1.200
@@ -814,7 +814,7 @@ include('_header.php');
                                         <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/veiculos/carro4.jpg');">
                                         </a>
                                     </div>
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 col-info">
                                         <div class="info-card-destaque">
                                             <h3 class="truncate">
                                                 <a href="page-imovel.php">
@@ -831,7 +831,7 @@ include('_header.php');
                                             <div class="divisor"></div>
                                             <div class="indique-compare-box">
                                                 <div class="pull-left">
-                                                    <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                         <span class="fa fa-fw fa-user"></span>
                                                         indique
                                                     </a>
@@ -850,10 +850,10 @@ include('_header.php');
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-sm-6">
+                        <div class="item-change-block-list col-md-4 col-sm-6">
                             <div class="item-bloco" data-effect="mfp-zoom-in">
                                 <div class="row">
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 col-imagem">
                                         <div class="preco">
                                             <div class="inner-preco">
                                                 <span class="small">R$</span> 320.000
@@ -866,7 +866,7 @@ include('_header.php');
                                         >
                                         </a>
                                     </div>
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 col-info">
                                         <div class="info-card-destaque">
                                             <h3 class="truncate">
                                                 <a href="page-imovel.php">
@@ -883,7 +883,7 @@ include('_header.php');
                                             <div class="divisor"></div>
                                             <div class="indique-compare-box">
                                                 <div class="pull-left">
-                                                    <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                         <span class="fa fa-fw fa-user"></span>
                                                         indique
                                                     </a>
@@ -906,10 +906,10 @@ include('_header.php');
                             <img src="http://placehold.it/850x120" class="img-responsive">
                         </div>
 
-                        <div class="col-md-4 col-sm-6">
+                        <div class="item-change-block-list col-md-4 col-sm-6">
                             <div class="item-bloco">
                                 <div class="row">
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 col-imagem">
                                         <div class="preco">
                                             <div class="inner-preco">
                                                 <span class="small">R$</span> 820.650
@@ -918,7 +918,7 @@ include('_header.php');
                                         <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/veiculos/carro2.jpg');">
                                         </a>
                                     </div>
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 col-info">
                                         <div class="info-card-destaque">
                                             <h3 class="truncate">
                                                 <a href="page-imovel.php">
@@ -935,7 +935,7 @@ include('_header.php');
                                             <div class="divisor"></div>
                                             <div class="indique-compare-box">
                                                 <div class="pull-left">
-                                                    <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                         <span class="fa fa-fw fa-user"></span>
                                                         indique
                                                     </a>
@@ -954,10 +954,10 @@ include('_header.php');
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-sm-6">
+                        <div class="item-change-block-list col-md-4 col-sm-6">
                             <div class="item-bloco">
                                 <div class="row">
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 col-imagem">
                                         <div class="preco">
                                             <div class="inner-preco">
                                                 <span class="small">R$</span> 620.100
@@ -966,7 +966,7 @@ include('_header.php');
                                         <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/veiculos/carro3.jpg');">
                                         </a>
                                     </div>
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 col-info">
                                         <div class="info-card-destaque">
                                             <h3 class="truncate">
                                                 <a href="page-imovel.php">
@@ -983,7 +983,7 @@ include('_header.php');
                                             <div class="divisor"></div>
                                             <div class="indique-compare-box">
                                                 <div class="pull-left">
-                                                    <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                         <span class="fa fa-fw fa-user"></span>
                                                         indique
                                                     </a>
@@ -1002,10 +1002,10 @@ include('_header.php');
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-sm-6">
+                        <div class="item-change-block-list col-md-4 col-sm-6">
                             <div class="item-bloco">
                                 <div class="row">
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 col-imagem">
                                         <div class="preco">
                                             <div class="inner-preco">
                                                 <span class="small">R$</span> 1.200
@@ -1014,7 +1014,7 @@ include('_header.php');
                                         <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/veiculos/carro4.jpg');">
                                         </a>
                                     </div>
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-12 col-info">
                                         <div class="info-card-destaque">
                                             <h3 class="truncate">
                                                 <a href="page-imovel.php">
@@ -1031,7 +1031,7 @@ include('_header.php');
                                             <div class="divisor"></div>
                                             <div class="indique-compare-box">
                                                 <div class="pull-left">
-                                                    <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                    <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                         <span class="fa fa-fw fa-user"></span>
                                                         indique
                                                     </a>

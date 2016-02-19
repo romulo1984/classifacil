@@ -99,6 +99,7 @@ No space - remove distance between list items
     clear: both;
 }
 .cd-pagination.no-space li {
+    background:#fff;
     margin: 0;
     float: left;
     border-right: 1px solid #e6e6e6;

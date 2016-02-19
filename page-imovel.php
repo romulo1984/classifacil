@@ -193,50 +193,53 @@ include('_header.php');
         <!-- Anunciante e Publicidade -->
         <div class="col-md-4">
 
-            <!-- Anunciante -->
-            <div class="info-vendedor">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4>Anunciante</h4>
-                    </div>
-                    <div class="panel-body">
-                        <div class="media">
-                            <div class="media-left media-middle">
-                                <img src="http://lorempixel.com/60/60/people/9" class="img-circle">
-                            </div>
-                            <div class="media-body media-middle">
-                                <h4>Marcela Silva</h4>
-                                <h5>27 3333-2020</h5>
-                            </div>
+            <div class="sidebar-affix">
+                <!-- Anunciante -->
+                <div class="info-vendedor">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4>Anunciante</h4>
                         </div>
-                        <div class="divisor-2x"></div>
-                        <h4>Envie sua proposta</h4>
-                        <form action="">
-                            <div class="form-group">
-                                <input type="text" class="form-control input-lg" placeholder="Nome completo">
+                        <div class="panel-body">
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <img src="http://lorempixel.com/60/60/people/9" class="img-circle">
+                                </div>
+                                <div class="media-body media-middle">
+                                    <h4>Marcela Silva</h4>
+                                    <h5>27 3333-2020</h5>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control input-lg" placeholder="DDD + Telefone">
-                            </div>
-                            <textarea class="form-control input-lg" placeholder="Mensagem"></textarea>
-                            <div class="divisor-1x"></div>
-                            <div class="form-group">
-                                <button class="btn btn-lg btn-default btn-verde-imoveis">Enviar</button>
-                            </div>
-                        </form>
+                            <div class="divisor-2x"></div>
+                            <h4>Envie sua proposta</h4>
+                            <form action="">
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder="Nome completo">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder="DDD + Telefone">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control input-lg" placeholder="Seu email">
+                                </div>
+                                <textarea class="form-control input-lg" placeholder="Mensagem"></textarea>
+                                <div class="divisor-1x"></div>
+                                <div class="form-group">
+                                    <button class="btn btn-lg btn-default btn-verde-imoveis">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="sidebar-right-publicidade padding-2x">
-                <img src="http://placehold.it/358x260" class="img-responsive">
-                <br>
-                <img src="http://placehold.it/358x260" class="img-responsive">
+                <div class="sidebar-right-publicidade padding-2x">
+                    <img src="http://placehold.it/358x260" class="img-responsive">
+                </div>
             </div>
 
         </div>
 
-        <div class="col-md-12">
+        <div class="col-md-8">
 
             <h2 class="text-300">Ofestas em destaque</h2>
 
@@ -338,7 +341,7 @@ include('_header.php');
                                         <div class="divisor"></div>
                                         <div class="indique-compare-box">
                                             <div class="pull-left">
-                                                <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
+                                                <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                     <span class="fa fa-fw fa-user"></span>
                                                     indique
                                                 </a>
@@ -389,7 +392,7 @@ include('_header.php');
                                         <div class="divisor"></div>
                                         <div class="media">
                                             <div class="media-left">
-                                                <a href="#" class="btn" data-toggle="modal" data-target="#modal-indique">
+                                                <a href="#" data-toggle="modal" data-target="#modal-indique">
                                                     <span class="fa fa-fw fa-user"></span>
                                                     indique
                                                 </a>
