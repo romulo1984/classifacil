@@ -617,6 +617,30 @@ footer a:hover {
 .preco .inner-preco .small {
   font-size: 14px;
 }
+.preco-no-image {
+  position: absolute;
+  margin: 10px 0 0 -10px;
+  bottom: 10px;
+  position: relative;
+  margin: 0;
+}
+.preco-no-image .inner-preco {
+  padding: 7.5px 10px;
+  font-size: 18px;
+  display: block;
+  float: left;
+  color: #ffffff;
+  font-weight: 500;
+}
+.preco-no-image .inner-preco a {
+  color: #ffffff;
+}
+.preco-no-image .inner-preco a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+.preco-no-image .inner-preco .small {
+  font-size: 14px;
+}
 .indique-compare-box {
   margin-top: 15px;
   height: 50px;

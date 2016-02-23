@@ -128,13 +128,19 @@
                     </a>
                 </li>
                 <li class="small-li">
-                    <a href="#">Minha<br class="hidden-xs"> Conta</a>
+                    <a href="login.php" class="<?php echo ($menu['login']) ? 'ativo' : ''; ?>">
+                        Minha<br class="hidden-xs"> Conta
+                    </a>
                 </li>
                 <li class="small-li">
-                    <a href="#">Dúvidas<br class="hidden-xs"> Frequentes</a>
+                    <a href="faq.php" class="<?php echo ($menu['faq']) ? 'ativo' : ''; ?>">
+                        Dúvidas<br class="hidden-xs"> Frequentes
+                    </a>
                 </li>
                 <li class="small-li">
-                    <a href="#">Fale<br class="hidden-xs"> Conosco</a>
+                    <a href="contato.php" class="<?php echo ($menu['contato']) ? 'ativo' : ''; ?>">
+                        Fale<br class="hidden-xs"> Conosco
+                    </a>
                 </li>
             </ul>
         </div>

@@ -239,7 +239,7 @@ include('_header.php');
                                             <span class="small">R$</span> 1.200
                                         </div>
                                     </div>
-                                    <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/imoveis/imovel4.jpg');">
+                                    <a href="page-no-images.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/placehold-image-anuncio.jpg');">
                                     </a>
                                 </div>
                                 <div class="col-md-12">
