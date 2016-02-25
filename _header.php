@@ -19,6 +19,9 @@
     <link href="assets/css/main.css" rel="stylesheet">
     <?php
 
+    if(isset($_GET['logged']))
+        $logged = $_GET['logged'];
+
     if(isset($css)){
         foreach($css as $value){
             echo '<link href="';
@@ -81,7 +84,7 @@
                 </a>
             </h2>
         </div>
-        <div class="col-sm-6 hidden-xs">
+        <div class="<?php echo isset($logged) ? 'col-sm-3 hidden-xs' : 'col-sm-6'; ?>">
             <div class="no-margin pull-right text-right text-cinza-escuro">
                 <h5 style="margin-top:30px;">Atendimento</h5>
                 <h3>
@@ -90,6 +93,22 @@
                 <p>classifacil@redetribuna.com.br</p>
             </div>
         </div>
+        <?php if(isset($logged)): ?>
+        <div class="col-sm-3">
+            <div class="media text-right" style="margin-top:30px;">
+                <div class="media-body media-middle">
+                    Rômulo Guimarães <br>
+                    <a href="dashboard.php?logged=true">
+                        Minha Conta
+                        <span class="fa fa-fw fa-gear"></span>
+                    </a>
+                </div>
+                <div class="media-right media-middle">
+                    <img src="http://www.gravatar.com/avatar/0?s=60&d=mm&f=y" alt="" class="img-circle">
+                </div>
+            </div>
+        </div>
+        <?php endif; ?>
     </div>
 
 </section><!--/.container-->
