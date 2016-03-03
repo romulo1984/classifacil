@@ -1,0 +1,1 @@
+<strong><span class="text-vermelho">CLASSI</span><span class="text-azul">FÁCIL</span><span class="text-cinza-medio">ES</span></strong>

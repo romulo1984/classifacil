@@ -12,7 +12,7 @@ include('_header.php');
 <div class="container">
     <div class="row padding-2x">
         <div class="col-md-4">
-            <form action="dashboard.php?logged=true" method="post" class="panel panel-default">
+            <form action="dashboard.php" method="post" class="panel panel-default">
                 <div class="panel-heading">
                     <h2 class="text-300">Login</h2>
                     <p>Se você já tem cadastro, faça login pra continuar</p>
@@ -25,6 +25,7 @@ include('_header.php');
                     <div class="form-group">
                         <label for="">Senha</label>
                         <input type="password" class="form-control input-lg">
+                        <input type="hidden" name="logged" value="login">
                     </div>
                     <a href="#">Esqueci minha senha</a>
                     <hr>
@@ -36,7 +37,7 @@ include('_header.php');
             </form>
         </div>
         <div class="col-md-8">
-            <form action="dashboard.php?logged=true" method="post" class="panel panel-default">
+            <form action="dashboard.php" method="post" class="panel panel-default">
                 <div class="panel-heading">
                     <h2 class="text-300">Cadastro</h2>
                     <p>Se você ainda não tem conta, se cadastre no formulário abaixo</p>
@@ -182,7 +183,8 @@ include('_header.php');
                         <div class="col-md-12">
                             <div class="checkbox checkbox-verde-imoveis">
                                 <input id="terms" class="styled" type="checkbox">
-                                <label for="terms">Li e concordo com os <a href="#">termos de uso</a>.</label>
+                                <input type="hidden" name="logged" value="login">
+                                <label for="terms">Li e concordo com os <a href="termos-de-uso.php" style="text-decoration: underline">termos de uso</a>.</label>
                             </div>
                             <hr>
                             <div class="pull-right">

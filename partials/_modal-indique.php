@@ -26,6 +26,10 @@
                         <label>E-mail do amigo <span class="text-vermelho">*</span></label>
                         <input type="email" class="form-control input-lg">
                     </div>
+                    <div class="form-group">
+                        <label>Deixe a sua mensagem</label>
+                        <textarea class="form-control input-lg"></textarea>
+                    </div>
                 </form>
             </div>
             <div class="modal-footer">

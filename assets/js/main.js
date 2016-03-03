@@ -61,8 +61,14 @@ $(window).resize(function(){
 
 
 $(function () {
-    $('[data-toggle="popover"]').popover()
-})
+    $('[data-toggle="popover"]').popover();
+    $('[data-target="#modal-indique"]').popover({
+        content: "Indique este anúncio para um amigo",
+        placement: "top",
+        trigger: "hover",
+        container: "body"
+    });
+});
 
 //Modo de Listagem dos Anúncios. Pode ser em Bloco ou Lista
 if(localStorage.getItem('modoListagem') === null){

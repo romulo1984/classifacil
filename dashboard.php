@@ -6,7 +6,12 @@ $js = [];
 //Item do menu ativo
 $menu['login'] =  true;
 
+if( (!isset($_COOKIE['logged'])) || ($_COOKIE['logged'] == false)){
+    header("Refresh: 0; login.php");
+}
+
 include('_header.php');
+
 ?>
 
 <div class="container">

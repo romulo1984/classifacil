@@ -31,6 +31,19 @@
         }
     }
 
+    //SIMULA UM LOGIN
+    if( (isset($_POST['logged'])) && ($_POST['logged'] == 'login')){
+        setcookie('logged', true);
+        $page = $_SERVER['PHP_SELF'];
+        header("Refresh: 0; $page");
+    }
+
+    if( (isset($_POST['logged'])) && ($_POST['logged'] == 'logout')){
+        setcookie('logged', false);
+        $page = $_SERVER['PHP_SELF'];
+        header("Refresh: 0; $page");
+    }
+
     ?>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -84,7 +97,7 @@
                 </a>
             </h2>
         </div>
-        <div class="<?php echo isset($logged) ? 'col-sm-3 hidden-xs' : 'col-sm-6'; ?>">
+        <div class="<?php echo ( (isset($_COOKIE['logged'])) || ($_COOKIE['logged'] == false)) ? 'col-sm-3 hidden-xs' : 'col-sm-6'; ?>">
             <div class="no-margin pull-right text-right text-cinza-escuro">
                 <h5 style="margin-top:30px;">Atendimento</h5>
                 <h3>
@@ -93,15 +106,23 @@
                 <p>classifacil@redetribuna.com.br</p>
             </div>
         </div>
-        <?php if(isset($logged)): ?>
+        <?php if(isset($_COOKIE['logged']) && $_COOKIE['logged'] == true): ?>
         <div class="col-sm-3">
             <div class="media text-right" style="margin-top:30px;">
                 <div class="media-body media-middle">
                     Rômulo Guimarães <br>
-                    <a href="dashboard.php?logged=true">
+                    <a href="dashboard.php">
                         Minha Conta
                         <span class="fa fa-fw fa-gear"></span>
                     </a>
+                    &nbsp;
+                    <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post" name="logout">
+                        <input type="hidden" name="logged" value="logout">
+                        <a href="#" onclick="document.forms['logout'].submit();">
+                            Sair
+                            <span class="fa fa-fw fa-sign-out"></span>
+                        </a>
+                    </form>
                 </div>
                 <div class="media-right media-middle">
                     <img src="http://www.gravatar.com/avatar/0?s=60&d=mm&f=y" alt="" class="img-circle">
@@ -147,7 +168,7 @@
                     </a>
                 </li>
                 <li class="small-li">
-                    <a href="login.php" class="<?php echo ($menu['login']) ? 'ativo' : ''; ?>">
+                    <a href="dashboard.php" class="<?php echo ($menu['login']) ? 'ativo' : ''; ?>">
                         Minha<br class="hidden-xs"> Conta
                     </a>
                 </li>

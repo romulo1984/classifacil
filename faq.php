@@ -2,7 +2,7 @@
 //Inclui css no head
 $css = [];
 //Inclui javascript no final da página
-$js = ['assets/js/page-anuncio.js'];
+$js = [];
 //Item do menu ativo
 $menu['faq'] =  true;
 
@@ -19,134 +19,436 @@ include('_header.php');
         </div>
     </div>
 
-    <div class="container context-imoveis">
+    <div class="container">
         <div class="row">
 
             <!-- Conteúdo do Anúncio -->
             <div class="col-md-8">
+                <h2 class="text-300">Perguntas Frequêntes</h2>
 
-                <div class="container-anuncio">
-                    <h1>Apartamento 3qts</h1>
+                <hr>
 
-                    <!--
-                    Essa página é um exemplo de anúncio sem imagens.
-                    A página do anúncio poderá ser uma só, e deverá exibir ou não a galeria
-                    de imagens programaticamente.
-                     -->
+                <div class="panel-group" id="painel-faq" role="tablist" aria-multiselectable="true">
 
-                    <div class="informacoes-anuncio">
-                        <div class="row">
-
-                            <div class="col-md-12">
-
-                                <div class="panel panel-default">
-
-                                    <div class="panel-body">
-                                        <h3>Descrição</h3>
-                                        <hr>
-
-                                        <!-- Se o anúncio tiver imagens, esconder essa div -->
-                                        <div>
-                                            <div class="preco-no-image">
-                                                <div class="inner-preco">
-                                                    <span class="small">R$</span> 320.000
-                                                </div>
-                                            </div>
-
-                                            <div class="clearfix"></div>
-                                        </div>
-
-                                        <p>
-                                            Apartamentos de 3 Quartos, com 108m²;
-                                        </p>
-                                        <p>
-                                            Coberturas de 3 quartos com 121m² até 153m². CONDOMÍNIO COMPLETO, QUE COMBINA LAZER, SEGURANÇA, QUALIDADE DE VIDA E EXCLUSIVIDADE.
-                                        </p>
-                                        <p>
-                                            ALÉM DISSO, TODAS AS UNIDADES SERÃO ENTREGUES COM PORCELANATO E PREVISÃO PARA SPLIT E AS COBERTURAS TAMBÉM COM CHURRASQUEIRA E PREVISÃO PARA PISCINA. Um empreendimento diferenciado começa por uma localização única. A combinação perfeita entre conforto e elegância chega na melhor localização da Freguesia.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-12">
-                                <div class="panel panel-default">
-                                    <div class="panel-body">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <h3>Detalhes do imóvel</h3>
-                                                <hr>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p><strong>Valor:</strong> R$ 320.000,00</p>
-                                                <p><strong>Seção:</strong> Venda</p>
-                                                <p><strong>Região:</strong> Vitória</p>
-                                                <p><strong>Quartos:</strong> 3</p>
-                                                <p><strong>Tipo de Imóvel:</strong> Apartamento</p>
-                                                <p><strong>Suítes:</strong> 2</p>
-                                                <p><strong>Origem do anúncio:</strong> Imobiliária</p>
-                                                <p><strong>Iddade do Imóvel:</strong> Lançamento</p>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p><strong>Apartamentos por andar:</strong> 4</p>
-                                                <p><strong>Banheiros:</strong> 3</p>
-                                                <p><strong>Elevadores:</strong> 3</p>
-                                                <p><strong>Salas:</strong> 1</p>
-                                                <p><strong>Closets:</strong> 1</p>
-                                                <p><strong>Vagas de Garagem:</strong> 2</p>
-                                                <p><strong>àrea do imóvel (m²):</strong> 112</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="panel panel-default">
-                                    <div class="panel-body">
-                                        <h3>Detalhes do condomínio</h3>
-                                        <hr>
-                                        <p></p><strong>Área de serviço</strong></p>
-                                        <p></p><strong>Garagem coberta</strong></p>
-                                        <p></p><strong>Garagem Independente</strong></p>
-                                        <p></p><strong>Varanda</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="panel panel-default">
-                                    <div class="panel-body">
-                                        <h3>Características de segurança</h3>
-                                        <hr>
-                                        <p></p><strong>Cerca Elétrica</strong></p>
-                                        <p></p><strong>Circuito Interno de TV</strong></p>
-                                        <p></p><strong>Guarita</strong></p>
-                                        <p></p><strong>Porteiro 24 horas</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-12">
-                                <div class="panel panel-default">
-                                    <div class="panel-body">
-                                        <h3>Localização</h3>
-                                    </div>
-                                    <div class="localizacao-mapa">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1871.259195167498!2d-40.29201669200893!3d-20.278799113696735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb81818d8018a37%3A0xcb90f4a1f772c6d!2sR.+Maria+de+Lourdes+Poyares+Labuto%2C+190+-+Mata+da+Praia%2C+Vit%C3%B3ria+-+ES%2C+29065-540!5e0!3m2!1spt-BR!2sbr!4v1455670013722" width="800" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-                                    </div>
-                                    <div class="panel-body">
-                                        <span class="fa fa-fw fa-lg fa-map-marker"></span> R. Maria de Lourdes, Mata da Praia, Vitória-ES
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-12">
-                                <?php include('partials/_share-and-actions.php'); ?>
-                            </div>
-
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#painel-faq" href="#pergunta-1" aria-expanded="true" aria-controls="pergunta-1">
+                                    Como buscar anúncios nos classificados?
+                                </a>
+                            </h4>
                         </div>
+                        <div id="pergunta-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body">
+                                <p>
+                                    Há duas maneiras de realizar uma busca e encontrar o que você procura.
+                                    Cada uma delas atende a um perfil de busca, veja qual é o melhor pra você.
+                                    Lembre-se de que quanto mais filtros você utilizar, mais refinado será o resultado.
+                                </p>
+                                <p>
+                                    <strong>1. Busca rápida:</strong> É o campo de busca que fica na página home e na página de cada
+                                    um dos canais de produtos – Imóveis, Veículos e Diversos. Essa busca permite que
+                                    você encontre o produto selecionando um ou mais canais.
+                                </p>
+                                <p>
+                                    <strong>2. Aprimore a sua busca:</strong>  Ao entrar dentro de cada canal de compra – imóveis,
+                                    veículos e diversos – você encontrará o campo “Aprimore a sua busca”, que fica do
+                                    lado esquerdo da página. Busque pelas características do produto desejado como:
+                                    marca, modelo, ano, cidade, entre outras, de forma rápida e intuitiva.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#painel-faq" href="#pergunta-2" aria-expanded="false" aria-controls="pergunta-2">
+                                    Como anuncio? Quais são os preços dos anúncios?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="pergunta-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            <div class="panel-body">
+                                <p>
+                                    <i>A resposta ainda será inserida aqui.</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#painel-faq" href="#pergunta-3" aria-expanded="false" aria-controls="pergunta-3">
+                                    Onde encontro os produtos e preços para Pessoa Jurídica?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="pergunta-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <p>
+                                    <i>A resposta ainda será inserida aqui.</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#painel-faq" href="#pergunta-5" aria-expanded="false" aria-controls="pergunta-5">
+                                    Como reativar meu plano?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="pergunta-5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <p>
+                                    <i>A resposta ainda será inserida aqui.</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#painel-faq" href="#pergunta-6" aria-expanded="false" aria-controls="pergunta-6">
+                                    Como posso contratar mais produtos?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="pergunta-6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <p>
+                                    <i>A resposta ainda será inserida aqui.</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#painel-faq" href="#pergunta-7" aria-expanded="false" aria-controls="pergunta-7">
+                                    Como incluir o logo da minha loja?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="pergunta-7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <p>
+                                    <i>A resposta ainda será inserida aqui.</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#painel-faq" href="#pergunta-8" aria-expanded="false" aria-controls="pergunta-8">
+                                    Cadastrei um anuncio, mas ele ainda não apareceu no site. O que pode ser?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="pergunta-8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <p>
+                                    <i>A resposta ainda será inserida aqui.</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#painel-faq" href="#pergunta-9" aria-expanded="false" aria-controls="pergunta-9">
+                                    Como faço para cancelar meu plano?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="pergunta-9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <p>
+                                    <i>A resposta ainda será inserida aqui.</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#painel-faq" href="#pergunta-10" aria-expanded="false" aria-controls="pergunta-10">
+                                    Como incluir fotos no meu anúncio?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="pergunta-10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <p>
+                                    <i>A resposta ainda será inserida aqui.</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#painel-faq" href="#pergunta-11" aria-expanded="false" aria-controls="pergunta-11">
+                                    Como eu faço para alterar o meu anúncio?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="pergunta-11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <p>
+                                    <i>A resposta ainda será inserida aqui.</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#painel-faq" href="#pergunta-12" aria-expanded="false" aria-controls="pergunta-12">
+                                    Como incluir vídeo no meu anúncio?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="pergunta-12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <p>
+                                    <i>A resposta ainda será inserida aqui.</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#painel-faq" href="#pergunta-13" aria-expanded="false" aria-controls="pergunta-13">
+                                    Como acompanhar o retorno do meu anúncio?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="pergunta-13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <p>
+                                    <i>A resposta ainda será inserida aqui.</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#painel-faq" href="#pergunta-14" aria-expanded="false" aria-controls="pergunta-14">
+                                    Cadastrei meu anúncio mais de uma vez, por engano. Será gerada uma cobrança em duplicidade? Como faço para excluir o(s) anúncio(s) inserido(s) erroneamente?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="pergunta-14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <p>
+                                    <i>A resposta ainda será inserida aqui.</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#painel-faq" href="#pergunta-15" aria-expanded="false" aria-controls="pergunta-15">
+                                    É possível excluir meu anúncio? Como desativar o anúncio?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="pergunta-15" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <p>
+                                    <i>A resposta ainda será inserida aqui.</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#painel-faq" href="#pergunta-16" aria-expanded="false" aria-controls="pergunta-16">
+                                    Meu anúncio venceu ou está prestes a vencer. Como faço para renová-lo? Poderei optar por outra modalidade?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="pergunta-16" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <p>
+                                    <i>A resposta ainda será inserida aqui.</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#painel-faq" href="#pergunta-17" aria-expanded="false" aria-controls="pergunta-17">
+                                    Como localizar meu anúncio nos classificados?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="pergunta-17" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <p>
+                                    <i>A resposta ainda será inserida aqui.</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#painel-faq" href="#pergunta-18" aria-expanded="false" aria-controls="pergunta-18">
+                                    Porque meu anúncio ainda não está no ar? Como saber se o pagamento do meu anúncio foi efetivado?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="pergunta-18" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <p>
+                                    <i>A resposta ainda será inserida aqui.</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#painel-faq" href="#pergunta-19" aria-expanded="false" aria-controls="pergunta-19">
+                                    Como alterar meu e-mail?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="pergunta-19" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <p>
+                                    <i>A resposta ainda será inserida aqui.</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#painel-faq" href="#pergunta-20" aria-expanded="false" aria-controls="pergunta-20">
+                                    Esqueci meu e-mail cadastrado. Como posso recuperá-lo?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="pergunta-20" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <p>
+                                    <i>A resposta ainda será inserida aqui.</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#painel-faq" href="#pergunta-21" aria-expanded="false" aria-controls="pergunta-21">
+                                    Tive problemas com minha senha. O que devo fazer?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="pergunta-21" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <p>
+                                    <i>A resposta ainda será inserida aqui.</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#painel-faq" href="#pergunta-22" aria-expanded="false" aria-controls="pergunta-22">
+                                    Como atualizar meus dados pessoais?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="pergunta-22" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <p>
+                                    <i>A resposta ainda será inserida aqui.</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#painel-faq" href="#pergunta-23" aria-expanded="false" aria-controls="pergunta-23">
+                                    Por que não consigo navegar normalmente? (Campos não mostrados ou desconfigurados, informações não registradas, fluxo interrompido).
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="pergunta-23" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <p>
+                                    <i>A resposta ainda será inserida aqui.</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#painel-faq" href="#pergunta-24" aria-expanded="false" aria-controls="pergunta-24">
+                                    O que faço caso identifique alguma suspeita de irregularidade nos classificados ou se receber uma proposta suspeita?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="pergunta-24" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <p>
+                                    <i>A resposta ainda será inserida aqui.</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#painel-faq" href="#pergunta-25" aria-expanded="false" aria-controls="pergunta-25">
+                                    Como posso contatar um anunciante?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="pergunta-25" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <p>
+                                    <i>A resposta ainda será inserida aqui.</i>
+                                </p>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -157,219 +459,14 @@ include('_header.php');
             <div class="col-md-4">
 
                 <div class="sidebar-affix">
-                    <!-- Anunciante -->
-                    <div class="info-vendedor">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4>Anunciante</h4>
-                            </div>
-                            <div class="panel-body">
-                                <div class="media">
-                                    <div class="media-left media-middle">
-                                        <img src="http://lorempixel.com/60/60/people/9" class="img-circle">
-                                    </div>
-                                    <div class="media-body media-middle">
-                                        <h4>Marcela Silva</h4>
-                                        <h5>27 3333-2020</h5>
-                                    </div>
-                                </div>
-                                <div class="divisor-2x"></div>
-                                <h4>Envie sua proposta</h4>
-                                <form action="">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control input-lg" placeholder="Nome completo">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control input-lg" placeholder="DDD + Telefone">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" class="form-control input-lg" placeholder="Seu email">
-                                    </div>
-                                    <textarea class="form-control input-lg" placeholder="Mensagem"></textarea>
-                                    <div class="divisor-1x"></div>
-                                    <div class="form-group">
-                                        <button class="btn btn-lg btn-default btn-verde-imoveis">Enviar</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
+
+                    <?php include('partials/_menu-acesso-rapido.php'); ?>
 
                     <div class="sidebar-right-publicidade padding-2x">
                         <img src="http://placehold.it/358x260" class="img-responsive">
                     </div>
                 </div>
 
-            </div>
-
-            <div class="col-md-8">
-
-                <h2 class="text-300">Ofestas em destaque</h2>
-
-                <div class="destaques-pagina-anuncio">
-
-                    <div class="row">
-
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 context-imoveis">
-                            <h2 class="padding-2x text-verde-imoveis">
-                                <span class="fa fa-fw fa-home"></span>
-                                imóveis
-                            </h2>
-                            <div class="item-destaque" data-effect="mfp-zoom-in">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="preco">
-                                            <div class="inner-preco">
-                                                <span class="small">R$</span> 320.000
-                                            </div>
-                                        </div>
-                                        <a
-                                            href="page-imovel.php"
-                                            class="imagem-anuncio-destaque"
-                                            style="background-image: url('assets/img/exemplos/imoveis/imovel1.jpg');"
-                                        >
-                                        </a>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="info-card-destaque">
-                                            <h3 class="truncate">
-                                                <a href="page-imovel.php">
-                                                    Apartamento 3qts
-                                                </a>
-                                            </h3>
-                                            <div class="truncate">Todo mobiliado, sol da manhã e baixo condomínio</div>
-                                            <div class="divisor"></div>
-                                            <div class="info-bloco truncate">
-                                                <strong>2</strong> Quartos,
-                                                <strong>1</strong> Suíte,
-                                                <strong>1</strong> Vaga de Garagem
-                                            </div>
-                                            <div class="divisor"></div>
-                                            <div class="indique-compare-box">
-                                                <div class="pull-left">
-                                                    <a href="#" class="btn btn-xs" data-toggle="modal" data-target="#modal-indique">
-                                                        <span class="fa fa-fw fa-user"></span>
-                                                        indique
-                                                    </a>
-                                                </div>
-                                                <div class="pull-right">
-                                                    <div class="checkbox no-margin">
-                                                        <input id="imoveis1" class="styled" type="checkbox">
-                                                        <label for="imoveis1">compare</label>
-                                                    </div>
-                                                </div>
-                                                <div class="cleafix"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 context-veiculos">
-                            <h2 class="padding-2x text-roxo-veiculos">
-                                <span class="fa fa-fw fa-car"></span>
-                                veículos
-                            </h2>
-                            <div class="item-destaque">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="preco">
-                                            <div class="inner-preco">
-                                                <span class="small">R$</span> 86.350
-                                            </div>
-                                        </div>
-                                        <div id="anuncio-001">
-                                            <a
-                                                href="page-imovel.php"
-                                                class="imagem-anuncio-destaque"
-                                                style="background-image: url('assets/img/exemplos/veiculos/carro1.jpg');">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="info-card-destaque">
-                                            <h3 class="truncate">
-                                                <a href="page-imovel.php">
-                                                    Corolla 2013
-                                                </a>
-                                            </h3>
-                                            <div class="truncate">Com airbag duplo, câmbio automático, freio a disco, etc</div>
-                                            <div class="divisor"></div>
-                                            <div class="info-bloco truncate">
-                                                <strong>16 mil</strong> km,
-                                                cor: <strong>prata</strong>,
-                                                ano/modelo: <strong>2013/2014</strong>
-                                            </div>
-                                            <div class="divisor"></div>
-                                            <div class="indique-compare-box">
-                                                <div class="pull-left">
-                                                    <a href="#" data-toggle="modal" data-target="#modal-indique">
-                                                        <span class="fa fa-fw fa-user"></span>
-                                                        indique
-                                                    </a>
-                                                </div>
-                                                <div class="pull-right">
-                                                    <div class="checkbox no-margin">
-                                                        <input id="veiculo1" class="styled" type="checkbox">
-                                                        <label for="veiculo1">compare</label>
-                                                    </div>
-                                                </div>
-                                                <div class="cleafix"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 context-diversos">
-                            <h2 class="padding-2x text-laranja-diversos">
-                                <span class="fa fa-fw fa-asterisk"></span>
-                                diversos
-                            </h2>
-                            <div class="item-destaque">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="preco">
-                                            <div class="inner-preco">
-                                                <span class="small">R$</span> 920
-                                            </div>
-                                        </div>
-                                        <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/diversos/diversos1.jpg');">
-                                        </a>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="info-card-destaque">
-                                            <h3 class="truncate">
-                                                <a href="page-imovel.php">
-                                                    Geladeira Duplex
-                                                </a>
-                                            </h3>
-                                            <div class="truncate">Geladeira semi-nova, com apenas 5 meses de uso</div>
-                                            <div class="divisor"></div>
-                                            <div class="info-bloco truncate">
-                                                novo? <strong>não</strong>,
-                                                voltagem: <strong>110v</strong>
-                                            </div>
-                                            <div class="divisor"></div>
-                                            <div class="media">
-                                                <div class="media-left">
-                                                    <a href="#" data-toggle="modal" data-target="#modal-indique">
-                                                        <span class="fa fa-fw fa-user"></span>
-                                                        indique
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
             </div>
 
         </div>
