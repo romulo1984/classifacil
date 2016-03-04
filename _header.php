@@ -1,3 +1,20 @@
+<?php
+
+//SIMULA UM LOGIN
+if( (isset($_POST['logged'])) && ($_POST['logged'] == 'login')){
+    setcookie('logged', true);
+    $page = $_SERVER['PHP_SELF'];
+    header("Refresh: 0; $page");
+}
+
+if( (isset($_POST['logged'])) && ($_POST['logged'] == 'logout')){
+    setcookie('logged', false);
+    $page = $_SERVER['PHP_SELF'];
+    header("Refresh: 0; $page");
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,19 +46,6 @@
             echo '" rel="stylesheet">';
             echo PHP_EOL;
         }
-    }
-
-    //SIMULA UM LOGIN
-    if( (isset($_POST['logged'])) && ($_POST['logged'] == 'login')){
-        setcookie('logged', true);
-        $page = $_SERVER['PHP_SELF'];
-        header("Refresh: 0; $page");
-    }
-
-    if( (isset($_POST['logged'])) && ($_POST['logged'] == 'logout')){
-        setcookie('logged', false);
-        $page = $_SERVER['PHP_SELF'];
-        header("Refresh: 0; $page");
     }
 
     ?>
@@ -97,7 +101,7 @@
                 </a>
             </h2>
         </div>
-        <div class="<?php echo ( (isset($_COOKIE['logged'])) || ($_COOKIE['logged'] == false)) ? 'col-sm-3 hidden-xs' : 'col-sm-6'; ?>">
+        <div class="<?php echo ( (!isset($_COOKIE['logged'])) || ($_COOKIE['logged'] == false)) ? 'col-sm-6' : 'col-sm-3 hidden-xs'; ?>">
             <div class="no-margin pull-right text-right text-cinza-escuro">
                 <h5 style="margin-top:30px;">Atendimento</h5>
                 <h3>
