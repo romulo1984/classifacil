@@ -15,8 +15,19 @@
                 <hr class="visible-xs">
                 <img src="assets/img/formas-de-pagamento.png" class="img-responsive" style="margin-top: 15px;">
             </div>
-            <div class="col-sm-3">
-                <hr class="visible-xs">
+            <div class="col-xs-12 visible-xs">
+                <hr>
+                <a href="http://www.tribunaonline.com.br" target="_blank">
+                    <span class="fa fa-fw fa-angle-right"></span>
+                    TRIBUNA ONLINE
+                </a>&nbsp;&nbsp;&nbsp;
+                <a href="http://atribunaes.com.br" target="_blank">
+                    <span class="fa fa-fw fa-angle-right"></span>
+                    ASSINE A TRIBUNA
+                </a>
+                <hr>
+            </div>
+            <div class="col-sm-3 col-xs-12">
                 <div class="pull-right">
                     <a href="#" id="back-to-top" class="text-branco">
                         <span class="fa fa-fw fa-2x fa-angle-up"></span>
@@ -27,7 +38,8 @@
                     <h3>
                         <span style="font-size: 12px;;">(27)</span> 3323-6333
                     </h3>
-                    <p>classifacil@redetribuna.com.br</p>
+                    <a href="contato.php" class="hidden-xs">classifacil@redetribuna.com.br</a>
+                    <a href="mailto:classifacil@redetribuna.com.br" class="visible-xs">classifacil@redetribuna.com.br</a>
                 </div>
             </div>
         </div>

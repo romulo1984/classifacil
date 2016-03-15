@@ -21,11 +21,11 @@ include('_header.php');
 
             <!-- Conteúdo do Anúncio -->
             <div class="col-md-8">
-                <h2 class="text-300">Termos de Uso</h2>
 
-                <hr>
-
-                <div class="panel">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="text-300">Termos de Uso</h2>
+                    </div>
                     <div class="panel-body">
                         <p>
                             O site <?php include('partials/_name-classifaciles.php'); ?> é um provedor de serviço hospedado sob o domínio www.classifaciles.com.br de propriedade da sociedade empresária NASSAU EDITORA, RÁDIO E TELEVISÃO LTDA., pessoa jurídica de direito privado, inscrita no Cadastro Nacional da Pessoa Jurídica do Ministério da Fazenda (CNPJ/MF) sob nº 27.065.150/0001-30, estabelecida na Rua Joaquim Plácido da Silva nº 225 - Bairro Ilha de Santa Maria – Vitória – ES - CEP.: 29.040-790, e disponibilizado através da URLwww.classifaciles.com.br.

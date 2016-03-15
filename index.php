@@ -314,7 +314,7 @@ include('_header.php');
                                     </div>
                                     <div id="anuncio-001">
                                         <a
-                                            href="page-imovel.php"
+                                            href="page-veiculo.php"
                                             class="imagem-anuncio-destaque"
                                             style="background-image: url('assets/img/exemplos/veiculos/carro1.jpg');">
                                         </a>
@@ -323,7 +323,7 @@ include('_header.php');
                                 <div class="col-md-12">
                                     <div class="info-card-destaque">
                                         <h3 class="truncate">
-                                            <a href="page-imovel.php">
+                                            <a href="page-veiculo.php">
                                                 Corolla 2013
                                             </a>
                                         </h3>
@@ -365,13 +365,13 @@ include('_header.php');
                                             <span class="small">R$</span> 45.000
                                         </div>
                                     </div>
-                                    <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/veiculos/carro2.jpg');">
+                                    <a href="page-veiculo.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/veiculos/carro2.jpg');">
                                     </a>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="info-card-destaque">
                                         <h3 class="truncate">
-                                            <a href="page-imovel.php">
+                                            <a href="page-veiculo.php">
                                                 Fusion 2011
                                             </a>
                                         </h3>
@@ -413,13 +413,13 @@ include('_header.php');
                                             <span class="small">R$</span> 112.110
                                         </div>
                                     </div>
-                                    <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/veiculos/carro3.jpg');">
+                                    <a href="page-veiculo.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/veiculos/carro3.jpg');">
                                     </a>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="info-card-destaque">
                                         <h3 class="truncate">
-                                            <a href="page-imovel.php">
+                                            <a href="page-veiculo.php">
                                                 Fusca 1965
                                             </a>
                                         </h3>
@@ -461,13 +461,13 @@ include('_header.php');
                                             <span class="small">R$</span> 15.600
                                         </div>
                                     </div>
-                                    <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/veiculos/carro4.jpg');">
+                                    <a href="page-veiculo.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/veiculos/carro4.jpg');">
                                     </a>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="info-card-destaque">
                                         <h3 class="truncate">
-                                            <a href="page-imovel.php">
+                                            <a href="page-veiculo.php">
                                                 Pálio Hat
                                             </a>
                                         </h3>
@@ -534,13 +534,13 @@ include('_header.php');
                                             <span class="small">R$</span> 920
                                         </div>
                                     </div>
-                                    <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/diversos/diversos1.jpg');">
+                                    <a href="page-diverso.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/diversos/diversos1.jpg');">
                                     </a>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="info-card-destaque">
                                         <h3 class="truncate">
-                                            <a href="page-imovel.php">
+                                            <a href="page-diverso.php">
                                                 Geladeira Duplex
                                             </a>
                                         </h3>
@@ -574,13 +574,13 @@ include('_header.php');
                                             <span class="small">R$</span> 1.200
                                         </div>
                                     </div>
-                                    <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/diversos/diversos2.jpg');">
+                                    <a href="page-diverso.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/diversos/diversos2.jpg');">
                                     </a>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="info-card-destaque">
                                         <h3 class="truncate">
-                                            <a href="page-imovel.php">
+                                            <a href="page-diverso.php">
                                                 Mesa de Escritório
                                             </a>
                                         </h3>
@@ -614,13 +614,13 @@ include('_header.php');
                                             <span class="small">R$</span> 2.420
                                         </div>
                                     </div>
-                                    <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/diversos/diversos3.jpg');">
+                                    <a href="page-diverso.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/diversos/diversos3.jpg');">
                                     </a>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="info-card-destaque">
                                         <h3 class="truncate">
-                                            <a href="page-imovel.php">
+                                            <a href="page-diverso.php">
                                                 Bicicleta Retrô
                                             </a>
                                         </h3>
@@ -654,13 +654,13 @@ include('_header.php');
                                             <span class="small">R$</span> 250
                                         </div>
                                     </div>
-                                    <a href="page-imovel.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/diversos/diversos4.jpg');">
+                                    <a href="page-diverso.php" class="imagem-anuncio-destaque" style="background-image: url('assets/img/exemplos/diversos/diversos4.jpg');">
                                     </a>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="info-card-destaque">
                                         <h3 class="truncate">
-                                            <a href="page-imovel.php">
+                                            <a href="page-diverso.php">
                                                 Filhote de Poodle
                                             </a>
                                         </h3>

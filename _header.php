@@ -71,10 +71,10 @@ if( (isset($_POST['logged'])) && ($_POST['logged'] == 'logout')){
                     <a href="https://www.facebook.com/jornalatribuna" target="_blank">
                         <span class="fa fa-2x fa-facebook-square"></span>
                     </a>
-                    <a href="#" target="_blank">
+                    <a href="https://twitter.com/aTribunaES" target="_blank">
                         <span class="fa fa-2x fa-twitter-square"></span>
                     </a>
-                    <a href="#" target="_blank">
+                    <a href="https://www.linkedin.com/company/rede-tribuna" target="_blank">
                         <span class="fa fa-2x fa-linkedin-square"></span>
                     </a>
                 </div>
@@ -101,7 +101,7 @@ if( (isset($_POST['logged'])) && ($_POST['logged'] == 'logout')){
                 </a>
             </h2>
         </div>
-        <div class="<?php echo ( (!isset($_COOKIE['logged'])) || ($_COOKIE['logged'] == false)) ? 'col-sm-6' : 'col-sm-3 hidden-xs'; ?>">
+        <div class="<?php echo ( (!isset($_COOKIE['logged'])) || ($_COOKIE['logged'] == false)) ? 'col-sm-6 hidden-xs' : 'col-sm-3 hidden-xs'; ?>">
             <div class="no-margin pull-right text-right text-cinza-escuro">
                 <h5 style="margin-top:30px;">Atendimento</h5>
                 <h3>

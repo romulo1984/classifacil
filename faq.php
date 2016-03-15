@@ -24,13 +24,13 @@ include('_header.php');
 
             <!-- Conteúdo do Anúncio -->
             <div class="col-md-8">
-                <h2 class="text-300">Perguntas Frequêntes</h2>
-
-                <hr>
 
                 <div class="panel-group" id="painel-faq" role="tablist" aria-multiselectable="true">
 
                     <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h2 class="text-300">Perguntas Frequêntes</h2>
+                        </div>
                         <div class="panel-heading" role="tab" id="headingOne">
                             <h4 class="panel-title">
                                 <a role="button" data-toggle="collapse" data-parent="#painel-faq" href="#pergunta-1" aria-expanded="true" aria-controls="pergunta-1">
