@@ -8,8 +8,8 @@
     </select>
 
     <span class="input-group-btn">
-        <button class="btn btn-primary btn-lg" type="button">
+        <a href="busca.php" class="btn btn-primary btn-lg" type="button">
             buscar <span class="fa fa-fw fa-search"></span>
-        </button>
+        </a>
     </span>
 </div>
