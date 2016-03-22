@@ -121,6 +121,23 @@ include('_header.php');
                                     <hr>
                                     <h4 class="text-300">Endereço</h4>
                                 </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label for="">CEP<span class="text-vermelho">*</span></label>
+                                        <input type="text" class="form-control input-lg">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="nao-sei-meu-cep-cpf">
+                                            <input id="nao-sei-meu-cep-cpf" type="checkbox"> Não sei meu CEP
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="text-muted" style="padding-top:20px;">
+                                        Digite o seu CEP que alguns campos serão preenchidos automaticamente
+                                    </p>
+                                </div>
+                                <div class="clearfix"></div>
                                 <div class="col-md-8">
                                     <div class="form-group">
                                         <label for="">Cidade<span class="text-vermelho">*</span></label>
@@ -131,7 +148,6 @@ include('_header.php');
                                             <option value="...">...</option>
                                         </select>
                                     </div>
-
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
@@ -159,17 +175,11 @@ include('_header.php');
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
-                                        <label for="">CEP<span class="text-vermelho">*</span></label>
-                                        <input type="text" class="form-control input-lg">
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="form-group">
                                         <label for="">Complemento<span class="text-vermelho">*</span></label>
                                         <input type="text" class="form-control input-lg">
                                     </div>
                                 </div>
-                                <div class="col-md-5">
+                                <div class="col-md-8">
                                     <div class="form-group">
                                         <label for="">Bairro<span class="text-vermelho">*</span></label>
                                         <input type="text" class="form-control input-lg">
@@ -259,6 +269,23 @@ include('_header.php');
                                     <hr>
                                     <h4 class="text-300">Endereço</h4>
                                 </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label for="">CEP<span class="text-vermelho">*</span></label>
+                                        <input type="text" class="form-control input-lg">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="nao-sei-meu-cep-cpf">
+                                            <input id="nao-sei-meu-cep-cpf" type="checkbox"> Não sei meu CEP
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="text-muted" style="padding-top:20px;">
+                                        Digite o seu CEP que alguns campos serão preenchidos automaticamente
+                                    </p>
+                                </div>
+                                <div class="clearfix"></div>
                                 <div class="col-md-8">
                                     <div class="form-group">
                                         <label for="">Cidade<span class="text-vermelho">*</span></label>
@@ -297,17 +324,11 @@ include('_header.php');
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
-                                        <label for="">CEP<span class="text-vermelho">*</span></label>
-                                        <input type="text" class="form-control input-lg">
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="form-group">
                                         <label for="">Complemento<span class="text-vermelho">*</span></label>
                                         <input type="text" class="form-control input-lg">
                                     </div>
                                 </div>
-                                <div class="col-md-5">
+                                <div class="col-md-8">
                                     <div class="form-group">
                                         <label for="">Bairro<span class="text-vermelho">*</span></label>
                                         <input type="text" class="form-control input-lg">

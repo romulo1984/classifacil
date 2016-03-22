@@ -48,6 +48,17 @@ if( (isset($_POST['logged'])) && ($_POST['logged'] == 'logout')){
         }
     }
 
+    if(isset($js)){
+        foreach($js as $key=>$value){
+            if($value == 'HEAD'){
+                echo '<script src="';
+                echo $key;
+                echo '"></script>';
+                echo PHP_EOL;
+            }
+        }
+    }
+
     ?>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->

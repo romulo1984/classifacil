@@ -61,11 +61,13 @@
 <?php
 
 if(isset($js)){
-    foreach($js as $value){
-        echo '<script src="';
-        echo $value;
-        echo '"></script>';
-        echo PHP_EOL;
+    foreach($js as $key=>$value){
+        if($value != 'HEAD'){
+            echo '<script src="';
+            echo $value;
+            echo '"></script>';
+            echo PHP_EOL;
+        }
     }
 }
 

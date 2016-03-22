@@ -35,6 +35,9 @@
 .text-laranja-diversos {
   color: #f58733;
 }
+.text-roxo-busca {
+  color: #A54586;
+}
 .bg-branco {
   background-color: #ffffff !important;
 }
@@ -659,6 +662,10 @@ footer a:hover {
 .titulo-categoria h1 {
   margin-top: 0;
   font-size: 3.2em;
+}
+.titulo-categoria h3 {
+  margin-top: 0;
+  font-size: 2.8em;
 }
 .context-imoveis .titulo-categoria h1 {
   color: #75bf4f;

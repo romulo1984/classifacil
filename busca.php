@@ -9,10 +9,10 @@ include('_header.php');
 
 <div class="container">
     <div class="row padding-2x">
-        <div class="col-sm-3 titulo-categoria">
-            <h1>busca</h1>
+        <div class="col-sm-4 titulo-categoria text-roxo-busca">
+            <h3>resultados da busca</h3>
         </div>
-        <div class="col-sm-9">
+        <div class="col-sm-8">
 
             <?php include('_search_bar.php'); ?>
 
