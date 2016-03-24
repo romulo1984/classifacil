@@ -9,7 +9,7 @@ $('#slider-destaques-imoveis').slick({
     infinite: true,
     speed: 300,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 3,
     autoplay: true,
     autoplaySpeed: 5000,
     responsive: [
@@ -27,7 +27,7 @@ $('#slider-destaques-imoveis').slick({
             breakpoint: 992,
             settings: {
                 slidesToShow: 2,
-                slidesToScroll: 1,
+                slidesToScroll: 2,
                 infinite: true,
                 dots: true,
                 arrows: false
@@ -44,7 +44,7 @@ $('#slider-destaques-veiculos').slick({
     infinite: true,
     speed: 300,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 3,
     autoplay: true,
     autoplaySpeed: 5000,
     responsive: [
@@ -62,7 +62,7 @@ $('#slider-destaques-veiculos').slick({
             breakpoint: 992,
             settings: {
                 slidesToShow: 2,
-                slidesToScroll: 1,
+                slidesToScroll: 2,
                 infinite: true,
                 dots: true,
                 arrows: false
@@ -79,7 +79,7 @@ $('#slider-destaques-diversos').slick({
     infinite: true,
     speed: 300,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 3,
     autoplay: true,
     autoplaySpeed: 5000,
     responsive: [
@@ -97,7 +97,7 @@ $('#slider-destaques-diversos').slick({
             breakpoint: 992,
             settings: {
                 slidesToShow: 2,
-                slidesToScroll: 1,
+                slidesToScroll: 2,
                 infinite: true,
                 dots: true,
                 arrows: false

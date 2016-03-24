@@ -17,7 +17,7 @@ include('_header.php');
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h2>Dashboard</h2>
+            <h2>Minha conta</h2>
         </div>
     </div>
 </div>

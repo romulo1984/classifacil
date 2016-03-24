@@ -143,3 +143,41 @@ function modoListagemAtivo() {
             .removeClass('ativado');
     }
 }
+
+
+//Simula itens sendo adicionados a comparação de produtos
+var countChecked = function() {
+    var n = $('input[type=checkbox][id^=imoveis]:checked').length;
+    if(n > 0) {
+        $('.compare-nav').addClass('compare-nav-active');
+        if(n == 1){
+            $('.item-selected:nth-child(1)').addClass('no-selected');
+            $('.item-selected:nth-child(2)').addClass('no-selected');
+            $('.item-selected:nth-child(3)').removeClass('no-selected');
+        } else if(n == 2){
+            $('.item-selected:nth-child(1)').addClass('no-selected');
+            $('.item-selected:nth-child(2)').removeClass('no-selected');
+            $('.item-selected:nth-child(3)').removeClass('no-selected');
+        } else if(n == 3){
+            $('.item-selected:nth-child(1)').removeClass('no-selected');
+            $('.item-selected:nth-child(2)').removeClass('no-selected');
+            $('.item-selected:nth-child(3)').removeClass('no-selected');
+            $('#modal-compare').modal('show');
+        } else if (n >= 4){
+            alert("A Comparação só pode ser feita com no máximo 3 produtos de cada Categoria");
+        }
+    } else {
+        $('.compare-nav').removeClass('compare-nav-active');
+    }
+    return n;
+};
+
+countChecked()
+
+$('input[type=checkbox][id^=imoveis]').click(function(){
+    countChecked()
+});
+
+$('input[type=checkbox][id^=veiculo]').click(function(){
+    countChecked()
+});

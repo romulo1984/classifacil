@@ -69,6 +69,29 @@ if( (isset($_POST['logged'])) && ($_POST['logged'] == 'logout')){
 </head>
 
 <body>
+
+<div class="compare-nav">
+
+    <a href="#modal-compare" class="btn btn-lg btn-success btn-compare" data-toggle="modal">Comparar</a>
+
+    <div class="selected-items">
+        <div class="item-selected">
+            <img src="assets/img/exemplos/imoveis/imovel1.jpg" height="46">
+        </div>
+
+        <div class="item-selected">
+            <img src="assets/img/exemplos/imoveis/imovel2.jpg" height="46">
+        </div>
+
+        <div class="item-selected">
+            <img src="assets/img/exemplos/imoveis/imovel3.jpg" height="46">
+        </div>
+    </div>
+
+</div>
+
+<?php include('partials/_modal-compare.php'); ?>
+
 <nav class="barra-topo hidden-xs">
     <div class="container">
         <div class="row">
@@ -159,25 +182,25 @@ if( (isset($_POST['logged'])) && ($_POST['logged'] == 'logout')){
         <div id="navbar" class="collapse navbar-collapse">
             <ul>
                 <li>
-                    <a href="imoveis.php" class="<?php echo ($menu['imoveis']) ? 'ativo' : ''; ?>">
+                    <a href="imoveis.php" class="<?php echo ($menu['imoveis']) ? 'ativo' : ''; ?> item-menu-imoveis">
                         <span class="fa fa-fw fa-home"></span><br class="hidden-xs">
                         Imóveis
                     </a>
                 </li>
                 <li>
-                    <a href="veiculos.php" class="<?php echo ($menu['veiculos']) ? 'ativo' : ''; ?>">
+                    <a href="veiculos.php" class="<?php echo ($menu['veiculos']) ? 'ativo' : ''; ?> item-menu-veiculos">
                         <span class="fa fa-fw fa-car"></span><br class="hidden-xs">
                         Veículos
                     </a>
                 </li>
                 <li>
-                    <a href="diversos.php" class="<?php echo ($menu['diversos']) ? 'ativo' : ''; ?>">
+                    <a href="diversos.php" class="<?php echo ($menu['diversos']) ? 'ativo' : ''; ?> item-menu-diversos">
                         <span class="fa fa-fw fa-asterisk"></span><br class="hidden-xs">
                         Diversos
                     </a>
                 </li>
                 <li>
-                    <a href="anuncie.php" class="<?php echo ($menu['anuncie']) ? 'ativo' : ''; ?>">
+                    <a href="dashboard.php" class="<?php echo ($menu['anuncie']) ? 'ativo' : ''; ?>">
                         <span class="fa fa-fw fa-newspaper-o"></span><br class="hidden-xs">
                         Anuncie
                     </a>
