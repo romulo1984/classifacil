@@ -581,3 +581,45 @@ footer {
         height:auto !important;
     }
 }
+
+.faixa-enviar-foto {
+    padding-top: @gutter/2;
+    background-color: #EAEAEA;
+    padding-bottom: @gutter/2;
+    margin-bottom: @gutter/2;
+    margin-top: @gutter/2;
+}
+
+.a-anuncie {
+    display:block;
+    height:112px;
+    background-repeat:no-repeat;
+    &:hover {
+        background-position: 0 0;
+    }
+}
+
+.anuncie-impresso {
+    .a-anuncie;
+    width:120px;
+    -webkit-background-size: 240px;
+    background-size: 240px;
+    background-image: url(../img/anuncie-impresso.png);
+    background-position:-120px 0;
+}
+.anuncie-impresso-web {
+    .a-anuncie;
+    width:170px;
+    -webkit-background-size: 340px;
+    background-size: 340px;
+    background-image: url(../img/anuncie-impresso-web.png);
+    background-position:-170px 0;
+}
+.anuncie-web {
+    .a-anuncie;
+    width:81px;
+    -webkit-background-size: 162px;
+    background-size: 162px;
+    background-image: url(../img/anuncie-web.png);
+    background-position:-81px 0;
+}

@@ -213,6 +213,20 @@ include('_header.php');
                                         <input type="text" class="form-control input-lg">
                                     </div>
                                 </div>
+                                <div class="col-md-12 faixa-enviar-foto">
+                                    <div class="media">
+                                        <div class="media-left media-middle">
+                                            <img src="http://www.gravatar.com/avatar/0?s=70&amp;d=mm&amp;f=y" class="img-circle">
+                                        </div>
+                                        <div class="media-body media-middle">
+                                            <strong>Imagem do anunciante</strong>
+                                            <p class="small text-muted">
+                                                Envie sua imagem para aparecer nas informações do anunciante na págia do anúncio.
+                                            </p>
+                                            <input type="file" />
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="col-md-12">
                                     <div class="pull-right">
                                         <p>
@@ -360,6 +374,20 @@ include('_header.php');
                                     <div class="form-group">
                                         <label for="">Confirme o E-mail<span class="text-vermelho">*</span></label>
                                         <input type="text" class="form-control input-lg">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 faixa-enviar-foto">
+                                    <div class="media">
+                                        <div class="media-left media-middle">
+                                            <img src="http://www.gravatar.com/avatar/0?s=70&amp;d=mm&amp;f=y" class="img-circle">
+                                        </div>
+                                        <div class="media-body media-middle">
+                                            <strong>Imagem do anunciante</strong>
+                                            <p class="small text-muted">
+                                                Envie sua imagem para aparecer nas informações do anunciante na págia do anúncio.
+                                            </p>
+                                            <input type="file" />
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
