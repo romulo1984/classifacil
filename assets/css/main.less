@@ -623,3 +623,60 @@ footer {
     background-image: url(../img/anuncie-web.png);
     background-position:-81px 0;
 }
+
+.overlay-play-video {
+
+    &::before {
+        position:absolute;
+        content:'';
+        width:100%;
+        height:100%;
+        background-color: fade(#000, 25%);
+
+        margin:0;
+        padding:0;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+    }
+
+    &::after {
+        position:absolute;
+        content:'\f144';
+        color: fade(@branco, 50%);
+        font-family:FontAwesome;
+        font-size:80px;
+        text-align: center;
+        width:100%;
+
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+
+        left:0;
+        right:0;
+    }
+}
+
+.overlay-play-video-thumb {
+
+    &::after {
+        position:absolute;
+        content:'\f144';
+        color: fade(@branco, 60%);
+        font-family:FontAwesome;
+        font-size:50px;
+        text-align: center;
+        width:100%;
+
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+
+        left:0;
+        right:0;
+    }
+}

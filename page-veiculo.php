@@ -37,7 +37,7 @@ include('_header.php');
                                 </div>
                             </div>
                             <div class="slider-img-grande">
-                                <a href="https://www.youtube.com/watch?v=-xVStcMtzps" class="item-slider-galeria">
+                                <a href="https://www.youtube.com/watch?v=-xVStcMtzps" class="item-slider-galeria overlay-play-video">
                                     <img src="assets/img/exemplos/veiculos/page-veiculo/veiculo1.jpg" class="img-responsive" />
                                 </a>
                                 <a href="assets/img/exemplos/veiculos/page-veiculo/veiculo2.jpg" class="item-slider-galeria">
@@ -53,8 +53,8 @@ include('_header.php');
                         </div>
                         <div class="col-md-12">
                             <div class="row slider-img-nav">
-                                <div class="col-sm-3">
-                                    <div class="item-miniatura-galeria" style="background-image: url(assets/img/exemplos/veiculos/page-veiculo/veiculo1.jpg);"></div>
+                                <div class="col-sm-3 ">
+                                    <div class="item-miniatura-galeria overlay-play-video-thumb" style="background-image: url(assets/img/exemplos/veiculos/page-veiculo/veiculo1.jpg);"></div>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="item-miniatura-galeria" style="background-image: url(assets/img/exemplos/veiculos/page-veiculo/veiculo2.jpg);"></div>
