@@ -130,7 +130,7 @@ if( (isset($_POST['logged'])) && ($_POST['logged'] == 'logout')){
     <div class="row">
         <div class="col-sm-6">
             <h2>
-                <a href="index3.php">
+                <a href="index.php">
                     <img src="assets/img/logo.png" alt="Classifácil" class="img-responsive logo-classifacil">
                 </a>
             </h2>
