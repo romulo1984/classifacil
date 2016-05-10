@@ -27,19 +27,19 @@ include('_header.php');
 
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h2 class="text-300">Fale Conosco</h2>
+                        <h1 class="text-cinza-escuro">fale conosco</h1>
                     </div>
                     <div class="panel-body">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="">Nome</label>
+                                    <label for="">Nome<span class="text-vermelho">*</span></label>
                                     <input type="text" class="input-lg form-control">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="">E-mail</label>
+                                    <label for="">E-mail<span class="text-vermelho">*</span></label>
                                     <input type="text" class="input-lg form-control">
                                 </div>
                             </div>
@@ -61,7 +61,7 @@ include('_header.php');
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <label for="">Mensagem</label>
+                                <label for="">Mensagem<span class="text-vermelho">*</span></label>
                                 <textarea rows="6" class="form-control input-lg"></textarea>
                             </div>
                             <div class="col-md-12">

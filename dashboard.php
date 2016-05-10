@@ -17,7 +17,7 @@ include('_header.php');
 <div class="container">
     <div class="row padding-2x">
         <div class="col-sm-3 titulo-categoria">
-            <h1>Minha Conta</h1>
+            <h1 class="text-azul">minha conta</h1>
         </div>
         <div class="col-sm-7">
 

@@ -43,7 +43,7 @@ include('_header.php');
             </a>
         </div>
         <div class="col-sm-3">
-            <a href="anuncie.php" class="card text-center text-branco bg-vermelho" style="padding: 24px 10px;">
+            <a href="dashboard.php" class="card text-center text-branco bg-vermelho" style="padding: 24px 10px;">
                 <h4 class="text-300">
                     FAÇA O SEU
                 </h4>
@@ -61,7 +61,11 @@ include('_header.php');
     <div class="row context-imoveis">
         <div class="col-md-12 padding-bottom-2x">
             <h1>
-                <span class="text-300">Ofertas em destaque </span><span class="text-verde-imoveis"><span class="fa fa-fw fa-home"></span> imóveis</span>
+                <span class="text-300">Ofertas em destaque </span>
+                <a href="imoveis.php" class="link-contextual">
+                    <span class="fa fa-fw fa-home"></span>
+                    imóveis
+                </a>
             </h1>
         </div>
 
@@ -282,7 +286,13 @@ include('_header.php');
     <div class="row context-veiculos">
         <div class="col-md-12 padding-bottom-2x">
             <h1>
-                <span class="text-300">Ofertas em destaque </span><span class="text-roxo-veiculos"><span class="fa fa-fw fa-car"></span> veículos</span>
+                <span class="text-300">
+                    Ofertas em destaque
+                </span>
+                <a href="veiculos.php" class="link-contextual">
+                    <span class="fa fa-fw fa-car"></span>
+                    veículos
+                </a>
             </h1>
         </div>
 
@@ -504,7 +514,13 @@ include('_header.php');
     <div class="row context-diversos">
         <div class="col-md-12 padding-bottom-2x">
             <h1>
-                <span class="text-300">Ofertas em destaque </span><span class="text-laranja-diversos"><span class="fa fa-fw fa-asterisk"></span> diversos</span>
+                <span class="text-300">
+                    Ofertas em destaque
+                </span>
+                <a href="diversos.php" class="link-contextual">
+                    <span class="fa fa-fw fa-asterisk"></span>
+                    diversos
+                </a>
             </h1>
         </div>
 

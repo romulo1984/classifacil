@@ -39,15 +39,15 @@ function toggleChevron(e) {
 $('.accordion').on('hidden.bs.collapse', toggleChevron);
 $('.accordion').on('shown.bs.collapse', toggleChevron);
 
-
-$('.sidebar-affix').affix({
-    offset: {
-        top: 425,
-        bottom: function () {
-            return (this.bottom = $('footer').outerHeight(true));
-        }
-    }
-});
+//Desativado por pedido do Jovandro
+// $('.sidebar-affix').affix({
+//     offset: {
+//         top: 425,
+//         bottom: function () {
+//             return (this.bottom = $('footer').outerHeight(true));
+//         }
+//     }
+// });
 
 //Largura sutomática do Affix
 function widthAffix(){

@@ -1,4 +1,4 @@
-<div class="panel panel-default">
+<div class="panel panel-default share-icons">
     <div class="panel-body">
         <div class="pull-right">
             <div class="btn-group"

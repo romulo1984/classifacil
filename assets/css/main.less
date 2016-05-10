@@ -347,7 +347,7 @@ footer {
         }
 
         .inner-preco {
-            background-color:@color;
+            background-color:@color !important;
         }
 
         //.indique-compare-box .btn {
@@ -363,6 +363,14 @@ footer {
             z-index: 1;
             &:before {
                 color:@color;
+            }
+        }
+        a {
+            &.link-contextual {
+                color:@color;
+                &:hover {
+                    color:lighten(@color, 10%);
+                }
             }
         }
     }
@@ -678,5 +686,64 @@ footer {
 
         left:0;
         right:0;
+    }
+}
+
+//Impressão
+@media print {
+
+    footer,
+    hr,
+    .compare-nav,
+    .barra-topo,
+    .topo-logo,
+    .menu-principal,
+    .search-bar,
+    .share-icons,
+    .slider-img-nav,
+    .slick-next,
+    .slick-prev,
+    .img-ads,
+    .info-vendedor form,
+    .destaques-pagina-anuncio,
+    .conteudo .container:first-child {
+        display: none !important;
+    }
+
+    .slider-img-grande,
+    .galeria-anuncio {
+        max-height:300px;
+        overflow: hidden;
+    }
+    .slider-img-grande {
+        img {
+            max-height:300px;
+        }
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size:16px;
+        margin:0 0 20px;
+        line-height:1.3em;
+    }
+
+    .container-anuncio h1:first-child {
+        font-size:20px;
+        margin-top:15px;
+    }
+
+    p, span, div {
+        font-size: 14px;
+        margin:0;
+        line-height:1.2em;
+    }
+
+    .col-xs-6,
+    .col-sm-6,
+    .col-md-6,
+    .col-lg-6 {
+        position:relative;
+        float:left;
+        width:50%;
     }
 }

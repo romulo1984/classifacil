@@ -29,7 +29,7 @@ include('_header.php');
 
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h2 class="text-300">Dúvidas Frequentes</h2>
+                            <h1 class="text-cinza-escuro">dúvidas frequentes</h1>
                         </div>
                         <div class="panel-heading" role="tab" id="headingOne">
                             <h4 class="panel-title">
