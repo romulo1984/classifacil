@@ -49,6 +49,15 @@ $('.accordion').on('shown.bs.collapse', toggleChevron);
 //     }
 // });
 
+$('.sidebar-affix.affix-anunciante').affix({
+    offset: {
+        top: 425,
+        bottom: function () {
+            return (this.bottom = $('footer').outerHeight(true));
+        }
+    }
+});
+
 //Largura sutomática do Affix
 function widthAffix(){
     var $affixElement = $('.sidebar-affix');

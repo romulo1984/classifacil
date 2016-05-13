@@ -68,6 +68,7 @@ ESTILOS PERSONALIZADOS
 
 //Menu Principal
 .menu-principal {
+    z-index: 4;
     .bg-azul;
     .text-branco;
     margin:1em 0;
@@ -746,4 +747,35 @@ footer {
         float:left;
         width:50%;
     }
+}
+
+.label-select {
+    margin-right:4px;
+    padding:6px;
+    padding-left:26px;
+
+    &:last-child {
+        margin-right:0;
+    }
+
+    label {
+        font-size:14px;
+        line-height:1.4em;
+        &::after {
+            left:-1px !important;
+            top:-2px !important;
+        }
+    }
+
+    input[type="checkbox"]:checked + label,
+    input[type="radio"]:checked + label {
+        &::before {
+            background-color: transparent !important;
+            border-color: transparent !important;
+        }
+        &::after {
+            color: #fff !important;
+        }
+    }
+
 }

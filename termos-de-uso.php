@@ -8,7 +8,7 @@ include('_header.php');
 
     <div class="container">
         <div class="row padding-2x padding-bottom-3x">
-            <div class="col-md-8 col-md-offset-2">
+            <div class="col-md-122">
 
                 <?php include('_search_bar.php'); ?>
 

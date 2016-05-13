@@ -11,7 +11,7 @@ include('_header.php');
 
 <div class="container">
     <div class="row padding-2x padding-bottom-3x">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-12">
 
             <?php include('_search_bar.php'); ?>
 
@@ -118,7 +118,7 @@ include('_header.php');
         <!-- Anunciante e Publicidade -->
         <div class="col-md-4 context-diversos">
 
-            <div class="sidebar-affix">
+            <div class="sidebar-affix affix-anunciante">
                 <!-- Anunciante -->
                 <div class="info-vendedor">
                     <div class="panel panel-default">

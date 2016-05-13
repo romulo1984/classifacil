@@ -1,15 +1,34 @@
-<div class="input-group search-bar">
-    <input type="text" class="form-control input-lg" placeholder="O que você está procurando...">
+<form action="busca.php">
 
-    <select class="selectpicker input-group-addon input-group-select hidden-xs" data-multiple-separator=" " multiple>
-        <option data-content="<span class='label bg-verde-imoveis'>IMÓVEIS</span>" selected>IMÓVEIS</option>
-        <option data-content="<span class='label bg-roxo-veiculos'>VEÍCULOS</span>" selected>VEÍCULOS</option>
-        <option data-content="<span class='label bg-laranja-diversos'>DIVERSOS</span>" selected>DIVERSOS</option>
-    </select>
+    <div class="input-group search-bar">
 
-    <span class="input-group-btn">
-        <a href="busca.php" class="btn btn-primary btn-lg" type="button">
-            buscar <span class="fa fa-fw fa-search"></span>
-        </a>
-    </span>
-</div>
+        <input type="text" name="search-terms" class="form-control input-lg" value="<?php echo (isset($_GET['search-terms'])) ? $_GET['search-terms'] : '' ?>" placeholder="O que você está procurando...">
+
+        <span class="input-group-addon">
+
+            <div class="checkbox no-margin label label-select bg-verde-imoveis">
+                <input id="search-imoveis" class="styled" type="checkbox" checked>
+                <label for="search-imoveis">IMÓVEIS</label>
+            </div>
+
+            <div class="checkbox no-margin label label-select bg-roxo-veiculos">
+                <input id="search-veiculos" class="styled" type="checkbox" checked>
+                <label for="search-veiculos">VEÍCULOS</label>
+            </div>
+
+            <div class="checkbox no-margin label label-select bg-laranja-diversos">
+                <input id="search-diversos" class="styled" type="checkbox" checked>
+                <label for="search-diversos">DIVERSOS</label>
+            </div>
+
+        </span>
+
+        <span class="input-group-btn">
+            <button class="btn btn-primary btn-lg" type="submit">
+                buscar <span class="fa fa-fw fa-search"></span>
+            </button>
+        </span>
+
+    </div>
+
+</form>

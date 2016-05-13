@@ -438,6 +438,7 @@ ESTILOS PERSONALIZADOS
   padding-bottom: 15px;
 }
 .menu-principal {
+  z-index: 4;
   background-color: #125ca3 !important;
   color: #ffffff;
   margin: 1em 0;
@@ -1177,4 +1178,29 @@ footer a:hover {
     float: left;
     width: 50%;
   }
+}
+.label-select {
+  margin-right: 4px;
+  padding: 6px;
+  padding-left: 26px;
+}
+.label-select:last-child {
+  margin-right: 0;
+}
+.label-select label {
+  font-size: 14px;
+  line-height: 1.4em;
+}
+.label-select label::after {
+  left: -1px !important;
+  top: -2px !important;
+}
+.label-select input[type="checkbox"]:checked + label::before,
+.label-select input[type="radio"]:checked + label::before {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+.label-select input[type="checkbox"]:checked + label::after,
+.label-select input[type="radio"]:checked + label::after {
+  color: #fff !important;
 }
