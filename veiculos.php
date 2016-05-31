@@ -12,7 +12,7 @@ include('_header.php');
     <div class="container context-veiculos">
         <div class="row padding-2x">
             <div class="col-sm-3 titulo-categoria">
-                <h1>veículos</h1>
+                <h1>Veículos</h1>
             </div>
             <div class="col-sm-9">
 
@@ -45,6 +45,23 @@ include('_header.php');
                                 <div class="panel-body list-group">
                                     <a href="#" class="list-group-item">Comprar <strong>(2254)</strong></a>
                                     <a href="#" class="list-group-item">Alugar <strong>(265)</strong></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a class="accordion-toggle" data-toggle="collapse" href="#condicao-veiculo">
+                                        Condição do Veículo
+                                        <i class="indicator fa fa-fw fa-plus pull-right"></i>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="condicao-veiculo" class="panel-collapse collapse">
+                                <div class="panel-body list-group">
+                                    <a href="#" class="list-group-item">Novo <strong>(665)</strong></a>
+                                    <a href="#" class="list-group-item">Seminovo <strong>(3258)</strong></a>
+                                    <a href="#" class="list-group-item">Usado <strong>(754)</strong></a>
                                 </div>
                             </div>
                         </div>
@@ -91,17 +108,20 @@ include('_header.php');
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a class="accordion-toggle" data-toggle="collapse" href="#estado-veiculo">
-                                        Estado do Veículo
-                                        <i class="indicator fa fa-fw fa-plus pull-right"></i>
+                                    <a class="accordion-toggle" data-toggle="collapse" href="#modelo">
+                                        Modelo
+                                        <i class="indicator fa fa-fw fa-plus  pull-right"></i>
                                     </a>
                                 </h4>
                             </div>
-                            <div id="estado-veiculo" class="panel-collapse collapse">
+                            <div id="modelo" class="panel-collapse collapse">
                                 <div class="panel-body list-group">
-                                    <a href="#" class="list-group-item">Novo <strong>(665)</strong></a>
-                                    <a href="#" class="list-group-item">Seminovo <strong>(3258)</strong></a>
-                                    <a href="#" class="list-group-item">Usado <strong>(754)</strong></a>
+                                    <a href="#" class="list-group-item">Ford <strong>(22)</strong></a>
+                                    <a href="#" class="list-group-item">Mercedes <strong>(95)</strong></a>
+                                    <a href="#" class="list-group-item">BMW <strong>(215)</strong></a>
+                                    <a href="#" class="list-group-item">Volvo <strong>(321)</strong></a>
+                                    <a href="#" class="list-group-item">Fiat <strong>(56)</strong></a>
+                                    <a href="#" class="list-group-item">Volkswagen <strong>(654)</strong></a>
                                 </div>
                             </div>
                         </div>
@@ -207,36 +227,77 @@ include('_header.php');
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a class="accordion-toggle" data-toggle="collapse" href="#cor">
-                                        Cor
+                                    <a class="accordion-toggle" data-toggle="collapse" href="#estado">
+                                        Estado
                                         <i class="indicator fa fa-fw fa-plus pull-right"></i>
-                                    </a>
+                                    </a
                                 </h4>
                             </div>
-                            <div id="cor" class="panel-collapse collapse">
+                            <div id="estado" class="panel-collapse collapse">
                                 <div class="panel-body list-group">
-                                    <a href="#" class="list-group-item">Prata <strong>(665)</strong></a>
-                                    <a href="#" class="list-group-item">Preto <strong>(3258)</strong></a>
-                                    <a href="#" class="list-group-item">Branco <strong>(754)</strong></a>
-                                    <a href="#" class="list-group-item">Vermelho <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">Azul <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">Amarelo <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">Rosa <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">Roxo <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">Cinza <strong>(215)</strong></a>
+                                    <a href="#" class="list-group-item">Acre <strong>(452)</strong></a>
+                                    <a href="#" class="list-group-item">Alagoas <strong>(142)</strong></a>
+                                    <a href="#" class="list-group-item">Amapá <strong>(244)</strong></a>
+                                    <a href="#" class="list-group-item">Amazonas <strong>(274)</strong></a>
+                                    <a href="#" class="list-group-item">Bahia <strong>(227)</strong></a>
+                                    <a href="#" class="list-group-item">Ceará <strong>(345)</strong></a>
+                                    <a href="#" class="list-group-item">Distrito Federal <strong>(224)</strong></a>
+                                    <a href="#" class="list-group-item">Espírito Santo <strong>(574)</strong></a>
+                                    <a href="#" class="list-group-item">Goiás <strong>(351)</strong></a>
+                                    <a href="#" class="list-group-item">Maranhão <strong>(447)</strong></a>
+                                    <a href="#" class="list-group-item">Mato Grosso <strong>(674)</strong></a>
+                                    <a href="#" class="list-group-item">Mato Grosso do Sul <strong>(114)</strong></a>
+                                    <a href="#" class="list-group-item">Minas Gerais <strong>(367)</strong></a>
+                                    <a href="#" class="list-group-item">Pará <strong>(456)</strong></a>
+                                    <a href="#" class="list-group-item">Paraíba <strong>(522)</strong></a>
+                                    <a href="#" class="list-group-item">Paraná <strong>(544)</strong></a>
+                                    <a href="#" class="list-group-item">Pernambuco <strong>(741)</strong></a>
+                                    <a href="#" class="list-group-item">Piauí <strong>(341)</strong></a>
+                                    <a href="#" class="list-group-item">Rio de Janeiro <strong>(114)</strong></a>
+                                    <a href="#" class="list-group-item">Rio Grando do Norte <strong>(224)</strong></a>
+                                    <a href="#" class="list-group-item">Rio Grando do Sul <strong>(344)</strong></a>
+                                    <a href="#" class="list-group-item">Rondônia <strong>(125)</strong></a>
+                                    <a href="#" class="list-group-item">Roraima <strong>(233)</strong></a>
+                                    <a href="#" class="list-group-item">Santa Catarina <strong>(78)</strong></a>
+                                    <a href="#" class="list-group-item">São Paulo <strong>(254)</strong></a>
+                                    <a href="#" class="list-group-item">Sergipe <strong>(126)</strong></a>
+                                    <a href="#" class="list-group-item">Tocantins <strong>(744)</strong></a>
                                 </div>
                             </div>
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a class="accordion-toggle" data-toggle="collapse" href="#vendedor">
-                                        Vendedor
+                                    <a class="accordion-toggle" data-toggle="collapse" href="#cidade">
+                                        Cidade
                                         <i class="indicator fa fa-fw fa-plus pull-right"></i>
                                     </a>
                                 </h4>
                             </div>
-                            <div id="vendedor" class="panel-collapse collapse">
+                            <div id="cidade" class="panel-collapse collapse">
+                                <div class="panel-body list-group">
+                                    <a href="#" class="list-group-item">Vitória <strong>(665)</strong></a>
+                                    <a href="#" class="list-group-item">Vilha Velha <strong>(3258)</strong></a>
+                                    <a href="#" class="list-group-item">Serra <strong>(754)</strong></a>
+                                    <a href="#" class="list-group-item">Cariacica <strong>(215)</strong></a>
+                                    <a href="#" class="list-group-item">Guarapari <strong>(58)</strong></a>
+                                    <a href="#" class="list-group-item">Viana <strong>(122)</strong></a>
+                                    <a href="#" class="list-group-item">Colatina <strong>(24)</strong></a>
+                                    <a href="#" class="list-group-item">Linhares <strong>(36)</strong></a>
+                                    <a href="#" class="list-group-item">Outras Cidades <strong>(362)</strong></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a class="accordion-toggle" data-toggle="collapse" href="#revendas">
+                                        Revendas
+                                        <i class="indicator fa fa-fw fa-plus pull-right"></i>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="revendas" class="panel-collapse collapse">
                                 <div class="panel-body list-group">
                                     <a href="#" class="list-group-item">Particular <strong>(665)</strong></a>
                                     <a href="#" class="list-group-item">Concessionária <strong>(3258)</strong></a>

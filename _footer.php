@@ -6,7 +6,7 @@
             <div class="col-sm-5">
                 <img src="assets/img/logo-classifacil-branco.png" width="120" style="margin-bottom:15px;">
                 <p class="text-branco">
-                    Nassau Editora, Rádio e Televisão LTDA - Grupo João Santo <br>
+                    Nassau Editora, Rádio e Televisão LTDA<br>
                     Rua Joaquim Plácido da Silva, 225 <br>
                     Ilha de Santa Maria - CEP 29051-900 - Vitória-ES
                 </p>

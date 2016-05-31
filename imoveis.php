@@ -12,7 +12,7 @@ include('_header.php');
 <div class="container context-imoveis">
     <div class="row padding-2x">
         <div class="col-sm-3 titulo-categoria">
-            <h1>imóveis</h1>
+            <h1>Imóveis</h1>
         </div>
         <div class="col-sm-9">
 
@@ -163,6 +163,24 @@ include('_header.php');
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" href="#bairro">
+                                    Bairro
+                                    <i class="indicator fa fa-fw fa-plus pull-right"></i>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="bairro" class="panel-collapse collapse">
+                            <div class="panel-body list-group">
+                                <a href="#" class="list-group-item">Jardim da Penha <strong>(665)</strong></a>
+                                <a href="#" class="list-group-item">Jardim Camburi <strong>(3258)</strong></a>
+                                <a href="#" class="list-group-item">Praia do Canto <strong>(754)</strong></a>
+                                <a href="#" class="list-group-item">Centro <strong>(215)</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
                                 <a class="accordion-toggle" data-toggle="collapse" href="#valor">
                                     Valor
                                     <i class="indicator fa fa-fw fa-plus pull-right"></i>
@@ -199,47 +217,30 @@ include('_header.php');
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" href="#lazer">
-                                    Lazer
+                                <a class="accordion-toggle" data-toggle="collapse" href="#suites">
+                                    Suítes
                                     <i class="indicator fa fa-fw fa-plus pull-right"></i>
                                 </a>
                             </h4>
                         </div>
-                        <div id="lazer" class="panel-collapse collapse">
+                        <div id="suites" class="panel-collapse collapse">
                             <div class="panel-body list-group">
-                                <a href="#" class="list-group-item">Quadra de Esportes <strong>(115)</strong></a>
-                                <a href="#" class="list-group-item">Piscina <strong>(622)</strong></a>
-                                <a href="#" class="list-group-item">Playground <strong>(225)</strong></a>
+                                <a href="#" class="list-group-item">1 <strong>(115)</strong></a>
+                                <a href="#" class="list-group-item">2 <strong>(622)</strong></a>
+                                <a href="#" class="list-group-item">3 ou mais <strong>(225)</strong></a>
                             </div>
                         </div>
                     </div>
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" href="#seguranca">
-                                    Segurança
-                                    <i class="indicator fa fa-fw fa-plus pull-right"></i>
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="seguranca" class="panel-collapse collapse">
-                            <div class="panel-body list-group">
-                                <a href="#" class="list-group-item">Porteiro 24h <strong>(362)</strong></a>
-                                <a href="#" class="list-group-item">Cerca Elétrica <strong>(85)</strong></a>
-                                <a href="#" class="list-group-item">Câmeras <strong>(116)</strong></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" href="#construtoras">
-                                    Construtoras
+                                <a class="accordion-toggle" data-toggle="collapse" href="#imobiliarias">
+                                    Imobiliárias
                                     <i class="indicator fa fa-fw fa-plus  pull-right"></i>
                                 </a>
                             </h4>
                         </div>
-                        <div id="construtoras" class="panel-collapse collapse">
+                        <div id="imobiliarias" class="panel-collapse collapse">
                             <div class="panel-body list-group">
                                 <a href="#" class="list-group-item">Argo <strong>(22)</strong></a>
                                 <a href="#" class="list-group-item">RS <strong>(95)</strong></a>

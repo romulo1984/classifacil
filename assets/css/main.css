@@ -391,6 +391,14 @@ a {
 a:hover {
   text-decoration: none;
 }
+a:hover h1,
+a:hover h2,
+a:hover h3,
+a:hover h4,
+a:hover h5,
+a:hover h6 {
+  color: #30477a;
+}
 a:focus {
   outline: none;
   outline-offset: 0;

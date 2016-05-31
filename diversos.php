@@ -12,7 +12,7 @@ include('_header.php');
     <div class="container context-diversos">
         <div class="row padding-2x">
             <div class="col-sm-3 titulo-categoria">
-                <h1>diversos</h1>
+                <h1>Diversos</h1>
             </div>
             <div class="col-sm-9">
 
@@ -35,13 +35,32 @@ include('_header.php');
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a class="accordion-toggle" data-toggle="collapse" href="#tipo">
-                                        Tipo
+                                    <a class="accordion-toggle" data-toggle="collapse" href="#pretensao">
+                                        Pretensão
                                         <i class="indicator fa fa-fw fa-minus pull-right"></i>
                                     </a
                                 </h4>
                             </div>
-                            <div id="tipo" class="panel-collapse collapse in">
+                            <div id="pretensao" class="panel-collapse collapse in">
+                                <div class="panel-body list-group">
+                                    <a href="#" class="list-group-item">Ofereço <strong>(1365)</strong></a>
+                                    <a href="#" class="list-group-item">Contrato <strong>(2365)</strong></a>
+                                    <a href="#" class="list-group-item">Compra <strong>(2365)</strong></a>
+                                    <a href="#" class="list-group-item">Vende <strong>(2365)</strong></a>
+                                    <a href="#" class="list-group-item">Aluga <strong>(2365)</strong></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a class="accordion-toggle" data-toggle="collapse" href="#segmento">
+                                        Segmento
+                                        <i class="indicator fa fa-fw fa-minus pull-right"></i>
+                                    </a
+                                </h4>
+                            </div>
+                            <div id="segmento" class="panel-collapse collapse in">
                                 <div class="panel-body list-group">
                                     <a href="#" class="list-group-item">Emprego <strong>(522)</strong></a>
                                     <a href="#" class="list-group-item">Prestação de Serviços <strong>(895)</strong></a>
@@ -57,151 +76,39 @@ include('_header.php');
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a class="accordion-toggle" data-toggle="collapse" href="#estado">
-                                        Estado
+                                    <a class="accordion-toggle" data-toggle="collapse" href="#subsegmento">
+                                        Sub-subsegmento
+                                        <i class="indicator fa fa-fw fa-plus pull-right"></i>
+                                    </a
+                                </h4>
+                            </div>
+                            <div id="subsegmento" class="panel-collapse collapse">
+                                <div class="panel-body list-group">
+                                    <a href="#" class="list-group-item">Emprego <strong>(522)</strong></a>
+                                    <a href="#" class="list-group-item">Prestação de Serviços <strong>(895)</strong></a>
+                                    <a href="#" class="list-group-item">Animais <strong>(1254)</strong></a>
+                                    <a href="#" class="list-group-item">Bicicleta <strong>(245)</strong></a>
+                                    <a href="#" class="list-group-item">Eletromoésticos <strong>(365)</strong></a>
+                                    <a href="#" class="list-group-item">Informática <strong>(365)</strong></a>
+                                    <a href="#" class="list-group-item">Celular <strong>(365)</strong></a>
+                                    <a href="#" class="list-group-item">Móveis <strong>(365)</strong></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a class="accordion-toggle" data-toggle="collapse" href="#condicao">
+                                        Condição
                                         <i class="indicator fa fa-fw fa-plus  pull-right"></i>
                                     </a>
                                 </h4>
                             </div>
-                            <div id="estado" class="panel-collapse collapse">
+                            <div id="condicao" class="panel-collapse collapse">
                                 <div class="panel-body list-group">
                                     <a href="#" class="list-group-item">Novo <strong>(22)</strong></a>
                                     <a href="#" class="list-group-item">Seminovo <strong>(95)</strong></a>
                                     <a href="#" class="list-group-item">Usado <strong>(215)</strong></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a class="accordion-toggle" data-toggle="collapse" href="#valor">
-                                        Valor
-                                        <i class="indicator fa fa-fw fa-plus  pull-right"></i>
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="valor" class="panel-collapse collapse">
-                                <div class="panel-body list-group">
-                                    <a href="#" class="list-group-item">Até R$ 1.99 <strong>(22)</strong></a>
-                                    <a href="#" class="list-group-item">De R$ 1.99 à R$ 50 <strong>(95)</strong></a>
-                                    <a href="#" class="list-group-item">De R$ 50 à R$ 100 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">De R$ 100 à R$ 300 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">De R$ 300 à R$ 500 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">De R$ 500 à R$ 1.000 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">De R$ 1.000 à R$ 2.000 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">De R$ 2.000 à R$ 5.000 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">De R$ 5.000 à R$ 10.000 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">Acima de R$ 10.000 <strong>(215)</strong></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a class="accordion-toggle" data-toggle="collapse" href="#ano">
-                                        Ano
-                                        <i class="indicator fa fa-fw fa-plus pull-right"></i>
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="ano" class="panel-collapse collapse">
-                                <div class="panel-body list-group">
-                                    <a href="#" class="list-group-item">2016 <strong>(665)</strong></a>
-                                    <a href="#" class="list-group-item">2015 <strong>(3258)</strong></a>
-                                    <a href="#" class="list-group-item">2014 <strong>(754)</strong></a>
-                                    <a href="#" class="list-group-item">2013 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">2012 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">2011 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">2010 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">2009 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">2008 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">2007 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">2006 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">2005 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">2004 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">2003 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">2002 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">2001 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">2000 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">1999 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">1998 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">1997 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">1996 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">1995 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">1994 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">1993 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">1992 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">1991 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">1990 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">1989 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">1987 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">1986 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">1985 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">1984 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">1983 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">1982 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">1981 <strong>(215)</strong></a>
-                                    <a href="#" class="list-group-item">1980 <strong>(215)</strong></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a class="accordion-toggle" data-toggle="collapse" href="#marca">
-                                        Marca
-                                        <i class="indicator fa fa-fw fa-plus pull-right"></i>
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="marca" class="panel-collapse collapse">
-                                <div class="panel-body list-group">
-                                    <a href="#" class="list-group-item">A definir</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a class="accordion-toggle" data-toggle="collapse" href="#modelo">
-                                        Modelo
-                                        <i class="indicator fa fa-fw fa-plus pull-right"></i>
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="modelo" class="panel-collapse collapse">
-                                <div class="panel-body list-group">
-                                    <a href="#" class="list-group-item">A definir</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a class="accordion-toggle" data-toggle="collapse" href="#garantia">
-                                        Garantia
-                                        <i class="indicator fa fa-fw fa-plus pull-right"></i>
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="garantia" class="panel-collapse collapse">
-                                <div class="panel-body list-group">
-                                    <a href="#" class="list-group-item">A definir</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a class="accordion-toggle" data-toggle="collapse" href="#raca">
-                                        Raça
-                                        <i class="indicator fa fa-fw fa-plus pull-right"></i>
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="raca" class="panel-collapse collapse">
-                                <div class="panel-body list-group">
-                                    <a href="#" class="list-group-item">A definir</a>
                                 </div>
                             </div>
                         </div>

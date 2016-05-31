@@ -8,7 +8,7 @@
             <h2 class="padding-2x text-verde-imoveis">
                 <a href="imoveis.php" class="link-contextual">
                     <span class="fa fa-fw fa-home"></span>
-                    imóveis
+                    Imóveis
                 </a>
             </h2>
             <div class="item-destaque" data-effect="mfp-zoom-in">
@@ -66,7 +66,7 @@
             <h2 class="padding-2x text-roxo-veiculos">
                 <a href="veiculos.php" class="link-contextual">
                     <span class="fa fa-fw fa-car"></span>
-                    veículos
+                    Veículos
                 </a>
             </h2>
             <div class="item-destaque">
@@ -125,7 +125,7 @@
             <h2 class="padding-2x text-laranja-diversos">
                 <a href="diversos.php" class="link-contextual">
                     <span class="fa fa-fw fa-asterisk"></span>
-                    diversos
+                    Diversos
                 </a>
             </h2>
             <div class="item-destaque">

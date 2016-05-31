@@ -10,7 +10,7 @@ include('_header.php');
 <div class="container">
     <div class="row padding-2x">
         <div class="col-sm-4 titulo-categoria text-roxo-busca">
-            <h3>resultados da busca</h3>
+            <h3 style="font-size:2.7em;">Resultados da busca</h3>
         </div>
         <div class="col-sm-8">
 
@@ -27,17 +27,17 @@ include('_header.php');
             <ul class="nav nav-tabs">
                 <li class="active">
                     <a data-toggle="tab" href="#resultados-imoveis" class="text-verde-imoveis">
-                        <h3>imóveis <span class="small">(8)</span></h3>
+                        <h3>Imóveis <span class="small">(8)</span></h3>
                     </a>
                 </li>
                 <li>
                     <a data-toggle="tab" href="#resultados-veiculos" class="text-roxo-veiculos">
-                        <h3>veículos <span class="small">(21)</span></h3>
+                        <h3>Veículos <span class="small">(21)</span></h3>
                     </a>
                 </li>
                 <li>
                     <a data-toggle="tab" href="#resultados-diversos" class="text-laranja-diversos">
-                        <h3>diversos <span class="small">(19)</span></h3>
+                        <h3>Diversos <span class="small">(19)</span></h3>
                     </a>
                 </li>
             </ul>
