@@ -21,29 +21,33 @@ include('_header.php');
 
     <!-- Barra de categorias -->
     <div class="row">
-        <div class="col-sm-3">
-            <a href="imoveis.php" class="card text-center text-branco bg-verde-imoveis">
-                <h1>
-                    Imóveis
-                </h1>
-            </a>
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-sm-4" style="margin-bottom:10px;">
+                    <a href="imoveis.php" class="card text-center text-branco bg-verde-imoveis">
+                        <h1>
+                            Imóveis
+                        </h1>
+                    </a>
+                </div>
+                <div class="col-sm-4" style="margin-bottom:10px;">
+                    <a href="veiculos.php" class="card text-center text-branco bg-roxo-veiculos">
+                        <h1>
+                            Veículos
+                        </h1>
+                    </a>
+                </div>
+                <div class="col-sm-4" style="margin-bottom:10px;">
+                    <a href="diversos.php" class="card text-center text-branco bg-laranja-diversos">
+                        <h1>
+                            Diversos
+                        </h1>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="col-sm-3">
-            <a href="veiculos.php" class="card text-center text-branco bg-roxo-veiculos">
-                <h1>
-                    Veículos
-                </h1>
-            </a>
-        </div>
-        <div class="col-sm-3">
-            <a href="diversos.php" class="card text-center text-branco bg-laranja-diversos">
-                <h1>
-                    Diversos
-                </h1>
-            </a>
-        </div>
-        <div class="col-sm-3">
-            <a href="dashboard.php" class="card text-cinza-escuro text-center" style="padding: 24px 10px;">
+        <div class="col-md-2 col-md-offset-1">
+            <a href="dashboard.php" class="card text-branco bg-vermelho text-center" style="padding: 24px 10px;">
                 <h4 class="text-300">
                     FAÇA O SEU
                 </h4>

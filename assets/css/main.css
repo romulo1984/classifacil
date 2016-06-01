@@ -449,7 +449,7 @@ ESTILOS PERSONALIZADOS
   z-index: 4;
   background-color: #125ca3 !important;
   color: #ffffff;
-  margin: 1em 0;
+  margin: 0.6em 0;
   border-bottom: 4px solid #30477a;
 }
 .menu-principal a {
@@ -468,14 +468,14 @@ ESTILOS PERSONALIZADOS
   list-style: none;
 }
 .menu-principal ul li {
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
 }
 .menu-principal ul li a {
   color: #ffffff;
   text-decoration: none;
   display: block;
-  padding: 1em 1em;
+  padding: 0.3em 0.3em;
 }
 .menu-principal ul li a a {
   color: #ffffff;
